@@ -58,7 +58,7 @@ footer{color:var(--mute);font-size:13px;margin-top:20px}
 <div class="warnbox"><b>Limitaciones de esta corrida:</b> sin Apify (no hay token en este entorno) → gasto Apify $0; el gate se cuenta con los anunciantes de STT y queda como <b>no firme</b>. Las tiendas de la competencia y AliExpress están bloqueadas por la red de este entorno → <b>PVP rivales y precio del genérico en Ali NO VERIFICABLES</b>; el landed % queda pendiente para tu agente. Enlazo la búsqueda de Ali para que lo mires tú.</div>
 
 <div class="tabs" role="tablist">
-  <button class="tab" role="tab" aria-selected="true" data-tab="pasan">Pasan escala (6)</button>
+  <button class="tab" role="tab" aria-selected="true" data-tab="pasan">Pasan escala (7)</button>
   <button class="tab" role="tab" aria-selected="false" data-tab="nopasan">No pasan (13)</button>
 </div>
 
@@ -89,6 +89,22 @@ const ALI = q => `https://www.aliexpress.us/w/wholesale-${encodeURIComponent(q.r
 const AMZ = q => `https://www.amazon.com/s?k=${encodeURIComponent(q)}`;
 
 const TIPOS = [
+{
+ tipo:"Antifaz para dormir contorneado / con peso (sin electrónica) — PASA FILTRO COMPLETO", en:"3d contoured sleep mask", sub:"Hogar / dormitorio", anun:4,
+ escala:["ok","Escala: pasa (re-barrido 28-sep)"], gate:"PRIORIDAD", gateN:1, mercado:["ok","US 65% en el líder"],
+ lider:{dom:"us.loopearplugs.com", dias:81, ads:112, g30:-12.7, serie:[10,11,21,17,57,50,58,59,70,82,102,101,88,78,89,112]},
+ rivales:"Loop Eclipse (marca, 112 ads, 81 d, $49,95) · mellowsleep.com antifaz con peso (54 ads, 173 d, $29,99; páginas satélite con testimonio) · Dore & Rose deep sleep mask (68 ads, 135 d, $16-20 US) · Kitsch contour pillow (26 ads, 111 d, $35). Excluido: SnoozeBand (lleva auriculares = electrónica).",
+ pvp:"VERIFICADO 28-sep: Loop $49,95 · Kitsch $35 · Mellow $29,99 · Dore & Rose $16-20. Rango $15-40 ✔. Genérico en Ali: NO VERIFICADO (AliExpress bloqueado aquí).",
+ marca:"MZOO en Amazon a ~$20 (precaución manual, NO filtro según tu skill: está a 2/3 de un PVP de $30, no a 1/3). Walmart vende antifaces con peso genéricos muy baratos.",
+ q4:"Sí: regalo (Mellow ya usa el ángulo «regalo para mi hermana, que duerme mal»).",
+ hueco:["Loop vende marca (fabricante de tapones) y garantía de 100 días; no hace pack.","Mellow escala con 3+ páginas satélite de testimonio en primera persona (advertorial), 173 días: el ángulo está probado.","Hueco: pack pareja (2 antifaces) o pack antifaz + tapones; demo de 5 s de apagón total a plena luz.","Dore & Rose usa claims (REM, reparación celular, arrugas): no los copies."],
+ riesgos:["Genérico de Ali y landed sin verificar: es lo primero que tiene que confirmar tu agente.","Ancla MZOO ~$20 en Amazon (precaución).","Colores = SKUs: limita a 1-2.","Riesgo de claim: no prometer curar el insomnio."],
+ ads:[
+  {src:"Mellow (satélite «Lately Loving»)", id:"3850741375220822", d:"2026-04-07", dias:173, fmt:"vídeo", var:1, txt:"I have a confession to make: I’m a total sucker for things I find on TikTok, and the Mellow Weighted Eye Mask is my latest discovery…", cr:"https://searchthetrend.b-cdn.net/weighted-eye-mask/3850741375220822/creative.mp4"},
+  {src:"Mellow (satélite)", id:"1612515563364265", d:"2026-04-06", dias:173, fmt:"vídeo", var:1, txt:"My sister has always been the hardest person to shop for, and she’s a notoriously light sleeper…", cr:"https://searchthetrend.b-cdn.net/weighted-eye-mask/1612515563364265/creative.mp4"},
+  {src:"Loop (líder)", id:"1346948563694111", d:"2026-07-08", dias:81, fmt:"vídeo", var:2, txt:"City lights making it hard to sleep? 🌙 Loop Eclipse™ blocks out brightness… 100-day, hassle-free returns", cr:"https://searchthetrend.b-cdn.net/loop-eclipse/1346948563694111/card-0.mp4"}
+ ]
+},
 {
  tipo:"Afilador de cuchillos rodante", en:"rolling knife sharpener", sub:"Cocina", anun:6,
  escala:["ok","Escala: pasa"], gate:"POSIBLE", gateN:4, mercado:["ok","US 97%"],
