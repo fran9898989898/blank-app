@@ -1,0 +1,248 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Visor barrido A</title>
+<style>
+:root{--bg:#f6f5f2;--card:#fff;--ink:#1d1d1b;--mute:#6b6a66;--line:#e3e1dc;--ok:#1f7a4d;--okbg:#e4f3ea;--warn:#8a5a00;--warnbg:#fbf0d9;--bad:#a8322b;--badbg:#f9e3e1;--acc:#2f5bd3}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#151514;--card:#1f1f1d;--ink:#ecebe7;--mute:#a09e98;--line:#34332f;--ok:#6fd19c;--okbg:#17301f;--warn:#e7b85a;--warnbg:#33290f;--bad:#f08a82;--badbg:#3a1a18;--acc:#8aa8ff}}
+:root[data-theme="dark"]{--bg:#151514;--card:#1f1f1d;--ink:#ecebe7;--mute:#a09e98;--line:#34332f;--ok:#6fd19c;--okbg:#17301f;--warn:#e7b85a;--warnbg:#33290f;--bad:#f08a82;--badbg:#3a1a18;--acc:#8aa8ff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:20px 16px 60px}
+h1{font-size:22px;margin:0 0 4px}
+.sub{color:var(--mute);margin:0 0 14px}
+.warnbox{background:var(--warnbg);color:var(--warn);border-radius:8px;padding:10px 12px;margin:0 0 14px;font-size:14px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 16px}
+.bar label{font-size:13px;color:var(--mute)}
+select{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:6px 8px;font:inherit}
+.tabs{display:flex;gap:6px;margin:0 0 14px;flex-wrap:wrap}
+.tab{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:6px 12px;border-radius:999px;cursor:pointer;font:inherit}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:0 0 14px}
+.head{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:flex-start}
+.head h2{font-size:18px;margin:0}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font-size:12px;padding:3px 8px;border-radius:999px;background:var(--bg);border:1px solid var(--line);white-space:nowrap}
+.ok{background:var(--okbg);color:var(--ok);border-color:transparent}
+.warn{background:var(--warnbg);color:var(--warn);border-color:transparent}
+.bad{background:var(--badbg);color:var(--bad);border-color:transparent}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px 16px;margin:12px 0}
+.k{font-size:12px;color:var(--mute);text-transform:uppercase;letter-spacing:.03em}
+.v{font-size:14px}
+.spark{display:flex;align-items:flex-end;gap:2px;height:36px;margin-top:4px}
+.spark i{flex:1;background:var(--acc);opacity:.75;border-radius:2px 2px 0 0;min-height:2px}
+.sec{border-top:1px solid var(--line);margin-top:12px;padding-top:10px}
+.sec h3{font-size:13px;margin:0 0 6px;color:var(--mute);text-transform:uppercase;letter-spacing:.03em}
+ul{margin:0;padding-left:18px}
+li{margin:2px 0}
+.ads{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px}
+.ad{border:1px solid var(--line);border-radius:8px;padding:10px;font-size:13px;display:flex;flex-direction:column;gap:6px}
+.ad .meta{color:var(--mute);font-size:12px}
+.ad p{margin:0;white-space:pre-line;max-height:8.5em;overflow:auto}
+.btns{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto}
+a.btn{font-size:12px;text-decoration:none;color:var(--acc);border:1px solid var(--line);border-radius:6px;padding:4px 8px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--mute);text-transform:uppercase}
+.tblwrap{overflow-x:auto}
+footer{color:var(--mute);font-size:13px;margin-top:20px}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Barrido A · Escala general · 27 sep 2026</h1>
+<p class="sub">Fuente: SearchTheTrend (US, ≥30 días). Agrupado por TIPO de producto. <b>Sin recomendación: elijo yo mirando los anuncios.</b></p>
+<div class="warnbox"><b>Limitaciones de esta corrida:</b> sin Apify (no hay token en este entorno) → gasto Apify $0; el gate se cuenta con los anunciantes de STT y queda como <b>no firme</b>. Las tiendas de la competencia y AliExpress están bloqueadas por la red de este entorno → <b>PVP rivales y precio del genérico en Ali NO VERIFICABLES</b>; el landed % queda pendiente para tu agente. Enlazo la búsqueda de Ali para que lo mires tú.</div>
+
+<div class="tabs" role="tablist">
+  <button class="tab" role="tab" aria-selected="true" data-tab="pasan">Pasan escala (6)</button>
+  <button class="tab" role="tab" aria-selected="false" data-tab="nopasan">No pasan (13)</button>
+</div>
+
+<section id="pasan">
+<div class="bar">
+  <label>Subnicho <select id="fSub"><option value="">Todos</option></select></label>
+  <label>Gate <select id="fGate"><option value="">Todos</option><option>PRIORIDAD</option><option>POSIBLE</option></select></label>
+  <label>Orden <select id="fOrd"><option value="anun">Nº anunciantes</option><option value="crec">Crecimiento 30d líder</option><option value="dias">Días del líder</option></select></label>
+</div>
+<div id="cards"></div>
+</section>
+
+<section id="nopasan" class="hidden">
+<div class="card tblwrap">
+<table>
+<thead><tr><th>Tipo</th><th>Operadores ≥30 d</th><th>Mayor anunciante</th><th>Motivo</th></tr></thead>
+<tbody id="nprows"></tbody>
+</table>
+</div>
+</section>
+
+<footer>Gasto Apify del barrido: <b>$0</b> (no se usó). Gasto STT: consultas del plan. Excluidos por la skill (no evaluados): coating cerámico, rompecristales, toalla secado coche, repelente lluvia, cartas conversación, ganchos levantamiento, delantal ignífugo, bayeta XXL (Magic Wipe/Shiny), quitacal/limpiador de baño, cerrojo portátil, kit pinchazos, car cane, joyería, vaso térmico, cortina magnética, ganchos/cinta adhesiva, plumero.</footer>
+</div>
+
+<script>
+const LIB = id => `https://www.facebook.com/ads/library/?id=${id}`;
+const ALI = q => `https://www.aliexpress.us/w/wholesale-${encodeURIComponent(q.replace(/ /g,'-'))}.html`;
+const AMZ = q => `https://www.amazon.com/s?k=${encodeURIComponent(q)}`;
+
+const TIPOS = [
+{
+ tipo:"Afilador de cuchillos rodante", en:"rolling knife sharpener", sub:"Cocina", anun:6,
+ escala:["ok","Escala: pasa"], gate:"POSIBLE", gateN:4, mercado:["ok","US 97%"],
+ lider:{dom:"kimboknives.com", dias:93, ads:405, g30:58.8, serie:[7,7,14,17,19,19,105,146,243,263,267,374,386,405]},
+ rivales:"kimboknives (405 ads, 93 d) · hatoriknives (295 ads US, +79,7% 30d; otra versión 551 d EU) · tumblerware = marca original (30 ads, 350 d) · shop-novara (12, 90 d) · willowandstonewares (21, 44 d, +767%) · worksharptools (marca, 6)",
+ pvp:"NO VERIFICABLE (tiendas bloqueadas en este entorno). Ojo: si los rivales están >$40, cae por ticket.",
+ marca:"Sí: Tumbler (la original, anuncia desde oct-2025) y Work Sharp. Tu creativo tiene que responder «¿por qué tú y no Tumbler?».",
+ q4:"Sí: Tumbler vende «gift set».",
+ hueco:["Kimbo (líder) repite UN solo copy en todos los anuncios («Sick of Blunt Knives?»), UGC problema-solución y garantía de 90 días; en el texto no hay packs ni precio.",
+  "Tumbler, con 350 días, usa demos de corte (pechuga, tomate): la demo de 5 s existe y está probada.",
+  "Posible hueco: pack regalo Q4 (afilador + soporte/tabla) con demo de corte en frío; Kimbo no lo enseña."],
+ riesgos:["4 dropshippers + marca original → gate POSIBLE, no PRIORIDAD.","Kimbo pasó de 19 a 405 ads en 8 semanas: o está ganando o está quemando. Mira si sus anuncios de junio siguen vivos (siguen: 93 d).","El ticket es la gran duda: sin verificar."],
+ ads:[
+  {src:"Kimbo (líder)", id:"3941025549525216", d:"2026-06-26", dias:93, fmt:"vídeo UGC", var:1, txt:"Sick of Blunt Knives?\nGet yourself a razor-sharp edge in seconds with the New Kimbo Rolling Sharpener!\n✅ 90-day risk-free trial ✅ No chips, no damage ✅ Free Shipping", cr:"https://searchthetrend.b-cdn.net/kimbo-rolling-sharpener/3941025549525216/card-0.mp4"},
+  {src:"Kimbo (líder)", id:"892567566539220", d:"2026-06-26", dias:93, fmt:"vídeo UGC", var:1, txt:"Mismo copy. Hook: pregunta. Ángulo: cuchillos sin filo.", cr:"https://searchthetrend.b-cdn.net/kimbo-rolling-sharpener/892567566539220/card-0.mp4"},
+  {src:"Tumbler (marca original)", id:"25042052842077524", d:"2025-10-11", dias:350, fmt:"vídeo", var:1, txt:"Finally, a knife sharpener has never been this effective. Get 15% off your Tumbler today!", cr:"https://searchthetrend.b-cdn.net/tumbler-original-diamond-rolling-knife-sharpener-set/25042052842077524/card-0.mp4"}
+ ]
+},
+{
+ tipo:"Cartera minimalista RFID (sin tracker)", en:"minimalist rfid card holder wallet", sub:"Viaje/accesorios", anun:3,
+ escala:["ok","Escala: pasa"], gate:"PRIORIDAD", gateN:2, mercado:["ok","US 80%"],
+ lider:{dom:"code-wallets.com", dias:254, ads:444, g30:65, serie:[383,425,450,400,398,326,353,422,433,279,294,321,374,413,485,444]},
+ rivales:"code-wallets / CODE 118 (444 ads, 254 d, +65% 30d; 390 ads lanzados esta semana) · thegiftnorth (genérico metálico RFID, 12 ads, 32 d) · MagBak smart wallet (marca, 150 ads, 247 d) · forge-wallet (743 d, pero sobre todo UE)",
+ pvp:"NO VERIFICABLE. CODE 118 anuncia «hasta 60% off» con precio ancla.",
+ marca:"Probable (Ridge es la referencia de la categoría en EE. UU.; no verificado en este barrido). Comprueba en Amazon qué sale primero.",
+ q4:"Sí: regalo de hombre típico. El líder está acelerando justo ahora (390 lanzamientos la semana del 27-sep).",
+ hueco:["CODE 118 mezcla en los mismos anuncios «GPS Trackable Smart Wallets» y «MagSafe»: tú solo puedes vender la versión SIN tracker (regla: nada de Find My).","Su copy es de descuento agresivo + prueba social de prensa (MarketWatch).","Posible hueco: pack pareja/regalo (2 carteras grabadas) sin electrónica."],
+ riesgos:["Electrónica disfrazada: parte de la gama del líder lleva tracker. Si el comprador espera GPS, tu versión sin tracker compite peor.","Solo 3 anunciantes contables en US ≥30 d; el líder es una marca grande (991 ads históricos).","Genérico de metal = commodity en Amazon; verifica el precio ancla."],
+ ads:[
+  {src:"CODE 118 (líder)", id:"2159320328211015", d:"2026-01-16", dias:254, fmt:"vídeo", var:1, txt:"🔥 Get up to 52% Off Today!\nNamed “The Only Wallet Worth Carrying” by MarketWatch.\nCODE 118 super-slim RFID protected wallets with instant card access", cr:"https://searchthetrend.b-cdn.net/code-118-wallet/2159320328211015/creative.mp4"},
+  {src:"CODE 118 (líder)", id:"4253888644823595", d:"2026-01-16", dias:254, fmt:"imagen", var:1, txt:"Get 52% OFF! [SALE ENDS TONIGHT!]🔥 Low stock…", cr:"https://searchthetrend.b-cdn.net/code-118-wallet/4253888644823595/card-0.jpg"},
+  {src:"CODE 118 (líder)", id:"1185327943382900", d:"2026-01-16", dias:254, fmt:"imagen", var:1, txt:"🧲📱 MagSafe Compatible Smart Wallets… RFID Blocking, Modular Design, Ships From Los Angeles", cr:"https://searchthetrend.b-cdn.net/code-118-wallet/1185327943382900/creative.jpg"}
+ ]
+},
+{
+ tipo:"Bolso antirrobo de viaje (bandolera)", en:"anti theft crossbody travel bag", sub:"Viaje", anun:4,
+ escala:["ok","Escala: pasa"], gate:"PRIORIDAD", gateN:2, mercado:["warn","US 48% en el líder"],
+ lider:{dom:"wander-plus.com", dias:401, ads:157, g30:27.7, serie:[104,107,107,113,114,104,57,91,150,110,119,128,125,157,152,157]},
+ rivales:"wander-plus (157 ads, 401 d, 5 fan pages satélite tipo «Traveling with Sarah») · simplifyliving (32 ads, 240 d, +700% 30d) · savethegirls (marca RFID, 44 ads, 342 d) · libracases (hobo antirrobo, 61 ads, 72 d, +144%)",
+ pvp:"NO VERIFICABLE. Wander+ empuja BOGO (landing /bogo-bag) + cupón.",
+ marca:"No hay una marca dominante clara en los datos; Wander+ se autodenomina «The Original».",
+ q4:"Sí (viaje de Navidad, regalo).",
+ hueco:["Wander+ escala con páginas satélite que parecen de viajeras reales: testimonial en primera persona.","Simplifyliving ya ataca a las «cheap lookalikes»: la categoría se está llenando de copias.","Nadie en los textos enseña la prueba de robo (cortar la correa, abrir la cremallera oculta): demo de 5 s disponible."],
+ riesgos:["Mercado: el líder solo tiene el 48% de los anuncios en US (filtro ≥50%). El tipo en conjunto probablemente pasa; no está verificado.","Colores = SKUs: limita a 1-2.","Ticket y genérico sin verificar."],
+ ads:[
+  {src:"Wander+ (líder)", id:"2822928658045312", d:"2026-04-08", dias:171, fmt:"imagen", var:5, txt:"Just back from an epic international trip with my trusty WANDER+ Anti-Theft Travel Bag!\nThis genius bag kept me stress-free, knowing my passport, keys & wallet were safe and secure.", cr:"https://searchthetrend.b-cdn.net/wander-anti-theft-travel-bag/2822928658045312/creative.jpg"},
+  {src:"Traveling with Sarah (satélite Wander+)", id:"848012758353281", d:"2026-05-09", dias:138, fmt:"vídeo", var:1, txt:"⭐The Original Anti-Theft Travel Bag⭐\n🏆 RATED #1 SAFEST BAG FOR TRAVEL\n✅ Quick access to your valuables", cr:"https://searchthetrend.b-cdn.net/the-original-wander-anti-theft-travel-bag/848012758353281-3433cca8abb946d9bbb88584e5e1b293/creative.mp4"},
+  {src:"Simplify Living", id:"2489891498186605", d:"2026-08-20", dias:34, fmt:"vídeo", var:1, txt:"Pickpockets don’t overpower travellers — they exploit weaknesses.\nThat’s why many so-called “anti-theft” bags fail in real-world situations.", cr:"https://searchthetrend.b-cdn.net/anti-theft-crossbody-bag/2489891498186605/creative.mp4"}
+ ]
+},
+{
+ tipo:"Soporte magnético de móvil para coche", en:"magnetic car phone holder", sub:"Auto", anun:5,
+ escala:["ok","Escala: pasa"], gate:"POSIBLE", gateN:4, mercado:["ok","US 93%"],
+ lider:{dom:"magicjohn.com", dias:125, ads:41, g30:-8.9, serie:[9,16,18,21,34,22,23,38,49,36,45,47,39,44,41,41]},
+ rivales:"magicjohn (41 ads, 125 d) · shopellox MagLock (19 ads, 435 d) · autoyunn (mismo producto y fotos que shopellox, 263 d) · chubbycable (14 ads, 409 d) · marcas: MOBArmor (185 ads, 416 d), Statik HyperMount (1.848 ads, +90% 30d)",
+ pvp:"NO VERIFICABLE.",
+ marca:"Sí: Statik HyperMount escalando fuerte y MOBArmor. Amazon está lleno de genéricos: mira el precio ancla antes de nada.",
+ q4:"Débil (accesorio, no regalo).",
+ hueco:["Los dropshippers anuncian «Zero Slip. Zero Stress» con el mismo vídeo de producto.","Demo posible: badén o camino de tierra con el móvil sin moverse."],
+ riesgos:["Pinta de commodity: si en Amazon está a $10-15 con Prime, no hay margen de ticket.","Marcas grandes gastando fuerte en el mismo tipo.","El líder dropshipper está plano, no crece."],
+ ads:[
+  {src:"Magic John (líder)", id:"1439574771303764", d:"2026-06-02", dias:117, fmt:"vídeo", var:1, txt:"Zero Slip. Zero Stress.\nMeet the MAGIC JOHN Upgraded Magnetic Phone Holder — now with stronger suction and full 360° rotation.", cr:"https://searchthetrend.b-cdn.net/360-clip-on-magnetic-car-holder/1439574771303764/creative.mp4"},
+  {src:"Magic John (líder)", id:"3414395542065089", d:"2026-06-02", dias:117, fmt:"vídeo", var:1, txt:"Mismo copy.", cr:"https://searchthetrend.b-cdn.net/360-clip-on-magnetic-car-holder/3414395542065089/creative.mp4"},
+  {src:"Magic John (líder)", id:"1363364952321970", d:"2026-06-04", dias:115, fmt:"vídeo", var:1, txt:"Mismo copy.", cr:"https://searchthetrend.b-cdn.net/360-clip-on-magnetic-car-holder/1363364952321970/creative.mp4"}
+ ]
+},
+{
+ tipo:"Neceser de viaje compacto", en:"compact travel toiletry bag", sub:"Viaje", anun:3,
+ escala:["warn","Escala: dudosa"], gate:"PRIORIDAD", gateN:1, mercado:["warn","US 45% en el líder"],
+ lider:{dom:"emmafy.com", dias:147, ads:277, g30:26.1, serie:[199,189,211,195,227,259,444,433,278,188,245,363,368,334,309,277]},
+ rivales:"emmafy Crushkit (277 ads, 147 d, 10 fan pages, advertoriales) · macorner (neceser de piel personalizado POD, 43 ads, 348 d) · State Bags (marca, 21 ads, 303 d) · Dr. Squatch lo usa como regalo con compra",
+ pvp:"NO VERIFICABLE. Emmafy empuja BOGO.",
+ marca:"No hay referencia clara para el formato compacto.",
+ q4:"Sí (regalo, viaje).",
+ hueco:["Emmafy trabaja storytelling largo (advertorial, «Mary Poppins of toiletry bags») y 3 landers distintos.","Solo Emmafy escala ESTE producto: los otros dos anunciantes venden neceseres distintos."],
+ riesgos:["Escala real = 1 operador. Con la regla estricta («un superviviente no valida») no pasa.","US 45% en el líder.","Emmafy es un operador grande multi-página: te gana en volumen de creativos."],
+ ads:[
+  {src:"Emmafy (líder)", id:"4345471765768820", d:"2026-05-03", dias:147, fmt:"imagen", var:1, txt:"The “Mary Poppins” of toiletry bags ✨\n✅ Replaces 4 messy bags with 1 organized kit\nBUY 1 GET 1 FREE — Selling Out Fast", cr:"https://searchthetrend.b-cdn.net/crushkit-travel-toiletry-bag/4345471765768820/creative.jpg"},
+  {src:"Emmafy Flash Deals", id:"1629509371665487", d:"2026-05-04", dias:146, fmt:"imagen", var:1, txt:"My VP pulled me aside after my keynote in Chicago last month and asked how I always look put together on work trips. I told her it's my toiletry bag…", cr:"https://searchthetrend.b-cdn.net/crushkit-travel-toiletry-bag/1629509371665487/creative.jpg"},
+  {src:"belovedhome2 (satélite)", id:"2006100440029124", d:"2026-05-03", dias:146, fmt:"vídeo", var:1, txt:"But THIS is why I don’t stress anymore. My Crush Kit toiletry bag from Emmafy makes overpacking look organized.", cr:"https://searchthetrend.b-cdn.net/crushkit-travel-toiletry-bag/2006100440029124/creative.mp4"}
+ ]
+},
+{
+ tipo:"Escalfador de huevos para microondas", en:"microwave egg poacher", sub:"Cocina", anun:5,
+ escala:["bad","ENJAMBRE"], gate:"POSIBLE", gateN:5, mercado:["ok","AU/CA/US"],
+ lider:{dom:"loribeaut.com", dias:41, ads:58, g30:31.8, serie:[44,59,36,49,58,58]},
+ rivales:"loribeaut (58 ads, 41 d) · colody (5, 45 d) · dailyardmall (5, 33 d) · povlya (4, 36 d) · thegiftnorth (2, 41 d). Todas con las mismas fotos de proveedor.",
+ pvp:"NO VERIFICABLE. Todas en BOGO.",
+ marca:"No aplica: es commodity de supermercado.",
+ q4:"No.",
+ hueco:["Ninguno: es un enjambre copiándose el mismo anuncio."],
+ riesgos:["5 tiendas genéricas entraron la misma quincena de agosto → enjambre, no demanda.","Commodity: se ve por pocos dólares en tiendas físicas.","Ticket probablemente <$15."],
+ ads:[
+  {src:"Loribeaut (líder)", id:"1974146933242935", d:"2026-08-17", dias:41, fmt:"vídeo", var:6, txt:"🍳 BUY 1 GET 1 FREE! Dual cavity microwave egg poacher. Food-grade PP… Oil-free quick egg cooking", cr:"https://searchthetrend.b-cdn.net/2026-hot-sale-50k-sold-50-off-buy-1-get-1-free-dual-cavity-microwave-egg-poacher/1974146933242935/creative.mp4"},
+  {src:"Loribeaut (líder)", id:"1359353529707398", d:"2026-08-17", dias:41, fmt:"vídeo", var:6, txt:"Mismo copy.", cr:"https://searchthetrend.b-cdn.net/2026-hot-sale-50k-sold-50-off-buy-1-get-1-free-dual-cavity-microwave-egg-poacher/1359353529707398/creative.mp4"},
+  {src:"Loribeaut (líder)", id:"1672960033801288", d:"2026-08-17", dias:41, fmt:"vídeo", var:6, txt:"Mismo copy.", cr:"https://searchthetrend.b-cdn.net/2026-hot-sale-50k-sold-50-off-buy-1-get-1-free-dual-cavity-microwave-egg-poacher/1672960033801288/creative.mp4"}
+ ]
+}
+];
+
+const NOPASAN = [
+ ["Llave de extensión offset (offset extension wrench)","2 (mytoolbase = gemela de wildbear)","wildbeartools.com · 1.009 ads · 255 d · +85% 30d","Solo 2 operadores reales. Ojo: wildbear escala muy fuerte → vigilar si entra un tercero."],
+ ["Bolsitas repelentes de roedores","1","sofyre.com · 1.961 ads · 280 d","Un solo operador (todas las variantes son de sofyre)."],
+ ["Kit de lavado de bajos antisal","1","saltshift.com · 130 ads","Un solo operador; mercado sobre todo AU/UE."],
+ ["Funda-toalla impermeable de asiento","1","thetufftowel.com.au · 107 ads","Un solo operador, australiano."],
+ ["Encendedor de fuego / tinder","1","blackbeardfire.com · 99 ads · 265 d","Un solo operador."],
+ ["Limpiacristales rotatorio","2","coozyland.com · 22 ads · 261 d","2 operadores, poco volumen."],
+ ["Burlete de puerta doble cara","2","shopellox.com · 4 ads","Sin volumen (nadie con ≥15 ads)."],
+ ["Pajita filtro de agua","2","standbysupplyco.com · 151 ads","2 operadores; roza claim de salud."],
+ ["Barra de cobertura de canas","1 (+1 marginal)","celurelle.com · 92 ads","Un solo operador real."],
+ ["Colgador de pantalones multifunción","1 (+1 muerto)","shopmoderny.com · 64 ads · 636 d","Un solo operador activo."],
+ ["Botella con hielo (ice cube bottle)","1","shopmoderny.com · 76 ads","Un solo operador."],
+ ["Cubos de compresión para maleta","1","simplifyliving.com.au · 63 ads","Un solo operador (3 dominios suyos)."],
+ ["Tabla de cortar de titanio","1 (+2 marginales)","purecut.co · 136 ads · 486 d","Un operador serio; el resto <10 ads."]
+];
+
+function spark(s){const m=Math.max(...s);return `<div class="spark" title="${s.join(' · ')}">${s.map(x=>`<i style="height:${Math.max(4,x/m*100)}%"></i>`).join('')}</div>`}
+function esc(t){return t.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
+function card(t){
+ const gcls=t.gate==='PRIORIDAD'?'ok':'warn';
+ return `<article class="card" data-sub="${t.sub}" data-gate="${t.gate}">
+ <div class="head"><h2>${t.tipo}</h2>
+  <div class="chips"><span class="chip ${t.escala[0]}">${t.escala[1]}</span><span class="chip ${gcls}">Gate ${t.gate} · ${t.gateN} DS · no firme</span><span class="chip ${t.mercado[0]}">${t.mercado[1]}</span><span class="chip">${t.sub}</span></div></div>
+ <div class="grid">
+  <div><div class="k">Anunciantes ≥30 d</div><div class="v"><b>${t.anun}</b></div></div>
+  <div><div class="k">Líder</div><div class="v">${t.lider.dom}<br>${t.lider.dias} d · ${t.lider.ads} ads · ${t.lider.g30>0?'+':''}${t.lider.g30}% 30d</div></div>
+  <div><div class="k">Serie semanal ads activos (líder)</div>${spark(t.lider.serie)}</div>
+  <div><div class="k">PVP rivales</div><div class="v">${t.pvp}</div></div>
+  <div><div class="k">Genérico Ali / landed</div><div class="v">No verificado · landed pendiente<br><a class="btn" target="_blank" rel="noopener" href="${ALI(t.en)}">Buscar en Ali</a> <a class="btn" target="_blank" rel="noopener" href="${AMZ(t.en)}">Ancla Amazon</a></div></div>
+  <div><div class="k">Marca de referencia</div><div class="v">${t.marca}</div></div>
+  <div><div class="k">Regalo Q4</div><div class="v">${t.q4}</div></div>
+ </div>
+ <div class="sec"><h3>Anunciantes del tipo</h3><div class="v">${t.rivales}</div></div>
+ <div class="sec"><h3>Hueco de ejecución observado</h3><ul>${t.hueco.map(h=>`<li>${h}</li>`).join('')}</ul></div>
+ <div class="sec"><h3>Riesgos</h3><ul>${t.riesgos.map(h=>`<li>${h}</li>`).join('')}</ul></div>
+ <div class="sec"><h3>Anuncios más antiguos (vivos)</h3><div class="ads">${t.ads.map(a=>`<div class="ad"><div class="meta"><b>${a.src}</b><br>Inicio ${a.d} · ${a.dias} d · ${a.fmt} · ${a.var} variación${a.var>1?'es':''}</div><p>${esc(a.txt)}</p><div class="btns"><a class="btn" target="_blank" rel="noopener" href="${LIB(a.id)}">Biblioteca de Meta</a><a class="btn" target="_blank" rel="noopener" href="${a.cr}">Ver creativo</a></div></div>`).join('')}</div></div>
+ </article>`}
+
+const subs=[...new Set(TIPOS.map(t=>t.sub))];
+const fSub=document.getElementById('fSub');subs.forEach(s=>fSub.insertAdjacentHTML('beforeend',`<option>${s}</option>`));
+function render(){
+ const s=fSub.value,g=document.getElementById('fGate').value,o=document.getElementById('fOrd').value;
+ const key={anun:t=>t.anun,crec:t=>t.lider.g30,dias:t=>t.lider.dias}[o];
+ const list=TIPOS.filter(t=>(!s||t.sub===s)&&(!g||t.gate===g)).sort((a,b)=>key(b)-key(a));
+ document.getElementById('cards').innerHTML=list.map(card).join('')||'<p class="sub">Nada con esos filtros.</p>';
+}
+['fSub','fGate','fOrd'].forEach(id=>document.getElementById(id).addEventListener('change',render));
+render();
+document.getElementById('nprows').innerHTML=NOPASAN.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('');
+document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{
+ document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected',x===b));
+ document.getElementById('pasan').classList.toggle('hidden',b.dataset.tab!=='pasan');
+ document.getElementById('nopasan').classList.toggle('hidden',b.dataset.tab!=='nopasan');
+}));
+</script>
+</body>
+</html>
