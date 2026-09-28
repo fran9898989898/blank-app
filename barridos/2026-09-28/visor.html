@@ -66,7 +66,7 @@ footer{color:var(--muted);font-size:.82rem;border-top:1px solid var(--line);padd
 
 <div class="wrap">
   <header>
-    <div class="eyebrow">Barridos 27–28 sep 2026 · US · filtro por escala</div>
+    <div class="eyebrow">Barridos 27–28 sep 2026 · 6 barridos · US · filtro por escala</div>
     <h1>Radar de producto</h1>
     <p class="lead">Todo lo evaluado en los barridos, con el veredicto de cada tipo y enlaces a la Biblioteca de Meta para ver los anuncios tú mismo. Sin recomendación: eliges tú mirando los anuncios.</p>
   </header>
@@ -76,7 +76,7 @@ footer{color:var(--muted);font-size:.82rem;border-top:1px solid var(--line);padd
     <div class="stat"><b class="num" id="s-vivo">0</b><span>vivos</span></div>
     <div class="stat"><b class="num" id="s-duda">0</b><span>dudosos</span></div>
     <div class="stat"><b class="num" id="s-kill">0</b><span>KILL o fuera</span></div>
-    <div class="stat"><b class="num">$2,23</b><span>Apify este mes (límite $5)</span></div>
+    <div class="stat"><b class="num">$3,79</b><span>Apify este mes (límite $5)</span></div>
   </section>
 
   <div class="next">
@@ -101,6 +101,7 @@ const AD = id => "https://www.facebook.com/ads/library/?id=" + id;
 const BARRIDOS = [
   {id:"todo", name:"Todos", meta:"Todos los tipos evaluados en los cinco barridos."},
   {id:"antifaz", name:"Antifaz (vivo)", meta:"Re-barrido 28-sep + gate en la Biblioteca con Apify (147 anuncios, frase exacta)."},
+  {id:"F", name:"F · Biblioteca primero", meta:"28-sep. Seis búsquedas de regalo Q4 en la Biblioteca (stocking stuffer, gift for dad/him/her/grandma, white elephant). ~70 % de lo que sale es personalizado (print-on-demand) y se descarta; los genéricos se comprueban con una segunda búsqueda."},
   {id:"E", name:"E · Copia de DTC", meta:"28-sep. Marcas de un solo producto que escalan en US; buscar el genérico sin marca. Fase A en STT, gate en la Biblioteca."},
   {id:"BA", name:"B · Momentum Q4", meta:"28-sep. Productos US con más crecimiento de anuncios en 30 días, ≥30 días y ≥10 anuncios activos."},
   {id:"A", name:"A · Escala general", meta:"27-sep. Hogar, cocina, auto, viaje. Afilador y cartera RFID pasaron a mini-check y cayeron."},
@@ -118,6 +119,21 @@ const T = [
   v:"Único candidato vivo. Pendiente: coste puesto en US y muestra.",
   q:"sleep mask", ads:[["Mellow · satélite «Lately Loving» · 173 d","3850741375220822"],["Mellow · «regalo para mi hermana» · 173 d","1612515563364265"],["Loop Eclipse · 81 d","1346948563694111"]]},
 
+
+ {b:"F", tipo:"Rosa eterna en cúpula (sin LED)", en:"forever rose", st:"duda", gate:"No medido", anun:"8 operadores ≥30 d (mezclados)", lider:"theforeverrose.com · 14 ads · 216 d",
+  pvp:"No verificado", ali:"No buscado",
+  riesgos:["Varios operadores venden rosa + collar (joyería), otro producto","Cristal frágil; muchas versiones llevan LED","PVP de los rivales sin verificar: puede estar por encima de $40"],
+  v:"Escala sí, pero el tipo está mezclado. Revisa los anuncios a mano antes de gastar más en él.", q:"forever rose"},
+ {b:"F", tipo:"Cinturón de trinquete", en:"ratchet belt", st:"kill", gate:"≈5 DS ≥30 d", anun:"11 operadores ≥30 d", lider:"Varios; marcas SlideBelts (301 d), Nexbelt, Buckley",
+  v:"Saturado y con marca de referencia (SlideBelts, Mission Belt en Amazon).", q:"ratchet belt"},
+ {b:"F", tipo:"Adorno de Navidad para regalar billetes", en:"money holder ornament", st:"kill", gate:"—", anun:"3 ≥30 d (uno personalizado)", lider:"artveraprint.com / artverastudio.com (gemelas) · 44–45 d",
+  v:"No pasa escala: en la práctica un operador con dos tiendas; el resto entró hace <30 d.", q:"money holder"},
+ {b:"F", tipo:"Protector de sudor para gorra", en:"hat liner", st:"kill", gate:"—", anun:"1 operador real", lider:"nosweatco.com · 1.084 d · también en Amazon, Walmart y Dick's",
+  v:"Una sola marca con retail detrás: no hay hueco para un genérico.", q:"hat liner"},
+ {b:"F", tipo:"Personalizados de print-on-demand", en:"trendingcustom, godmerch, macorner, callie…", st:"fuera", gate:"—", anun:"~70 % de la muestra", lider:"godmerch.com · 16 ads en «gift for grandma»",
+  v:"Fuera: no hay genérico en AliExpress, es otro modelo de negocio.", q:"gift for grandma"},
+ {b:"F", tipo:"Posavasos LED con logo de coche y depiladora facial", en:"autoyunn.com, shoppaya.com", st:"fuera", gate:"—", anun:"—", lider:"autoyunn.com · 298 d",
+  v:"Fuera: electrónica.", q:"stocking stuffer"},
  {b:"E", tipo:"Llave de extensión offset", en:"offset extension wrench", st:"duda", gate:"POSIBLE (3)",
   anun:"5 operadores ≥30 d", lider:"wildbeartools.com · DS monoproducto · 1009 ads · 255 d · 99 % US", serie:[83,137,183,159,234,317,378,503,567,450,526,737,877,917,973,1009],
   pvp:"No verificado (tiendas bloqueadas desde la nube). Tite-Reach (marca) $149 el juego", ali:"Simple 4 adaptadores $9–14 (4.000+ vendidos) · versión de cadena $78–93",
