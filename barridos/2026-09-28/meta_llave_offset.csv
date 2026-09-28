@@ -1,0 +1,12 @@
+consulta,anunciante,dominio,anuncios,dias_max,resumen
+extension wrench,,,30,279,relevantes=30/30 operadores=5 operadores_30d=5 lider=wildbeartools.com(20)
+extension wrench,Miles Turner / Under the Hood / WildBear Tools,wildbeartools.com,20,256,
+extension wrench,ToolBase / WildBear Tools,mytoolbase.com,4,279,
+extension wrench,Mike Hartwell,getbolthero.com,3,160,
+extension wrench,Tite-Reach Tools,tite-reach.com,2,131,
+extension wrench,Jake Mitchell,getrhinobolt.com,1,39,
+offset wrench,,,30,154,relevantes=30/30 operadores=4 operadores_30d=2 lider=wildbeartools.com(17)
+offset wrench,Farmers Daily / Miles Turner / Under the Hood / WildBear Tools,wildbeartools.com,17,102,
+offset wrench,Jake Mitchell / RhinoBolt,getrhinobolt.com,6,9,
+offset wrench,Mike Hartwell,getbolthero.com,5,154,
+offset wrench,Veinsgrain,veinsgrain.com,2,11,
