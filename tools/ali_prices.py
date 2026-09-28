@@ -9,6 +9,7 @@ Lee el TEXTO renderizado de la página (no clases CSS, que AliExpress cambia a m
 y aplica expresiones regulares. Si un campo no aparece, sale vacío: nunca se inventa.
 """
 import csv
+import os
 import re
 import sys
 
@@ -43,7 +44,7 @@ def main(urls):
     w = csv.DictWriter(sys.stdout, fieldnames=["url", "titulo", "precio", "precio_tachado", "vendidos", "envio_us", "entrega"])
     w.writeheader()
     with sync_playwright() as p:
-        b = p.chromium.launch()
+        b = p.chromium.launch(executable_path=os.environ.get("CHROMIUM_PATH") or None)
         ctx = b.new_context(locale="en-US", extra_http_headers={"Accept-Language": "en-US"})
         page = ctx.new_page()
         for u in urls:
