@@ -1,0 +1,212 @@
+<title>Radar de producto</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: cabecera con veredicto global → pestañas por barrido → fichas apiladas, una columna en móvil, dos en escritorio */
+:root{
+  --bg:#f3f4f1; --surface:#ffffff; --ink:#1b2126; --muted:#5d6770; --line:#d9ddd8;
+  --accent:#0f6a73; --accent-soft:#dcecec;
+  --ok:#2f7d3a; --ok-bg:#e1f0e2; --warn:#9a6300; --warn-bg:#f7ecd4; --bad:#a3312b; --bad-bg:#f6dfdc; --off:#6b7178; --off-bg:#e7e9e8;
+  --f-display:"Archivo",system-ui,sans-serif; --f-body:"IBM Plex Sans",system-ui,sans-serif; --f-mono:"IBM Plex Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#12171a; --surface:#1b2227; --ink:#e6eaec; --muted:#9aa5ad; --line:#2c353b;
+  --accent:#5fc0c8; --accent-soft:#18363a;
+  --ok:#7ccf86; --ok-bg:#1c3320; --warn:#e5b35a; --warn-bg:#3a2e14; --bad:#ef8a82; --bad-bg:#3c1e1b; --off:#a0a8ae; --off-bg:#262d32; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12171a; --surface:#1b2227; --ink:#e6eaec; --muted:#9aa5ad; --line:#2c353b;
+  --accent:#5fc0c8; --accent-soft:#18363a;
+  --ok:#7ccf86; --ok-bg:#1c3320; --warn:#e5b35a; --warn-bg:#3a2e14; --bad:#ef8a82; --bad-bg:#3c1e1b; --off:#a0a8ae; --off-bg:#262d32; color-scheme:dark}
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--f-body);margin:0}
+.wrap{max-width:1100px;margin:0 auto;padding-inline:16px;padding-block:24px 48px;display:grid;gap:20px}
+h1{font:800 clamp(1.6rem,4vw,2.2rem)/1.1 var(--f-display);margin:0;letter-spacing:-.01em;text-wrap:balance}
+h2{font:700 1.15rem/1.25 var(--f-display);margin:0;text-wrap:balance}
+.eyebrow{font:500 .72rem/1 var(--f-mono);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+.lead{color:var(--muted);max-width:65ch;margin:6px 0 0}
+.summary{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:12px 14px;display:grid;gap:4px}
+.stat b{font:700 1.5rem/1 var(--f-display);font-variant-numeric:tabular-nums}
+.stat span{color:var(--muted);font-size:.85rem}
+.next{background:var(--accent-soft);border-left:3px solid var(--accent);padding:12px 14px;border-radius:0 8px 8px 0}
+.next p{margin:4px 0 0;max-width:75ch}
+nav{display:flex;flex-wrap:wrap;gap:6px}
+nav button,.filters button{font:500 .85rem var(--f-body);border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:7px 12px;border-radius:999px;cursor:pointer}
+nav button[aria-selected="true"]{background:var(--accent);border-color:var(--accent);color:var(--surface)}
+.filters{display:flex;flex-wrap:wrap;gap:6px;align-items:center}
+.filters button[aria-pressed="true"]{border-color:var(--accent);color:var(--accent);font-weight:600}
+button:focus-visible,a:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.meta{color:var(--muted);font-size:.9rem;margin:0}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,480px),1fr));gap:14px;align-items:start}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px;display:grid;gap:10px;min-width:0}
+.card header{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.card .en{font:400 .8rem var(--f-mono);color:var(--muted)}
+.pill{font:600 .72rem/1 var(--f-mono);letter-spacing:.04em;text-transform:uppercase;padding:5px 8px;border-radius:4px;white-space:nowrap}
+.p-vivo{background:var(--ok-bg);color:var(--ok)}
+.p-duda{background:var(--warn-bg);color:var(--warn)}
+.p-kill{background:var(--bad-bg);color:var(--bad)}
+.p-fuera{background:var(--off-bg);color:var(--off)}
+dl{margin:0;display:grid;grid-template-columns:max-content 1fr;gap:4px 12px;font-size:.9rem}
+dt{color:var(--muted)}
+dd{margin:0;min-width:0;overflow-wrap:anywhere}
+.num{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.verdict{border-top:1px dashed var(--line);padding-top:10px;font-size:.92rem}
+.verdict strong{font-family:var(--f-display)}
+ul.list{margin:0;padding-left:18px;font-size:.9rem;display:grid;gap:3px}
+.links{display:flex;flex-wrap:wrap;gap:8px}
+.links a{font:500 .82rem var(--f-body);color:var(--accent);text-decoration:none;border:1px solid var(--line);padding:5px 10px;border-radius:6px}
+.links a:hover{border-color:var(--accent)}
+.spark{display:block;width:100%;max-width:220px;height:36px}
+.spark path.l{fill:none;stroke:var(--accent);stroke-width:1.8}
+.spark path.a{fill:var(--accent-soft);stroke:none}
+.spark circle{fill:var(--accent)}
+footer{color:var(--muted);font-size:.82rem;border-top:1px solid var(--line);padding-top:12px}
+@media (prefers-reduced-motion:no-preference){.card{transition:border-color .15s}.card:hover{border-color:var(--accent)}}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="eyebrow">Barridos 27–28 sep 2026 · US · filtro por escala</div>
+    <h1>Radar de producto</h1>
+    <p class="lead">Todo lo evaluado en los barridos, con el veredicto de cada tipo y enlaces a la Biblioteca de Meta para ver los anuncios tú mismo. Sin recomendación: eliges tú mirando los anuncios.</p>
+  </header>
+
+  <section class="summary" aria-label="Resumen">
+    <div class="stat"><b class="num" id="s-total">0</b><span>tipos evaluados</span></div>
+    <div class="stat"><b class="num" id="s-vivo">0</b><span>vivos</span></div>
+    <div class="stat"><b class="num" id="s-duda">0</b><span>dudosos</span></div>
+    <div class="stat"><b class="num" id="s-kill">0</b><span>KILL o fuera</span></div>
+    <div class="stat"><b class="num">$2,23</b><span>Apify este mes (límite $5)</span></div>
+  </section>
+
+  <div class="next">
+    <div class="eyebrow">Siguiente paso</div>
+    <p>Cerrar el antifaz contorneado con tu agente: coste puesto en US y muestra. Solo abrir otro barrido si subes el ticket a ~$60, que es lo único que reabre la llave offset.</p>
+  </div>
+
+  <nav role="tablist" aria-label="Barridos" id="tabs"></nav>
+  <p class="meta" id="tabmeta"></p>
+  <div class="filters" id="filters" aria-label="Filtrar por estado"></div>
+  <div class="grid" id="grid"></div>
+
+  <footer>
+    Gate = dropshippers del genérico con ≥30 días en la Biblioteca: ≤2 PRIORIDAD · 3–5 POSIBLE · ≥6 KILL. Conteos de la Biblioteca hechos con muestras de 30–100 anuncios: son un mínimo, no un total. Conteos anteriores al 28-sep hechos con el script antiguo no son fiables. Datos: carpeta <span class="num">barridos/</span> de la rama <span class="num">claude/barridos-searchthetrend-setup-zm7cpv</span>.
+  </footer>
+</div>
+
+<script>
+const LIB = q => "https://www.facebook.com/ads/library/?active_status=active&ad_type=all&country=US&media_type=all&search_type=keyword_exact_phrase&q=" + encodeURIComponent(q);
+const AD = id => "https://www.facebook.com/ads/library/?id=" + id;
+
+const BARRIDOS = [
+  {id:"todo", name:"Todos", meta:"Todos los tipos evaluados en los cinco barridos."},
+  {id:"antifaz", name:"Antifaz (vivo)", meta:"Re-barrido 28-sep + gate en la Biblioteca con Apify (147 anuncios, frase exacta)."},
+  {id:"E", name:"E · Copia de DTC", meta:"28-sep. Marcas de un solo producto que escalan en US; buscar el genérico sin marca. Fase A en STT, gate en la Biblioteca."},
+  {id:"BA", name:"B · Momentum Q4", meta:"28-sep. Productos US con más crecimiento de anuncios en 30 días, ≥30 días y ≥10 anuncios activos."},
+  {id:"A", name:"A · Escala general", meta:"27-sep. Hogar, cocina, auto, viaje. Afilador y cartera RFID pasaron a mini-check y cayeron."},
+  {id:"D", name:"D · Nichos apasionados", meta:"27-sep. DIY, barcos, jardín y otros hobbies."}
+];
+
+const S = {vivo:["p-vivo","Vivo"], duda:["p-duda","Dudoso"], kill:["p-kill","KILL"], fuera:["p-fuera","Fuera"]};
+
+const T = [
+ {b:"antifaz", tipo:"Antifaz para dormir contorneado / con peso", en:"3d contoured sleep mask", st:"vivo", gate:"POSIBLE (4)",
+  anun:"4 dropshippers + 6 marcas con ≥30 d", lider:"us.loopearplugs.com · marca · 112 ads · $49,95", serie:[10,11,21,17,57,50,58,59,70,82,102,101,88,78,89,112],
+  pvp:"Loop $49,95 · Kitsch $35 · Mellow $29,99 · Dore & Rose $16–20", ali:"Contorneado 3D $1,09–1,39 (10.000+ vendidos)",
+  hueco:["Nadie hace pack pareja ni antifaz + tapones","Demo de 5 s de apagón total a plena luz","Mellow escala con páginas satélite de testimonio (173 d): ángulo probado"],
+  riesgos:["Landed real sin confirmar con el agente","Ancla MZOO ~$20 en Amazon","3 de los 4 DS venden la rana 3D; del contorneado puro solo Sidesleeperz","No prometer curar el insomnio"],
+  v:"Único candidato vivo. Pendiente: coste puesto en US y muestra.",
+  q:"sleep mask", ads:[["Mellow · satélite «Lately Loving» · 173 d","3850741375220822"],["Mellow · «regalo para mi hermana» · 173 d","1612515563364265"],["Loop Eclipse · 81 d","1346948563694111"]]},
+
+ {b:"E", tipo:"Llave de extensión offset", en:"offset extension wrench", st:"duda", gate:"POSIBLE (3)",
+  anun:"5 operadores ≥30 d", lider:"wildbeartools.com · DS monoproducto · 1009 ads · 255 d · 99 % US", serie:[83,137,183,159,234,317,378,503,567,450,526,737,877,917,973,1009],
+  pvp:"No verificado (tiendas bloqueadas desde la nube). Tite-Reach (marca) $149 el juego", ali:"Simple 4 adaptadores $9–14 (4.000+ vendidos) · versión de cadena $78–93",
+  hueco:["Ángulo probado: «el concesionario me pidió $900 por 8 bujías»","Regalo Q4 para padre/mecánico; también dueños de autocaravana"],
+  riesgos:["Landed estimado $15–22 (acero pesado): exige PVP ~$60, fuera del ticket $15–40","mytoolbase.com probablemente es gemela de WildBear","Tite-Reach es marca de referencia"],
+  v:"Escala fuerte, pero no cabe en tu ticket. Solo si subes a ~$60.",
+  q:"extension wrench", ads:[["WildBear · historia bomba de dirección $1.975","1943821492872659"],["WildBear · cadena «zero swing arc» · 102 d","2429291517568738"],["BoltHero · bujías $900 · 93 d","1570550834693441"],["ToolBase · 279 d","1590906668922519"]]},
+ {b:"E", tipo:"Almohada cervical (Thera Pillow)", en:"callixe.com", st:"fuera", gate:"—", anun:"—", lider:"callixe.com · 686 ads · 173 d", serie:[307,348,419,459,515,458,458,524,532,515,549,612,643,615,578,686],
+  v:"Fuera por regla: se vende con claim de dolor de cuello.", q:"thera pillow"},
+ {b:"E", tipo:"Barrera de coche para perro (Dog Dock)", en:"waggingrightsusa.com", st:"fuera", gate:"—", anun:"—", lider:"waggingrightsusa.com · 238 ads · 137 d", serie:[31,32,36,39,39,43,43,52,54,55,63,137,162,197,226,238],
+  v:"Fuera: claim de seguridad y producto voluminoso.", q:"dog car seat"},
+ {b:"E", tipo:"Faja de seguridad para embarazo", en:"mimibelt.com", st:"fuera", gate:"—", anun:"—", lider:"mimibelt.com · 507 ads · 647 d", v:"Fuera: claim de seguridad.", q:"pregnancy seat belt"},
+ {b:"E", tipo:"Rodilleras y ropa de compresión", en:"Peakflex, Flytex, OneCompress", st:"fuera", gate:"—", anun:"—", lider:"trypeakflex.com · 654 ads", v:"Fuera: tallas y claims.", q:"knee sleeve"},
+ {b:"E", tipo:"Limpiadores de oídos y dientes para mascota", en:"paw-guardian.com", st:"fuera", gate:"—", anun:"—", lider:"paw-guardian.com · 582 ads", v:"Fuera: líquido con claim de salud.", q:"dog ear cleaner"},
+
+ {b:"BA", tipo:"Bastón plegable con asiento", en:"walking stick with seat", st:"kill", gate:"—", anun:"1 operador", lider:"itoolmax.com · 72 ads · 215 d · +1150 % 30 d",
+  v:"No pasa escala: la Biblioteca muestra 30/30 anuncios de itoolmax.", q:"walking stick with seat"},
+ {b:"BA", tipo:"Visera polarizada de coche", en:"polarized sun visor", st:"kill", gate:"≥6 en semanas", anun:"6 operadores, 5 con <10 d", lider:"coozyland.com · 12 ads · 126 d",
+  v:"Enjambre formándose ahora: acabará en KILL.", q:"polarized sun visor"},
+ {b:"BA", tipo:"Ramo de flores de cristal", en:"glass flower bouquet", st:"kill", gate:"—", anun:"2 operadores", lider:"shopmoderny.com · 73 ads · 108 d",
+  v:"No pasa escala (2 operadores) y es frágil.", q:"glass flower bouquet"},
+ {b:"BA", tipo:"Strap rotuliano (Stryde)", en:"knee strap", st:"fuera", gate:"—", anun:"—", lider:"getstryde.co · 303 ads · +3687 % 30 d", v:"Fuera: claim de dolor de rodilla.", q:"knee strap"},
+ {b:"BA", tipo:"Fuente de agua para perro", en:"dog water fountain", st:"fuera", gate:"—", anun:"—", lider:"selenepets.com · 228 ads", v:"Fuera: bomba eléctrica.", q:"dog water fountain"},
+
+ {b:"A", tipo:"Afilador de cuchillos rodante", en:"rolling knife sharpener", st:"kill", gate:"POSIBLE → KILL", anun:"7 operadores ≥30 d, 5 DS", lider:"kimboknives.com · 405 ads · 93 d",
+  pvp:"Tumbler $129 · Kimbo $89,95 · genéricos Prime $25–30", v:"KILL en mini-check: ticket por encima del rango y ancla Tumbler + Amazon Prime.", q:"rolling knife sharpener"},
+ {b:"A", tipo:"Cartera minimalista RFID", en:"minimalist wallet", st:"kill", gate:"KILL", anun:"Escala real: 1 operador", lider:"code-wallets.com · 444 ads · 254 d",
+  pvp:"CODE 118 $34,95 · Ridge $125", v:"KILL en mini-check: 6 tiendas-catálogo en el genérico y Amazon lleno de genéricos.", q:"minimalist wallet"},
+ {b:"A", tipo:"Bolso antirrobo de viaje", en:"anti theft bag", st:"duda", gate:"PRIORIDAD (no firme)", anun:"4", lider:"wander-plus.com · 157 ads · 401 d",
+  v:"US del líder 48 % (<50 %). Gate de STT no verificado en la Biblioteca.", q:"anti theft bag"},
+ {b:"A", tipo:"Soporte magnético de móvil para coche", en:"magnetic phone mount", st:"kill", gate:"POSIBLE (no firme)", anun:"5", lider:"magicjohn.com · 41 ads · serie plana",
+  v:"Serie plana y marcas grandes (Statik 1.848 ads, MOBArmor).", q:"magnetic phone mount"},
+ {b:"A", tipo:"Neceser de viaje compacto", en:"travel toiletry bag", st:"duda", gate:"PRIORIDAD (no firme)", anun:"3", lider:"emmafy.com · 277 ads · 147 d",
+  v:"Escala dudosa: solo escala Emmafy; el resto son neceseres distintos.", q:"toiletry bag"},
+ {b:"A", tipo:"Escalfador de huevos microondas", en:"microwave egg poacher", st:"kill", gate:"POSIBLE", anun:"5 en 33–45 d", lider:"loribeaut.com · 58 ads · 41 d",
+  v:"Enjambre: 5 tiendas con las mismas fotos de proveedor.", q:"egg poacher"},
+
+ {b:"D", tipo:"Kit conectores termorretráctiles con estaño", en:"solder seal connectors", st:"kill", gate:"POSIBLE (no firme)", anun:"3 en 31–57 d", lider:"thegiftnorth.com · 68 ads",
+  v:"Enjambre de tiendas-catálogo; commodity en Amazon.", q:"solder seal connectors"},
+ {b:"D", tipo:"Juego de brocas de diamante", en:"diamond drill bits", st:"kill", gate:"POSIBLE (no firme)", anun:"4 en 32–55 d", lider:"thegiftnorth.com · 37 ads",
+  v:"Enjambre; marca de referencia Bosch/DeWalt.", q:"diamond drill bits"},
+ {b:"D", tipo:"Hoja curva de sierra de sable para podar", en:"reciprocating saw pruning blade", st:"kill", gate:"POSIBLE (no firme)", anun:"3", lider:"ezarctools.com · 8 ads · 122 d",
+  v:"Escala floja: nadie con ≥15 ads; Diablo/Milwaukee de referencia.", q:"pruning saw blade"}
+];
+
+function spark(vals){
+  const w=220,h=36,p=3,max=Math.max(...vals),min=Math.min(...vals),n=vals.length;
+  const x=i=>p+i*(w-2*p)/(n-1), y=v=>h-p-(v-min)/((max-min)||1)*(h-2*p);
+  const pts=vals.map((v,i)=>[x(i),y(v)]);
+  const line="M"+pts.map(q=>q[0].toFixed(1)+","+q[1].toFixed(1)).join(" L");
+  const area=line+` L${x(n-1).toFixed(1)},${h-p} L${x(0).toFixed(1)},${h-p} Z`;
+  const e=pts[n-1];
+  return `<svg class="spark" viewBox="0 0 ${w} ${h}" role="img" aria-label="Serie semanal de anuncios activos: de ${vals[0]} a ${vals[n-1]}"><path class="a" d="${area}"/><path class="l" d="${line}"/><circle cx="${e[0].toFixed(1)}" cy="${e[1].toFixed(1)}" r="3"/></svg>`;
+}
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+function card(t){
+  const [cls,label]=S[t.st];
+  const rows=[["Gate",t.gate],["Anunciantes",t.anun],["Líder",t.lider],["PVP rivales",t.pvp],["Genérico Ali",t.ali]].filter(r=>r[1]&&r[1]!=="—");
+  const bname=BARRIDOS.find(b=>b.id===t.b).name;
+  let h=`<article class="card"><header><div><h2>${esc(t.tipo)}</h2><div class="en">${esc(t.en)} · ${esc(bname)}</div></div><span class="pill ${cls}">${label}</span></header>`;
+  if(rows.length) h+=`<dl>${rows.map(r=>`<dt>${r[0]}</dt><dd>${esc(r[1])}</dd>`).join("")}</dl>`;
+  if(t.serie) h+=`<div><div class="eyebrow">Anuncios activos del líder, 16 semanas</div>${spark(t.serie)}</div>`;
+  if(t.hueco) h+=`<div><div class="eyebrow">Hueco de ejecución</div><ul class="list">${t.hueco.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`;
+  if(t.riesgos) h+=`<div><div class="eyebrow">Riesgos</div><ul class="list">${t.riesgos.map(x=>`<li>${esc(x)}</li>`).join("")}</ul></div>`;
+  h+=`<div class="verdict"><strong>Veredicto:</strong> ${esc(t.v)}</div><div class="links">`;
+  (t.ads||[]).forEach(a=>h+=`<a href="${AD(a[1])}" target="_blank" rel="noopener">▶ ${esc(a[0])}</a>`);
+  h+=`<a href="${LIB(t.q)}" target="_blank" rel="noopener">Biblioteca: «${esc(t.q)}»</a></div></article>`;
+  return h;
+}
+
+let tab="todo", filt="all";
+try{ tab=localStorage.getItem("radar-tab")||tab; }catch(e){}
+if(location.hash && BARRIDOS.some(b=>b.id===location.hash.slice(1))) tab=location.hash.slice(1);
+
+const FILTERS=[["all","Todos"],["vivo","Vivos"],["duda","Dudosos"],["kill","KILL"],["fuera","Fuera por reglas"]];
+function render(){
+  document.getElementById("tabs").innerHTML=BARRIDOS.map(b=>`<button role="tab" id="tab-${b.id}" aria-selected="${b.id===tab}" data-t="${b.id}">${esc(b.name)}</button>`).join("");
+  document.getElementById("tabmeta").textContent=BARRIDOS.find(b=>b.id===tab).meta;
+  document.getElementById("filters").innerHTML=FILTERS.map(f=>`<button id="f-${f[0]}" aria-pressed="${f[0]===filt}" data-f="${f[0]}">${f[1]}</button>`).join("");
+  const order={vivo:0,duda:1,kill:2,fuera:3};
+  const list=T.filter(t=>(tab==="todo"||t.b===tab)&&(filt==="all"||t.st===filt)).sort((a,b)=>order[a.st]-order[b.st]);
+  document.getElementById("grid").innerHTML=list.length?list.map(card).join(""):`<p class="meta">Nada con este filtro en este barrido.</p>`;
+}
+document.getElementById("s-total").textContent=T.length;
+document.getElementById("s-vivo").textContent=T.filter(t=>t.st==="vivo").length;
+document.getElementById("s-duda").textContent=T.filter(t=>t.st==="duda").length;
+document.getElementById("s-kill").textContent=T.filter(t=>t.st==="kill"||t.st==="fuera").length;
+document.getElementById("tabs").addEventListener("click",e=>{const b=e.target.closest("[data-t]");if(!b)return;tab=b.dataset.t;try{localStorage.setItem("radar-tab",tab)}catch(_){}render();});
+document.getElementById("filters").addEventListener("click",e=>{const b=e.target.closest("[data-f]");if(!b)return;filt=b.dataset.f;render();});
+render();
+</script>
