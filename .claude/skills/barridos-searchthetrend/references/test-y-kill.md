@@ -4,15 +4,14 @@ El barrido termina en el visor; el dinero empieza en el test. Esta parte no camb
 
 ## 1. `tests.md` (raíz de `product-radar`)
 
-Claude lo crea si no existe y lo lee antes de cada barrido. Una fila por producto testeado:
+Claude lo crea vacío si no existe y lo lee antes de cada barrido. Una fila por producto elegido en un visor a partir de ahora; los tests antiguos solo entran si siguen encendidos:
 
 ```markdown
 # Tests
 
 | Producto | Barrido origen | Lanzado | PVP / pack | Landed % | CPA breakeven | Gasto | CTR | ATC | Compras | CPA | Estado | Motivo | Ronda 2 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| Coating cerámico spray | A | | | 23 % | | ~€124 | 4–8 % | 8 | 0 | — | MUERTO | Precio ancla Amazon (Turtle Wax). Checkout no auditado | — |
-| Rompecristales + cortacinturones | A | | | 22 % | €14,5 | | | | 2 | ~€10 | VIVO | CPA < breakeven | pendiente |
+| <producto del visor> | <A–G + fecha> | | | | | | | | | | PENDIENTE | | |
 ```
 
 Estados: `PENDIENTE` (elegido en el visor, sin lanzar) · `EN TEST` · `VIVO` (CPA ≤ breakeven con ≥2 compras) · `ITERAR` · `MUERTO` (con el kill criterion que se cumplió).
@@ -36,7 +35,7 @@ Por pack (1, 2, 3 unidades). Sin datos de mix, usa el pack intermedio. Comisión
 3. **Permalinks** de cada pack abren el carrito con la variante y cantidad correctas.
 4. **Mismo precio en landing y checkout.**
 5. **Plazo de entrega real** del agente visible en landing y checkout.
-6. **Amazon a mano** (la skill lo deja como comprobación manual en finalistas): genérico Prime a ≤⅓ de tu PVP → piénsalo dos veces; el coating murió así.
+6. **Amazon a mano** (la skill lo deja como comprobación manual en finalistas): genérico Prime a ≤⅓ de tu PVP → piénsalo dos veces.
 
 ## 4. Estructura del test
 
