@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Visor barrido D</title>
+<style>
+:root{--bg:#f6f5f2;--card:#fff;--ink:#1d1d1b;--mute:#6b6a66;--line:#e3e1dc;--ok:#1f7a4d;--okbg:#e4f3ea;--warn:#8a5a00;--warnbg:#fbf0d9;--bad:#a8322b;--badbg:#f9e3e1;--acc:#2f5bd3}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#151514;--card:#1f1f1d;--ink:#ecebe7;--mute:#a09e98;--line:#34332f;--ok:#6fd19c;--okbg:#17301f;--warn:#e7b85a;--warnbg:#33290f;--bad:#f08a82;--badbg:#3a1a18;--acc:#8aa8ff}}
+:root[data-theme="dark"]{--bg:#151514;--card:#1f1f1d;--ink:#ecebe7;--mute:#a09e98;--line:#34332f;--ok:#6fd19c;--okbg:#17301f;--warn:#e7b85a;--warnbg:#33290f;--bad:#f08a82;--badbg:#3a1a18;--acc:#8aa8ff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:20px 16px 60px}
+h1{font-size:22px;margin:0 0 4px}
+.sub{color:var(--mute);margin:0 0 14px}
+.warnbox{background:var(--warnbg);color:var(--warn);border-radius:8px;padding:10px 12px;margin:0 0 14px;font-size:14px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 16px}
+.bar label{font-size:13px;color:var(--mute)}
+select{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:6px 8px;font:inherit}
+.tabs{display:flex;gap:6px;margin:0 0 14px;flex-wrap:wrap}
+.tab{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:6px 12px;border-radius:999px;cursor:pointer;font:inherit}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:0 0 14px}
+.head{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:flex-start}
+.head h2{font-size:18px;margin:0}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font-size:12px;padding:3px 8px;border-radius:999px;background:var(--bg);border:1px solid var(--line);white-space:nowrap}
+.ok{background:var(--okbg);color:var(--ok);border-color:transparent}
+.warn{background:var(--warnbg);color:var(--warn);border-color:transparent}
+.bad{background:var(--badbg);color:var(--bad);border-color:transparent}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px 16px;margin:12px 0}
+.k{font-size:12px;color:var(--mute);text-transform:uppercase;letter-spacing:.03em}
+.v{font-size:14px}
+.spark{display:flex;align-items:flex-end;gap:2px;height:36px;margin-top:4px}
+.spark i{flex:1;background:var(--acc);opacity:.75;border-radius:2px 2px 0 0;min-height:2px}
+.sec{border-top:1px solid var(--line);margin-top:12px;padding-top:10px}
+.sec h3{font-size:13px;margin:0 0 6px;color:var(--mute);text-transform:uppercase;letter-spacing:.03em}
+ul{margin:0;padding-left:18px}
+li{margin:2px 0}
+.ads{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px}
+.ad{border:1px solid var(--line);border-radius:8px;padding:10px;font-size:13px;display:flex;flex-direction:column;gap:6px}
+.ad .meta{color:var(--mute);font-size:12px}
+.ad p{margin:0;white-space:pre-line;max-height:8.5em;overflow:auto}
+.btns{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto}
+a.btn{font-size:12px;text-decoration:none;color:var(--acc);border:1px solid var(--line);border-radius:6px;padding:4px 8px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--mute);text-transform:uppercase}
+.tblwrap{overflow-x:auto}
+footer{color:var(--mute);font-size:13px;margin-top:20px}
+.hidden{display:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+<h1>Barrido D · Nichos apasionados USA · 27 sep 2026</h1>
+<p class="sub">Fuente: SearchTheTrend (US, ≥30 días). Agrupado por TIPO. Columnas extra: marca de referencia, regalo Q4, comprador. <b>Sin recomendación: elijo yo mirando los anuncios.</b></p>
+<div class="warnbox"><b>Resultado: 0 tipos pasan firme.</b> En los nichos apasionados STT indexa sobre todo marcas con un solo operador por tipo (Beyond Braid en pesca, Eberlestock/Tidewe en caza, Sunday/69Golf en golf, GPCA/Bulletpoint en Jeep). Los únicos tipos con ≥3 anunciantes son enjambres de tiendas-catálogo genéricas (thegiftnorth, suzvo, cyrarise, xylvok, povlya, colody…) que lanzan el mismo producto la misma quincena. Gasto Apify: $0 (sin token). PVP y genérico en Ali: NO VERIFICABLES (red bloqueada).<br>Verticales barridos: pesca, caza, camping, agua/jet ski/natación, moto, ciclismo, jardín/huerto, DIY/garaje, carpintería, BBQ, gallinas/homestead, caballos, golf, Jeep/offroad, barcos, RV. Añadidos por mí: supervivencia/prepper y multiherramienta/EDC.</div>
+
+<div class="tabs" role="tablist">
+  <button class="tab" role="tab" aria-selected="true" data-tab="limite">En el límite (3)</button>
+  <button class="tab" role="tab" aria-selected="false" data-tab="vigilar">Operador único escalando (12)</button>
+  <button class="tab" role="tab" aria-selected="false" data-tab="fuera">Descartados por regla</button>
+</div>
+
+<section id="limite"><div id="cards"></div></section>
+
+<section id="vigilar" class="hidden">
+<div class="card"><p class="sub" style="margin:0 0 10px">No validan escala (1-2 operadores). Según tu regla, el unicornio pierde por sistema. Los listo para vigilar: si en 3-4 semanas aparece un tercer anunciante con ≥30 días, pasa a candidato.</p>
+<div class="tblwrap"><table><thead><tr><th>Vertical</th><th>Tipo</th><th>Operador(es)</th><th>Marca ref.</th><th>Regalo Q4</th><th>Comprador</th><th>Pega</th></tr></thead><tbody id="vgrows"></tbody></table></div></div>
+</section>
+
+<section id="fuera" class="hidden">
+<div class="card tblwrap"><table><thead><tr><th>Tipo / grupo</th><th>Motivo</th></tr></thead><tbody id="fxrows"></tbody></table></div>
+</section>
+
+<footer>Excluidos por la skill y por el barrido A (no evaluados): delantal ignífugo, ganchos levantamiento, afilador rodante, cartera RFID, bolso antirrobo, soporte magnético coche, neceser, escalfador y todo lo del listado de exclusiones. Datos: tipos.csv en esta carpeta.</footer>
+</div>
+<script>
+const LIB=id=>`https://www.facebook.com/ads/library/?id=${id}`;
+const ALI=q=>`https://www.aliexpress.us/w/wholesale-${encodeURIComponent(q.replace(/ /g,'-'))}.html`;
+const AMZ=q=>`https://www.amazon.com/s?k=${encodeURIComponent(q)}`;
+const TIPOS=[
+{tipo:"Kit de conectores termorretráctiles con estaño",en:"solder seal wire connector kit",vert:"DIY / garaje · barcos",anun:3,escala:["bad","ENJAMBRE"],gate:"POSIBLE · 3 DS",
+ lider:"thegiftnorth.com · 57 d · 68 ads · 1 anuncio con 61 variaciones",serie:null,
+ rivales:"thegiftnorth (68 ads, 57 d) · suzvo (18 ads, 44 d, mismas fotos) · fixiontools (5 ads, 31 d). Aparte: 2-pin solderless connector en fixiontools (275 d) y chiclify (123 d), que es otro producto.",
+ marca:"Sí: Wirefy y los kits de heat-shrink de Amazon por pocos dólares. Commodity.",q4:"Débil (regalo de garaje, no de ilusión).",comp:"El aficionado (compra él, compara precios).",
+ hueco:["Un anuncio del líder tiene 61 variaciones: está escalando ese creativo concreto.","Demo de 5 s clara: pistola de calor → el conector se sella."],
+ riesgos:["3 tiendas-catálogo que entraron en 31-57 días = enjambre, no demanda.","Commodity con ancla barata en Amazon.","Ticket probablemente <$20."],
+ ads:[{src:"Thegiftnorth-A (líder)",id:"2750125012036479",d:"2026-08-06",dias:51,fmt:"vídeo",v:61,txt:"⚡🔧 No More Loose Wire Connections! IP67 Waterproof · Heat-Shrink Sealing · No Crimping or Soldering · Perfect for Cars, Boats & DIY · Up to 300PCS per Kit",cr:"https://searchthetrend.b-cdn.net/last-day-49-off-300pcs-waterproof-solder-wire-connector-kit/2750125012036479-4c757f6cfcba4f7bb935e88afaf01f15/creative.mp4"},
+      {src:"Thegiftnorth-A (líder)",id:"27398038289878618",d:"2026-07-31",dias:57,fmt:"vídeo",v:1,txt:"Mismo copy.",cr:"https://searchthetrend.b-cdn.net/last-day-49-off-300pcs-waterproof-solder-wire-connector-kit/27398038289878618-059243de25634498b02ac1856d2809ec/creative.mp4"}]},
+{tipo:"Juego de brocas de diamante (azulejo/vidrio)",en:"diamond drill bit set tile",vert:"DIY / reformas",anun:4,escala:["bad","ENJAMBRE"],gate:"POSIBLE · 4 DS",
+ lider:"thegiftnorth.com · 51 d · 37 ads · creativo con 31 variaciones",serie:null,
+ rivales:"thegiftnorth (37 ads, 51 d) · suzvo (28 ads, 44 d, +173% 30d, mismas fotos) · copenrain (1 ad, 55 d) · povlya (1 ad, 32 d)",
+ marca:"Sí: Bosch/DeWalt en Home Depot. El comprador de bricolaje conoce las marcas.",q4:"Débil.",comp:"El aficionado a las reformas.",
+ hueco:["Demo de 5 s: agujero limpio en un azulejo sin romperlo.","Nadie hace pack «kit baño completo» (brocas + guía de centrado)."],
+ riesgos:["4 tiendas entraron en 32-55 días con las mismas fotos: enjambre.","Marca de referencia fuerte en tienda física.","Ticket bajo."],
+ ads:[{src:"Thegiftnorth-A (líder)",id:"1771696540949523",d:"2026-08-06",dias:51,fmt:"vídeo",v:31,txt:"Tired of cracked tiles and struggling with hard surfaces? 😫 The 6PCS Dry Diamond Drill Bit Set makes drilling smoother and more precise — tile, porcelain, glass, marble, granite…",cr:"https://searchthetrend.b-cdn.net/49-off-6pcs-dry-diamond-drill-bit-set-hex-shank-brazed-hole-saw-for-tile-glass-g/1771696540949523-81d2247aaeec43eca9f863ef406f9a41/creative.mp4"}]},
+{tipo:"Hoja curva de sierra de sable para podar",en:"curved pruning reciprocating saw blade",vert:"Jardín / homestead",anun:3,escala:["warn","Escala: floja"],gate:"POSIBLE · 2 DS + marca",
+ lider:"ezarctools.com (marca de herramientas) · 122 d · 8 ads · +62,5% 30d",serie:[6,6,6,7,8,6,6,14,16,8,8,12,12,15,13,8],
+ rivales:"EZARC (marca, 8 ads, 122 d) · fixiontools (8 ads, 84 d) · newzyhoome (5 ads, 72 d, mismas fotos que fixiontools)",
+ marca:"Sí: Diablo/Milwaukee en Home Depot.",q4:"No (estacional de primavera/otoño).",comp:"El aficionado.",
+ hueco:["El líder usa una reseña real como copy («Now I have to buy a stronger saw…»): prueba social, sin demo.","Demo de 5 s: una rama gruesa cortada en segundos."],
+ riesgos:["Nadie tiene ≥15 ads activos; la serie del líder es plana (6-16).","Accesorio de una herramienta eléctrica: el comprador tiene que tener ya la sierra.","Ticket bajo."],
+ ads:[{src:"EZARC (líder)",id:"1028543972866961",d:"2026-07-17",dias:71,fmt:"vídeo",v:2,txt:"Now I have to buy a stronger saw that can keep up with them.🤣 Mine came in today and I did an enormous amount of cuts (big cartloads). These blades do everything they're supposed to!!",cr:"https://searchthetrend.b-cdn.net/tree-trimming-wood-cutting-procut-u-groove-arc-edge-pruning-reciprocating-saw-bl/1028543972866961/creative.mp4"}]}
+];
+const VIG=[
+ ["Golf","Soporte de móvil para carrito de golf","tryhills.com · 409 ads · 204 d · +115% 30d","No clara","Sí","Pareja que regala","1 operador. Imán genérico en Ali; sin validar ticket."],
+ ["Golf","Sello personalizado para bolas","doyobest.com · 194 ads · 208 d · +40% (+ bakven, 3 ads)","No","Sí","Pareja","Personalización = operación POD, no Ali."],
+ ["Golf","Guante SureGrip","holengolf.com (228 ads, 258 d) + divotsgolfco (59 ads, 329 d)","No","Sí","Aficionado","2 operadores y tiene TALLAS → fuera por regla."],
+ ["Caza","Correa de rifle «Stalker Sling»","hellomaterials.com · 148 ads · 59 d · +325%","No","Sí","Pareja / aficionado","1 operador. Rifle en el creativo: riesgo de rechazo del anuncio en Meta."],
+ ["Jardín / homestead","Mango auxiliar para desbrozadora (Yeoman)","fieldandharvestco.com · 432 ads · 87 d","No","Débil","Aficionado","1 operador escalando fuerte. Vigilar si entran copias."],
+ ["Pesca","Funda protectora de señuelos (LureShield)","rodarmour.com · 71 ads · 554 d","Rod Armour (es él mismo)","Sí","Pareja","1 operador con 18 meses: marca asentada."],
+ ["Prepper","Bóveda de semillas de supervivencia","tryrivanta.com (468 ads, 48 d, +446%) + gardenspulse (162 ads, 53 d)","No","Sí","Aficionado","2 operadores. Importar semillas a EE. UU. está regulado (USDA/APHIS): no se puede hacer dropshipping desde China sin permiso. Verificar antes de nada."],
+ ["Moto","Soporte de cámara para casco / manillar","chinmounts.com (904 ads, 47 d) + motoradds (56 ads, 171 d)","GoPro (accesorios oficiales)","Sí","Aficionado","2 operadores; depende de que el comprador tenga cámara."],
+ ["Moto","Funda de moto (RideProof)","rideproofco.com · 63 ads · 45 d · +336%","No","Débil","Aficionado","1 operador; tallas por tamaño de moto."],
+ ["Caballos","Soporte de pierna HaloLegs","horsehalo.co · 257 ads · 274 d · +54%","No","Sí","Aficionada","1 operador; roza claim veterinario (terapia)."],
+ ["BBQ","Kit iniciación BBQ (Drip EZ)","bbqdripez.com · 21 ads · 82 d · +750%","Drip EZ (marca propia)","Sí","Pareja","1 operador, marca propia."],
+ ["Pesca","Gafas polarizadas de pesca","grizzlyfishing.com · 64 ads · 420 d","Costa / Oakley","Sí","Pareja","1 operador; marca de referencia fuerte."]
+];
+const FUERA=[
+ ["Recortador de grasa (BBQ)","Enjambre: 5 tiendas en 34-41 días, máximo 7 ads. Sin escala."],
+ ["Nivel lector de green (golf)","Enjambre: 3 tiendas en 72-73 días, máximo 13 ads. Sin escala."],
+ ["Delantal «hairy body» BBQ","Enjambre POD + delantal ya excluido."],
+ ["Suplementos para gallinas (Roostys, 1.416 ads)","Ingerible → regla."],
+ ["E-bikes, trikes, compresores, power stations, luces de cultivo, tijeras de podar eléctricas, frontales, visión nocturna, masajeador de caballos","Electrónica → regla."],
+ ["Puestos de caza, vadeadores, mochilas Eberlestock, bolsas Sunday Golf, palos 69Golf, bedrolls","Ticket >$40 y/o tallas."],
+ ["Pantalones y vaqueros de moto (Rippl, Ekon, 462 ads)","Tallas."],
+ ["Accesorios Jeep (GPCA, Bulletpoint, Tackform)","1 operador por tipo; específicos por modelo (demasiados SKUs)."],
+ ["Pesca Beyond Braid (alicates, spooler, bolsas)","Marca multiproducto: 1 operador por tipo."],
+ ["Guantes de pesca/sol (Fish Monkey)","Tallas + 1 operador."],
+ ["Señuelos segmentados / S-action / avispa biónica","2 tiendas-catálogo por señuelo, ≤4 ads. Sin escala."],
+ ["Herramienta de escardar FarmFlex","2 tiendas (cozyhoome, shopellox), ≤4 ads."],
+ ["Anillo magnético para brocas","2 tiendas (fixiontools, chiclify)."]
+];
+function spark(s){const m=Math.max(...s);return `<div class="spark" title="${s.join(' · ')}">${s.map(x=>`<i style="height:${Math.max(4,x/m*100)}%"></i>`).join('')}</div>`}
+function esc(t){return t.replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))}
+document.getElementById('cards').innerHTML=TIPOS.map(t=>`<article class="card">
+ <div class="head"><h2>${t.tipo}</h2><div class="chips"><span class="chip ${t.escala[0]}">${t.escala[1]}</span><span class="chip warn">Gate ${t.gate} · no firme</span><span class="chip">${t.vert}</span></div></div>
+ <div class="grid">
+  <div><div class="k">Anunciantes ≥30 d</div><div class="v"><b>${t.anun}</b></div></div>
+  <div><div class="k">Líder</div><div class="v">${t.lider}</div></div>
+  ${t.serie?`<div><div class="k">Serie semanal (líder)</div>${spark(t.serie)}</div>`:''}
+  <div><div class="k">PVP rivales / genérico</div><div class="v">NO VERIFICABLE<br><a class="btn" target="_blank" rel="noopener" href="${ALI(t.en)}">Buscar en Ali</a> <a class="btn" target="_blank" rel="noopener" href="${AMZ(t.en)}">Ancla Amazon</a></div></div>
+  <div><div class="k">Marca de referencia</div><div class="v">${t.marca}</div></div>
+  <div><div class="k">Regalo Q4</div><div class="v">${t.q4}</div></div>
+  <div><div class="k">Comprador</div><div class="v">${t.comp}</div></div>
+ </div>
+ <div class="sec"><h3>Anunciantes del tipo</h3><div class="v">${t.rivales}</div></div>
+ <div class="sec"><h3>Hueco de ejecución</h3><ul>${t.hueco.map(h=>`<li>${h}</li>`).join('')}</ul></div>
+ <div class="sec"><h3>Riesgos</h3><ul>${t.riesgos.map(h=>`<li>${h}</li>`).join('')}</ul></div>
+ <div class="sec"><h3>Anuncios más antiguos del líder</h3><div class="ads">${t.ads.map(a=>`<div class="ad"><div class="meta"><b>${a.src}</b><br>Inicio ${a.d} · ${a.dias} d · ${a.fmt} · ${a.v} variación${a.v>1?'es':''}</div><p>${esc(a.txt)}</p><div class="btns"><a class="btn" target="_blank" rel="noopener" href="${LIB(a.id)}">Biblioteca de Meta</a><a class="btn" target="_blank" rel="noopener" href="${a.cr}">Ver creativo</a></div></div>`).join('')}</div></div>
+</article>`).join('');
+document.getElementById('vgrows').innerHTML=VIG.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('');
+document.getElementById('fxrows').innerHTML=FUERA.map(r=>`<tr>${r.map(c=>`<td>${c}</td>`).join('')}</tr>`).join('');
+document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{
+ document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected',x===b));
+ ['limite','vigilar','fuera'].forEach(id=>document.getElementById(id).classList.toggle('hidden',b.dataset.tab!==id));
+}));
+</script>
+</body>
+</html>
