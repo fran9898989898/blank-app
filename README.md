@@ -1,19 +1,18 @@
-# 🎈 Blank app template
+# product-radar · barridos de producto
 
-A simple Streamlit app template for you to modify!
+**Empieza aquí.** Todo lo necesario está en la rama `main` de este repo.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://blank-app-template.streamlit.app/)
+| Qué | Dónde |
+|---|---|
+| Skill (método, filtros, orden de barridos) | `.claude/skills/barridos-searchthetrend/` |
+| Scripts (Biblioteca de Meta, AliExpress, Amazon, Walmart, Shopify) | `tools/` |
+| Resumen de todos los barridos | `barridos/radar.html` (ábrelo en Chrome) |
+| Visor de cada barrido | `barridos/<fecha>/visor.html` |
 
-### How to run it on your own machine
+## Cómo se usa
 
-1. Install the requirements
+1. Abre Claude Code sobre este repo en la rama `main` (en la nube desde la web o el móvil, o en tu PC tras `git pull`).
+2. Escribe: **«haz el siguiente barrido»**.
+3. Claude aplica la skill y al terminar te entrega: visor del barrido, `radar.html` actualizado y un resumen (vivos, dudosos, KILL, fuera, siguiente barrido, gasto de Apify).
 
-   ```
-   $ pip install -r requirements.txt
-   ```
-
-2. Run the app
-
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+Requisitos la primera vez: SearchTheTrend conectado como MCP y `APIFY_TOKEN` configurado (ver `.claude/skills/barridos-searchthetrend/references/setup.md`).
