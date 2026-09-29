@@ -1,0 +1,14 @@
+operador,dominio,dias_max,anuncios_muestra,tipo,cuenta_gate,nota
+Sidesleeperz,sidesleeperz.com,195,6,generico 3D contorneado (tienda monoproducto),si,
+Everyneeding,everyneeding.com,154,2,generico 3D rana (novedad),si,
+Baheey Gift,baheey.com,83,4,generico 3D rana (novedad),si,misma URL/slug que Coparim: posible tienda gemela
+Coparim Gift,coparim.com,86,1,generico 3D rana (novedad),si,misma URL/slug que Baheey: posible tienda gemela
+SakerWorks,m.sakerplus.com,33,2,generico con peso,dudoso,33 d; no verificado si es monoproducto
+Loop,us.loopearplugs.com,80,8,marca,no,$49.95
+Dore & Rose,doreandrose.com,79,9,marca (seda),no,usa claims
+Manta Sleep,mantasleep.com,114,3,marca,no,
+Drowsy Sleep Co.,us.drowsysleepco.com,698,2,marca (seda),no,
+Mellow Sleep,mellowsleep.com,174,13,marca con peso + paginas satelite,no,
+Moment Lavender,momentlavender.com,189,1,marca (lavanda),no,
+SnoozeBand / SnoozeFlex,snoozeband.com / snoozeflex.com,592,7,con auriculares = electronica,no,fuera de filtro
+Dream Recovery,dreamrecovery.io,26,2,marca seda,no,<30 d
