@@ -1,0 +1,558 @@
+{
+ "tipos": [
+  {
+   "k": "push_up_board",
+   "tipo": "Tabla de flexiones plegable (push-up board)",
+   "categoria": "Fuerza",
+   "anunciantes_21d": 5,
+   "dias_mas_antiguo": 148,
+   "lider": "formafitness.co",
+   "lider_anuncios_muestra": 12,
+   "lider_stt_activos": null,
+   "precio_rivales": 45.66,
+   "precios_leidos": "$59.99 / $49.99 / $27.0",
+   "precio_ali": 12.66,
+   "ali_tachado": "26.37",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "2,000+ sold",
+   "ali_titulo": "Portable Multifunctional Push-up Board Set With Handles Foldable Fitness Equipment For Chest Abdomen Arms And ",
+   "ali_url": "https://www.aliexpress.us/item/3256808243818458.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/Sdd02bc0de67d4e9e887c43c30277574dA.jpg",
+   "landed_pct": 28,
+   "margen_bruto": 25.0,
+   "escalon": "Escalón 1",
+   "falla": "anuncio más antiguo 148 d; genérico $12,66 (roza el tope de $12, precio de nuevo usuario); un rival usa claim corporal (\"man boobs\")"
+  },
+  {
+   "k": "pedal_resistance_band",
+   "tipo": "Banda elástica de pedal (4–6 tubos)",
+   "categoria": "Tonificación",
+   "anunciantes_21d": 3,
+   "dias_mas_antiguo": 163,
+   "lider": "gentlegains.com",
+   "lider_anuncios_muestra": 5,
+   "lider_stt_activos": null,
+   "precio_rivales": 33.97,
+   "precios_leidos": "$54.99 / $12.95",
+   "precio_ali": 1.09,
+   "ali_tachado": "5.99",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "10,000+ sold",
+   "ali_titulo": "Foot Pedal Resistance Band for Home Yoga & Fitness Full Body Slimming Waist Leg Arm Training Tool",
+   "ali_url": "https://www.aliexpress.us/item/3256811754873752.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/Sc461580696ed47afafad684d91928886b.jpg",
+   "landed_pct": 3,
+   "margen_bruto": 24.88,
+   "escalon": "Escalón 1",
+   "falla": "anuncio más antiguo 163 d; precios de rivales dispares ($13 vs $55); copys con \"slimming\" (claim a evitar)"
+  },
+  {
+   "k": "pilates_ring",
+   "tipo": "Aro de pilates",
+   "categoria": "Pilates",
+   "anunciantes_21d": 3,
+   "dias_mas_antiguo": 266,
+   "lider": "forttender.com",
+   "lider_anuncios_muestra": 12,
+   "lider_stt_activos": null,
+   "precio_rivales": 52.99,
+   "precios_leidos": "$29.98 / $39.99 / $89.0",
+   "precio_ali": 9.77,
+   "ali_tachado": "19.55",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "5,000+ sold",
+   "ali_titulo": "Yoga Pilates Ring Durable Non-Slip Exercise Circle Magic Exercise Circle with Dual Grip for Thigh Pelvic Floor",
+   "ali_url": "https://www.aliexpress.us/item/3256809462963347.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/S3c52f0b67e0c4daa8b7db4fdb4e0d936d.jpg",
+   "landed_pct": 18,
+   "margen_bruto": 35.22,
+   "escalon": "Fuera de filtro",
+   "falla": "anuncio más antiguo 266 d (>180): tipo ya maduro"
+  },
+  {
+   "k": "grip_strengthener",
+   "tipo": "Fortalecedor de agarre (hand gripper)",
+   "categoria": "Fuerza",
+   "anunciantes_21d": 0,
+   "dias_mas_antiguo": 17,
+   "lider": "culmenwild.com",
+   "lider_anuncios_muestra": 2,
+   "lider_stt_activos": null,
+   "precio_rivales": null,
+   "precios_leidos": "no verificado",
+   "precio_ali": 4.79,
+   "ali_tachado": "16.41",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "50,000+ sold",
+   "ali_titulo": "Grip Strengthener Strength Expander 5-60/100/150kg Grip Strength Gym Wrist Expander Hand Strengthener Adjustab",
+   "ali_url": "https://www.aliexpress.us/item/3256806220927618.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/S6ae14743a0d34b89913fdb2470907fe71.jpg",
+   "landed_pct": null,
+   "margen_bruto": null,
+   "escalon": "Fuera de filtro",
+   "falla": "0 anunciantes con ≥21 d (solo tiendas nuevas y Amazon); precio de rivales no verificado"
+  },
+  {
+   "k": "pilates_bar",
+   "tipo": "Barra de pilates con bandas",
+   "categoria": "Pilates",
+   "anunciantes_21d": 1,
+   "dias_mas_antiguo": 375,
+   "lider": "stretchedfusion.com",
+   "lider_anuncios_muestra": 12,
+   "lider_stt_activos": null,
+   "precio_rivales": 59.99,
+   "precios_leidos": "$49.99 / $69.99",
+   "precio_ali": 10.44,
+   "ali_tachado": "37.98",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "20 sold",
+   "ali_titulo": "Multifunctional Pilates Resistance Bar Set Full Body Sculpting Home Fitness Tool for Squats and Strength Train",
+   "ali_url": "https://www.aliexpress.us/item/3256812784473837.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/Sf795aed4de454fca9322b97358d69a2fy.jpg",
+   "landed_pct": 17,
+   "margen_bruto": 41.55,
+   "escalon": "Fuera de filtro",
+   "falla": "1 marca dominante (stretchedfusion, 375 d); el resto <21 d"
+  },
+  {
+   "k": "ab_roller",
+   "tipo": "Rueda abdominal (ab roller)",
+   "categoria": "Core",
+   "anunciantes_21d": 2,
+   "dias_mas_antiguo": 295,
+   "lider": "postureflex.co",
+   "lider_anuncios_muestra": 13,
+   "lider_stt_activos": null,
+   "precio_rivales": 89.5,
+   "precios_leidos": "$89.99 / $89.0",
+   "precio_ali": 13.45,
+   "ali_tachado": "44.89",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "4,000+ sold",
+   "ali_titulo": "Abdominal Roller, Exercise Equipment for Core Strength Training, Home Fitness Wheel for Men and Women",
+   "ali_url": "https://www.aliexpress.us/item/3256812781512050.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/S7ac9e29ea3cb45f1b4220dc2bcde8df9g.png",
+   "landed_pct": 15,
+   "margen_bruto": 68.05,
+   "escalon": "Fuera de filtro",
+   "falla": "2 marcas, 295 d; se vende a $89 un genérico de $13 con claims de barriga (\"men 30+\")"
+  },
+  {
+   "k": "pull_up_bar",
+   "tipo": "Barra de dominadas portátil / de puerta",
+   "categoria": "Fuerza",
+   "anunciantes_21d": 2,
+   "dias_mas_antiguo": 509,
+   "lider": "jayflexfitness.com",
+   "lider_anuncios_muestra": 12,
+   "lider_stt_activos": null,
+   "precio_rivales": null,
+   "precios_leidos": "no verificado",
+   "precio_ali": 13.52,
+   "ali_tachado": "39.04",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "500+ sold",
+   "ali_titulo": "150kg Adjustable Door Horizontal Bars Exercise Home Workout Gym Chin Up Pull Training Bar Sport Fitness Wall T",
+   "ali_url": "https://www.aliexpress.us/item/3256812729197492.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/Sfa2fa068f85e45dd9832227991538be4e.jpg",
+   "landed_pct": null,
+   "margen_bruto": null,
+   "escalon": "Fuera de filtro",
+   "falla": "2 anunciantes, 509 d; precio de barra de puerta no verificado (el único leído, $399, es una estación de dominadas)"
+  },
+  {
+   "k": "jump_rope",
+   "tipo": "Comba con peso",
+   "categoria": "Cardio",
+   "anunciantes_21d": 5,
+   "dias_mas_antiguo": 348,
+   "lider": "swissskip.ch",
+   "lider_anuncios_muestra": 7,
+   "lider_stt_activos": null,
+   "precio_rivales": 65.99,
+   "precios_leidos": "$65.99",
+   "precio_ali": 7.19,
+   "ali_tachado": "16.87",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "4,000+ sold",
+   "ali_titulo": "Speed Jump Rope, Heavy-Duty Adjustable Rope, Lightweight Design, Smooth Ball Bearing Rotation, Suitable for Cr",
+   "ali_url": "https://www.aliexpress.us/item/3256809062699452.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/S1e58503a0f93487a9a0f2873f64a2962a.png",
+   "landed_pct": 11,
+   "margen_bruto": 50.8,
+   "escalon": "Fuera de filtro",
+   "falla": "mercado de marcas (Crossrope, Elite Jumps) con 145–348 d"
+  },
+  {
+   "k": "suspension_trainer",
+   "tipo": "Cintas de suspensión (tipo TRX)",
+   "categoria": "Fuerza",
+   "anunciantes_21d": 2,
+   "dias_mas_antiguo": 48,
+   "lider": "trxtraining.com",
+   "lider_anuncios_muestra": 12,
+   "lider_stt_activos": null,
+   "precio_rivales": null,
+   "precios_leidos": "no verificado",
+   "precio_ali": 10.33,
+   "ali_tachado": "28.76",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "1,000+ sold",
+   "ali_titulo": "Suspension Training Strap Fitness Strength Power Suspension Trainer Adjustable Yoga Strap Wall Mount Professio",
+   "ali_url": "https://www.aliexpress.us/item/3256811866500219.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/S1842f454fdc643178ee812b0093ce67eP.jpg",
+   "landed_pct": null,
+   "margen_bruto": null,
+   "escalon": "Fuera de filtro",
+   "falla": "marca de referencia TRX; precio de rivales no verificado"
+  },
+  {
+   "k": "weighted_hula_hoop",
+   "tipo": "Hula hoop con peso (smart hoop)",
+   "categoria": "Cardio",
+   "anunciantes_21d": 1,
+   "dias_mas_antiguo": 63,
+   "lider": "infinityhoop.com",
+   "lider_anuncios_muestra": 12,
+   "lider_stt_activos": null,
+   "precio_rivales": 59.99,
+   "precios_leidos": "$59.99",
+   "precio_ali": 8.2,
+   "ali_tachado": "27.51",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "157 sold",
+   "ali_titulo": "Weighted Sports Circle Hoops for Adults Weight Loss Plus Size for Adults Smart Exercise 2 in 1 Adjustable with",
+   "ali_url": "https://www.aliexpress.us/item/3256806528084929.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/S15af6097d7aa4a2f86a6569d6bc5a34bg.jpg",
+   "landed_pct": 14,
+   "margen_bruto": 43.79,
+   "escalon": "Fuera de filtro",
+   "falla": "1 solo anunciante y todo el ángulo es pérdida de peso (claim prohibido en el filtro)"
+  }
+ ],
+ "anuncios": {
+  "push_up_board": {
+   "top3": [
+    {
+     "inicio": "2026-05-04",
+     "dias": 148,
+     "formato": "vídeo",
+     "frase": "👕 Tighter shirts",
+     "link": "https://www.facebook.com/ads/library/?id=26563645036617709",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-05-04",
+     "dias": 148,
+     "formato": "vídeo",
+     "frase": "🔥 BACK IN STOCK — Limited Units Available! The StayFit Push-Up Board is finally here",
+     "link": "https://www.facebook.com/ads/library/?id=1532820034852864",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-05-04",
+     "dias": 148,
+     "formato": "vídeo",
+     "frase": "😫 Wrists hurt from regular push-ups? We’ve got you",
+     "link": "https://www.facebook.com/ads/library/?id=2293872961146728",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "Gimnasio de pecho en 60 cm: la tabla dice dónde poner las manos para pecho, hombro o tríceps (al que entrena en casa sin pesas).",
+    "Flexiones que de verdad cuentan: colores = rutina guiada de 20 minutos.",
+    "Regalo para él de $40 que no necesita espacio (Q4)."
+   ]
+  },
+  "pedal_resistance_band": {
+   "top3": [
+    {
+     "inicio": "2026-04-19",
+     "dias": 163,
+     "formato": "vídeo",
+     "frase": "\"So far, I am loving it",
+     "link": "https://www.facebook.com/ads/library/?id=1507757944288504",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-04-19",
+     "dias": 163,
+     "formato": "vídeo",
+     "frase": "\"So far, I am loving it",
+     "link": "https://www.facebook.com/ads/library/?id=983897437564212",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-04-19",
+     "dias": 163,
+     "formato": "vídeo",
+     "frase": "\"So far, I am loving it",
+     "link": "https://www.facebook.com/ads/library/?id=1626639135328564",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "Entrenar de cuerpo entero en el salón con una sola pieza que cabe en un cajón (a mujeres 40+ que no van al gimnasio).",
+    "Sustituto de 4 aparatos: remo, bíceps, abdominales y piernas con la misma banda.",
+    "Rutina de 10 minutos viendo la tele (testimonio en primera persona, sin prometer kilos)."
+   ]
+  },
+  "pilates_ring": {
+   "top3": [
+    {
+     "inicio": "2026-08-05",
+     "dias": 55,
+     "formato": "vídeo",
+     "frase": "💕 Get fit, feel confident!  💪 Wondeea's Pilates Ring Fitness Trainer is here to help you reach your fitness goals with ease and fun 🎉",
+     "link": "https://www.facebook.com/ads/library/?id=2013609159280860",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-08-11",
+     "dias": 49,
+     "formato": "vídeo",
+     "frase": "💕 Get fit, feel confident!  💪 Wondeea's Pilates Ring Fitness Trainer is here to help you reach your fitness goals with ease and fun 🎉",
+     "link": "https://www.facebook.com/ads/library/?id=2297933637685518",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-08-11",
+     "dias": 49,
+     "formato": "vídeo",
+     "frase": "💕 Get fit, feel confident!  💪 Wondeea's Pilates Ring Fitness Trainer is here to help you reach your fitness goals with ease and fun 🎉",
+     "link": "https://www.facebook.com/ads/library/?id=1449207160311188",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "Pilates de estudio en casa por el precio de una clase.",
+    "Suelo pélvico y core tras el embarazo (sin claim médico).",
+    "Kit aro + pelota como regalo."
+   ]
+  },
+  "grip_strengthener": {
+   "top3": [
+    {
+     "inicio": "2026-09-12",
+     "dias": 17,
+     "formato": "vídeo",
+     "frase": "💪 Adjustable Electronic Counting Hand Grip Strengthener | Build Powerful Forearms! ⚙️ Adjustable resistance from 5kg to 165kg, easily switch intensity for begin",
+     "link": "https://www.facebook.com/ads/library/?id=1785698489294482",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-09-12",
+     "dias": 17,
+     "formato": "vídeo",
+     "frase": "💪 Adjustable Electronic Counting Hand Grip Strengthener | Build Powerful Forearms! ⚙️ Adjustable resistance from 5kg to 165kg, easily switch intensity for begin",
+     "link": "https://www.facebook.com/ads/library/?id=1113245464566857",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "Antebrazos de escalador en 5 minutos al día.",
+    "Contador electrónico: gamifica el agarre.",
+    "Regalo de escritorio para él."
+   ]
+  },
+  "pilates_bar": {
+   "top3": [
+    {
+     "inicio": "2025-09-19",
+     "dias": 375,
+     "formato": "vídeo",
+     "frase": "This 15 minute hack is making inches disappear.",
+     "link": "https://www.facebook.com/ads/library/?id=1312134460441884",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2025-10-07",
+     "dias": 357,
+     "formato": "vídeo",
+     "frase": "🧘‍♀️ Experience full-body workouts anywhere at anytime",
+     "link": "https://www.facebook.com/ads/library/?id=1172100668100056",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2025-10-24",
+     "dias": 340,
+     "formato": "vídeo",
+     "frase": "🧘‍♀️ Experience full-body workouts anywhere at anytime",
+     "link": "https://www.facebook.com/ads/library/?id=1385486736530962",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "Reformer de pilates que se guarda debajo de la cama.",
+    "Entrenamiento de cuerpo entero en 20 min.",
+    "Alternativa a $200/mes de estudio."
+   ]
+  },
+  "ab_roller": {
+   "top3": [
+    {
+     "inicio": "2025-12-08",
+     "dias": 295,
+     "formato": "vídeo",
+     "frase": "If you're a man over 30+, keep reading....",
+     "link": "https://www.facebook.com/ads/library/?id=1066349452223347",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-04-10",
+     "dias": 172,
+     "formato": "vídeo",
+     "frase": "Most ab rollers don't actually work your abs",
+     "link": "https://www.facebook.com/ads/library/?id=1449413249782040",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-04-14",
+     "dias": 168,
+     "formato": "vídeo",
+     "frase": "45 and slowing down? That's a choice",
+     "link": "https://www.facebook.com/ads/library/?id=1254661370087070",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "Reto de 30 días para hombres 30+ (ángulo del líder, sin prometer kilos).",
+    "Core sin gimnasio en 5 minutos.",
+    "Rueda con rebote para principiantes."
+   ]
+  },
+  "pull_up_bar": {
+   "top3": [
+    {
+     "inicio": "2025-05-08",
+     "dias": 509,
+     "formato": "imagen",
+     "frase": "No Installation, No Damage, Just Results with CrossGrips",
+     "link": "https://www.facebook.com/ads/library/?id=1249960889891892",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2025-09-26",
+     "dias": 368,
+     "formato": "imagen",
+     "frase": "No Installation, No Damage, Just Results with CrossGrips",
+     "link": "https://www.facebook.com/ads/library/?id=673983628562800",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2025-10-16",
+     "dias": 348,
+     "formato": "imagen",
+     "frase": "No Installation, No Damage, Just Results with CrossGrips",
+     "link": "https://www.facebook.com/ads/library/?id=3965921803682912",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "Dominadas sin taladrar.",
+    "Barra de puerta que no marca el marco.",
+    "Plan de 0 a 10 dominadas."
+   ]
+  },
+  "jump_rope": {
+   "top3": [
+    {
+     "inicio": "2026-01-13",
+     "dias": 259,
+     "formato": "vídeo",
+     "frase": "If you want to lose weight, protect your joints, and have fun doing cardio, Swissskip is the way to start",
+     "link": "https://www.facebook.com/ads/library/?id=1560968811891020",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-02-28",
+     "dias": 213,
+     "formato": "vídeo",
+     "frase": "The best time to start was yesterday",
+     "link": "https://www.facebook.com/ads/library/?id=1438661257799381",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-05-12",
+     "dias": 140,
+     "formato": "vídeo",
+     "frase": "Heavy jump ropes burn more calories because they require greater force to keep the rope moving through each rotation",
+     "link": "https://www.facebook.com/ads/library/?id=838178725504356",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "Cardio de boxeador en 10 minutos.",
+    "Comba con peso = cardio + brazos.",
+    "Kit progresión para principiantes."
+   ]
+  },
+  "suspension_trainer": {
+   "top3": [
+    {
+     "inicio": "2026-08-12",
+     "dias": 48,
+     "formato": "dinámico",
+     "frase": "{{product.brand}}",
+     "link": "https://www.facebook.com/ads/library/?id=1431104872164538",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-08-12",
+     "dias": 48,
+     "formato": "dinámico",
+     "frase": "{{product.brand}}",
+     "link": "https://www.facebook.com/ads/library/?id=1593455082515295",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-08-12",
+     "dias": 48,
+     "formato": "dinámico",
+     "frase": "{{product.brand}}",
+     "link": "https://www.facebook.com/ads/library/?id=1593049395862014",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "Un gimnasio en dos cintas colgadas de la puerta.",
+    "Entrenar en viajes.",
+    "Rutinas de peso corporal guiadas."
+   ]
+  },
+  "weighted_hula_hoop": {
+   "top3": [
+    {
+     "inicio": "2026-07-28",
+     "dias": 63,
+     "formato": "vídeo",
+     "frase": "My husband laughed at me when this thing showed up at the door",
+     "link": "https://www.facebook.com/ads/library/?id=1510008907098602",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-08-19",
+     "dias": 41,
+     "formato": "vídeo",
+     "frase": "My husband laughed at me when this thing showed up at the door",
+     "link": "https://www.facebook.com/ads/library/?id=1099715792715477",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-08-19",
+     "dias": 41,
+     "formato": "vídeo",
+     "frase": "This 30 minute hack is making inches disappear.",
+     "link": "https://www.facebook.com/ads/library/?id=1028287773416338",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "—",
+    "—",
+    "—"
+   ]
+  }
+ }
+}
