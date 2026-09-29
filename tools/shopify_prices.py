@@ -24,7 +24,7 @@ def main():
     body = {"startUrls": [{"url": u} for u in urls], "maxRequestsPerCrawl": 2 * len(urls),
             "maxResults": 2 * len(urls), "proxy": {"useApifyProxy": True}}
     r = requests.post(f"https://api.apify.com/v2/acts/{ACTOR}/run-sync-get-dataset-items",
-                      params={"token": token, "timeout": 240, "maxTotalChargeUsd": 0.1}, json=body, timeout=280)
+                      headers={"Authorization": f"Bearer {token}"}, params={"timeout": 240, "maxTotalChargeUsd": 0.1}, json=body, timeout=280)
     r.raise_for_status()
     w = csv.writer(sys.stdout)
     w.writerow(["url", "producto", "variante", "precio", "precio_tachado", "stock"])

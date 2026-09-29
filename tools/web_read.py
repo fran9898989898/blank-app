@@ -17,7 +17,7 @@ def read(url, browser=True, tope=0.05):
     body = {"query": url, "maxResults": 1, "outputFormats": ["markdown"],
             "scrapingTool": "browser-playwright" if browser else "raw-http"}
     r = requests.post("https://api.apify.com/v2/acts/apify~rag-web-browser/run-sync-get-dataset-items",
-                      params={"token": token, "timeout": 180, "maxTotalChargeUsd": tope}, json=body, timeout=200)
+                      headers={"Authorization": f"Bearer {token}"}, params={"timeout": 180, "maxTotalChargeUsd": tope}, json=body, timeout=200)
     r.raise_for_status()
     items = r.json()
     return (items[0].get("markdown") or "") if items else ""

@@ -45,7 +45,7 @@ def run_actor(token, q, max_items, tope, exacta):
     body = {"startUrls": [{"url": library_url(q, exacta)}], "resultsLimit": max_items, "activeStatus": "active"}
     r = requests.post(
         f"{API}/acts/{ACTOR}/run-sync-get-dataset-items",
-        params={"token": token, "maxTotalChargeUsd": tope, "timeout": 300},
+        headers={"Authorization": f"Bearer {token}"}, params={"maxTotalChargeUsd": tope, "timeout": 300},
         json=body,
         timeout=330,
     )
