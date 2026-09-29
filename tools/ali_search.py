@@ -10,6 +10,7 @@ import csv
 import json
 import re
 import sys
+import time
 import urllib.parse
 
 import requests
@@ -78,6 +79,16 @@ def row(q, it):
     }
 
 
+def get(url, intentos=4):
+    for i in range(intentos):
+        try:
+            return requests.get(url, headers=H, timeout=40).text
+        except requests.ConnectionError:
+            if i == intentos - 1:
+                raise
+            time.sleep(2 ** (i + 1))
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("consultas", nargs="+")
@@ -88,7 +99,7 @@ def main():
         slug = re.sub(r"\s+", "-", q.strip().lower())
         for pg in range(1, a.pages + 1):
             url = f"https://www.aliexpress.us/w/wholesale-{slug}.html?page={pg}&shipCountry=US"
-            h = requests.get(url, headers=H, timeout=40).text
+            h = get(url)
             if "punish" in h and "itemList" not in h:
                 print(f"# BLOQUEO ANTIBOT en {url}", file=sys.stderr)
                 continue
