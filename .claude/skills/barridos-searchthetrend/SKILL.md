@@ -147,6 +147,7 @@ Del visor al test: registro en `tests.md`, checklist de lanzamiento (compra de p
 - **Kill del research**: sin tipos con escala + hueco no se fuerza; se pasa al siguiente barrido del orden (§1). Tres ceros seguidos → revisar filtro y lectura antes de seguir barriendo.
 
 ## Referencias
+- `references/barrido-r.md` — Barrido R (rookie): un solo barrido que siempre entrega 10 tarjetas (escalera automática), check humano y ficha de test/kill. Scripts: `tools/meta_raw.py`, `tools/visor_r.py`; ejemplo en `barridos/2026-09-29-R/`.
 - `references/prompts.md` — barridos A–D + mini-check.
 - `references/leer-visor.md` — campo a campo del visor y lecturas reales.
 - `references/setup.md` — MCP de STT, Apify, pipeline inicial.

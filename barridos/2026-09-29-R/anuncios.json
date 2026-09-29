@@ -1,0 +1,550 @@
+{
+ "tipos": [
+  {
+   "k": "rain_catcher",
+   "tipo": "Cadena de lluvia con pájaros (rain catcher)",
+   "categoria": "Jardín",
+   "anunciantes_21d": 3,
+   "dias_mas_antiguo": 111,
+   "lider": "perpetualing.com",
+   "lider_anuncios_muestra": 13,
+   "lider_stt_activos": 27,
+   "precio_rivales": 30.99,
+   "precios_leidos": "$25.99 / $35.99",
+   "precio_ali": 6.89,
+   "ali_tachado": "33.81",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "83 sold",
+   "ali_titulo": "Creative Birds On Cups Metal Rain Chain Rain Catcher Gutter Roof Rainwater Catcher Chain Drainage Downspout To",
+   "ali_url": "https://www.aliexpress.us/item/3256811982331062.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/S04349cdf2b9a4186b10f88c9c761eac6w.jpg",
+   "landed_pct": 22,
+   "margen_bruto": 16.1,
+   "escalon": "Base",
+   "falla": "persona en pantalla sin verificar; precio Ali de nuevo usuario (no firme)"
+  },
+  {
+   "k": "sheet_holder",
+   "tipo": "Tensores de sábana (sheet holder straps)",
+   "categoria": "Hogar",
+   "anunciantes_21d": 5,
+   "dias_mas_antiguo": 123,
+   "lider": "avocadobite.com",
+   "lider_anuncios_muestra": 5,
+   "lider_stt_activos": null,
+   "precio_rivales": 19.31,
+   "precios_leidos": "$12.95 / $14.99 / $29.99",
+   "precio_ali": 4.59,
+   "ali_tachado": "9.56",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "3,000+ sold",
+   "ali_titulo": "Bed Sheet Holder Straps Adjustable Elastic Band Fitted Bed Sheet Holder Fasteners Suspenders Clip Suit",
+   "ali_url": "https://www.aliexpress.us/item/3256807605643524.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/Sb5ac44683b1e498e8c94d1d9007ac661V.jpg",
+   "landed_pct": 24,
+   "margen_bruto": 6.72,
+   "escalon": "Escalón 1 + 3",
+   "falla": "antigüedad 123 d; ticket medio $19"
+  },
+  {
+   "k": "hat_rack",
+   "tipo": "Organizador de gorras de pared",
+   "categoria": "Organización",
+   "anunciantes_21d": 3,
+   "dias_mas_antiguo": 56,
+   "lider": "mindsparkl.com",
+   "lider_anuncios_muestra": 11,
+   "lider_stt_activos": 183,
+   "precio_rivales": 17.95,
+   "precios_leidos": "$15.9 / $19.99",
+   "precio_ali": 2.33,
+   "ali_tachado": "11.49",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "700+ sold",
+   "ali_titulo": "10 Grids Baseball Cap Storage Rack Wall Mounted, No Drilling Required",
+   "ali_url": "https://www.aliexpress.us/item/3256809728547733.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/S327295ce1d3946d39c605fd1ac60736aY.jpg",
+   "landed_pct": 13,
+   "margen_bruto": 7.62,
+   "escalon": "Escalón 3",
+   "falla": "ticket $16–20 (<$20)"
+  },
+  {
+   "k": "burner_covers",
+   "tipo": "Protectores de quemadores de gas reutilizables",
+   "categoria": "Cocina",
+   "anunciantes_21d": 2,
+   "dias_mas_antiguo": 45,
+   "lider": "glowsoftnook.com",
+   "lider_anuncios_muestra": 13,
+   "lider_stt_activos": null,
+   "precio_rivales": 20.99,
+   "precios_leidos": "$20.99",
+   "precio_ali": 1.09,
+   "ali_tachado": "",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "385 sold",
+   "ali_titulo": "Gas Stove Burner Covers Mat 1/4PCS Gas Stove Protector Stovetop Burner Covers Kitchen Accessories Washable Mat",
+   "ali_url": "https://www.aliexpress.us/item/3256807521722078.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/Saa87d92512394b668bc47b5d59dacba4i.jpg",
+   "landed_pct": 5,
+   "margen_bruto": 11.9,
+   "escalon": "Escalón 2",
+   "falla": "solo 2 anunciantes ≥21 d; precio de 1 rival"
+  },
+  {
+   "k": "egg_opener",
+   "tipo": "Abridor de huevos",
+   "categoria": "Cocina",
+   "anunciantes_21d": 7,
+   "dias_mas_antiguo": 144,
+   "lider": "pineapplea.com",
+   "lider_anuncios_muestra": 5,
+   "lider_stt_activos": null,
+   "precio_rivales": 16.24,
+   "precios_leidos": "$9.98 / $14.99 / $17.99 / $21.99",
+   "precio_ali": 4.81,
+   "ali_tachado": "9.63",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "434 sold",
+   "ali_titulo": "Egg Shell Opener Stainless Steel Egg Cup Holders Hard Soft Boiled Egg Topper Cutter Cracker Kitchen Tools Gadg",
+   "ali_url": "https://www.aliexpress.us/item/3256806080339062.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/S6c9061d128ef41ee96efcef50e348e538.jpg",
+   "landed_pct": 30,
+   "margen_bruto": 3.43,
+   "escalon": "Escalón 1 + 3",
+   "falla": "antigüedad 144 d; ticket medio $16; margen <$5"
+  },
+  {
+   "k": "hose_nozzle",
+   "tipo": "Boquilla de manguera a presión giratoria",
+   "categoria": "Jardín / Coche",
+   "anunciantes_21d": 5,
+   "dias_mas_antiguo": 65,
+   "lider": "zenblux.com",
+   "lider_anuncios_muestra": 5,
+   "lider_stt_activos": null,
+   "precio_rivales": null,
+   "precios_leidos": "no verificado",
+   "precio_ali": 3.33,
+   "ali_tachado": "13.71",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "135 sold",
+   "ali_titulo": "High-Pressure Car Washing Water Gun, Equipped With Multi-Functional Garden Hose Nozzle Or Foam Canister,Adjust",
+   "ali_url": "https://www.aliexpress.us/item/3256811941398689.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/S14d0c2b9e0ae493e91647a353f87bfa2d.jpeg",
+   "landed_pct": null,
+   "margen_bruto": null,
+   "escalon": "Base",
+   "falla": "precio de rivales no verificado (tiendas no leídas)"
+  },
+  {
+   "k": "leather_repair_patch",
+   "tipo": "Parche autoadhesivo de cuero",
+   "categoria": "Hogar",
+   "anunciantes_21d": 5,
+   "dias_mas_antiguo": 894,
+   "lider": "mindsparkl.com",
+   "lider_anuncios_muestra": 1,
+   "lider_stt_activos": 153,
+   "precio_rivales": 29.99,
+   "precios_leidos": "$29.99",
+   "precio_ali": 1.09,
+   "ali_tachado": "2.44",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "10,000+ sold",
+   "ali_titulo": "10-300cm Self Adhesive Leather Repair Patch Tape Self-Adhesive House DIY Fix For Sofa Moto Car Seat Bag Home S",
+   "ali_url": "https://www.aliexpress.us/item/3256808114686064.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/Se7904b8322a242b29594f5a26d5ac4d0W.jpg",
+   "landed_pct": 4,
+   "margen_bruto": 20.9,
+   "escalon": "Fuera de filtro",
+   "falla": "tipo con 894 d (evergreen) y 9 tiendas nuevas en <21 d: enjambre entrando"
+  },
+  {
+   "k": "back_seat_extender",
+   "tipo": "Extensor de asiento trasero para perro (base rígida)",
+   "categoria": "Mascotas / Coche",
+   "anunciantes_21d": 3,
+   "dias_mas_antiguo": 27,
+   "lider": "urbanpupgears.com",
+   "lider_anuncios_muestra": 4,
+   "lider_stt_activos": null,
+   "precio_rivales": 106.66,
+   "precios_leidos": "$99.99 / $119.99 / $99.99",
+   "precio_ali": 41.05,
+   "ali_tachado": "92.1",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "357 sold",
+   "ali_titulo": "Dog Car Backseat Cover Extender with Detachable Solid Hard Bottom Car Waterproof Cushion Pet Back Seat Pad Cat",
+   "ali_url": "https://www.aliexpress.us/item/3256810620250423.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/S4785788fe2f94fd9855313c74c3129eam.jpg",
+   "landed_pct": 38,
+   "margen_bruto": 57.61,
+   "escalon": "Fuera de filtro",
+   "falla": "ticket $100–120 y genérico $41 (>$12)"
+  },
+  {
+   "k": "exfoliating_glove",
+   "tipo": "Guante exfoliante de ducha",
+   "categoria": "Baño / Belleza",
+   "anunciantes_21d": 5,
+   "dias_mas_antiguo": 228,
+   "lider": "cheekyglo.com",
+   "lider_anuncios_muestra": 8,
+   "lider_stt_activos": null,
+   "precio_rivales": 16.5,
+   "precios_leidos": "$9.99 / $23.0",
+   "precio_ali": 1.33,
+   "ali_tachado": "3.96",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "5,000+ sold",
+   "ali_titulo": "2Pcs/Pair Bath for Peeling Exfoliating Mitt Glove with Shower Scrub Gloves Resistance Body Massage Sponge Wash",
+   "ali_url": "https://www.aliexpress.us/item/3256806810306410.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/Sbb33167ff2c34cdea3786e1abb5301993.jpg",
+   "landed_pct": 8,
+   "margen_bruto": 7.17,
+   "escalon": "Fuera de filtro",
+   "falla": "tipo con 228 d; rivales con claims de piel (KP)"
+  },
+  {
+   "k": "ice_cube_water_bottle",
+   "tipo": "Botella que hace hielo (ice cube bottle)",
+   "categoria": "Cocina / Viaje",
+   "anunciantes_21d": 1,
+   "dias_mas_antiguo": 89,
+   "lider": "shopmoderny.com",
+   "lider_anuncios_muestra": 24,
+   "lider_stt_activos": 73,
+   "precio_rivales": 24.99,
+   "precios_leidos": "$24.99",
+   "precio_ali": 1.48,
+   "ali_tachado": "13.22",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "51 sold",
+   "ali_titulo": "500ML Large Capacity Ice Cube Maker Water Bottle Silicone Tray with Straw for Juice Beverage Cooling Ice Makin",
+   "ali_url": "https://www.aliexpress.us/item/3256811988063359.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/S9a675e1f64c34d20b1670238521b3da4Y.jpg",
+   "landed_pct": 6,
+   "margen_bruto": 15.51,
+   "escalon": "Fuera de filtro",
+   "falla": "1 solo anunciante y su anuncio dice que cierra la colección (escasez)"
+  }
+ ],
+ "anuncios": {
+  "rain_catcher": {
+   "top3": [
+    {
+     "inicio": "2026-08-28",
+     "dias": 32,
+     "formato": "vídeo",
+     "frase": "\"Most people watch rainwater  This turns it into something beautiful ✨ As rain fills each tier, water gently cascades from bowl to bowl, creating a peaceful fea",
+     "link": "https://www.facebook.com/ads/library/?id=1608717437521360",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-09-05",
+     "dias": 24,
+     "formato": "vídeo",
+     "frase": "\"Most people watch rainwater  This turns it into something beautiful ✨ As rain fills each tier, water gently cascades from bowl to bowl, creating a peaceful fea",
+     "link": "https://www.facebook.com/ads/library/?id=1500629425203487",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-09-14",
+     "dias": 15,
+     "formato": "vídeo",
+     "frase": "\"Most people watch rainwater  This turns it into something beautiful ✨ As rain fills each tier, water gently cascades from bowl to bowl, creating a peaceful fea",
+     "link": "https://www.facebook.com/ads/library/?id=1698359158323007",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "Jardín vacío → jardín con pájaros: la lluvia llena los cuencos y los pájaros vuelven (a quien tiene jardín y comedero).",
+    "Sustituto bonito del bajante feo: el agua baja cantando por la cadena en vez de por un tubo (a quien acaba de reformar la fachada).",
+    "Regalo para madre/abuela jardinera en otoño: decoración que \"trabaja\" cuando llueve."
+   ]
+  },
+  "sheet_holder": {
+   "top3": [
+    {
+     "inicio": "2026-08-09",
+     "dias": 51,
+     "formato": "vídeo",
+     "frase": "AvocadoBite 4-pack heavy-duty sheet holder straps—clip-on grip, elastic fit, no slip! Keeps sheets tight and corners secure",
+     "link": "https://www.facebook.com/ads/library/?id=2342716713202629",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-08-09",
+     "dias": 51,
+     "formato": "vídeo",
+     "frase": "AvocadoBite 4-pack heavy-duty sheet holder straps—clip-on grip, elastic fit, no slip! Keeps sheets tight and corners secure",
+     "link": "https://www.facebook.com/ads/library/?id=2867270863605888",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-08-13",
+     "dias": 47,
+     "formato": "vídeo",
+     "frase": "AvocadoBite 4-pack heavy-duty sheet holder straps—clip-on grip, elastic fit, no slip! Keeps sheets tight and corners secure",
+     "link": "https://www.facebook.com/ads/library/?id=1801944991938388",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "La bajera que se sale a las 3 de la mañana: un clip y la cama queda como de hotel (a quien tiene colchón grueso o topper).",
+    "Cama hecha en 30 segundos: demo de antes/después con la sábana tirante (a padres con críticas de cama de niños).",
+    "Pack 4+4 \"uno por esquina de cada cama\": vender el pack que nadie enseña."
+   ]
+  },
+  "hat_rack": {
+   "top3": [
+    {
+     "inicio": "2026-08-11",
+     "dias": 49,
+     "formato": "vídeo",
+     "frase": "🧢This wall-mounted hat rack makes storing hats so much easier! ✨All your hats are neatly displayed and easily accessible",
+     "link": "https://www.facebook.com/ads/library/?id=2602133126900386",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-08-11",
+     "dias": 49,
+     "formato": "vídeo",
+     "frase": "🧢This wall-mounted hat rack makes storing hats so much easier! ✨All your hats are neatly displayed and easily accessible",
+     "link": "https://www.facebook.com/ads/library/?id=3291595827705152",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-08-12",
+     "dias": 48,
+     "formato": "vídeo",
+     "frase": "🧢This wall-mounted hat rack makes storing hats so much easier! ✨All your hats are neatly displayed and easily accessible",
+     "link": "https://www.facebook.com/ads/library/?id=1416313660402076",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "Las gorras aplastadas en un montón: 10 gorras colgadas, visibles y sin deformarse (al coleccionista de gorras).",
+    "Sin taladro: se pega en la puerta del armario en 10 segundos (a quien vive de alquiler).",
+    "Regalo para él que \"tiene de todo\" pero tiene 30 gorras tiradas."
+   ]
+  },
+  "burner_covers": {
+   "top3": [
+    {
+     "inicio": "2026-08-31",
+     "dias": 29,
+     "formato": "vídeo",
+     "frase": "4pcs Reusable Non-Stick Gas Stove Burner Covers, Easy Clean, Washable, Heat-Resistant, Durable, Stovetop Protection, Kitchen Cleaner",
+     "link": "https://www.facebook.com/ads/library/?id=1417273490282831",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-08-31",
+     "dias": 29,
+     "formato": "vídeo",
+     "frase": "4pcs Reusable Non-Stick Gas Stove Burner Covers, Easy Clean, Washable, Heat-Resistant, Durable, Stovetop Protection, Kitchen Cleaner",
+     "link": "https://www.facebook.com/ads/library/?id=1511179977362580",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-09-01",
+     "dias": 28,
+     "formato": "vídeo",
+     "frase": "4pcs Reusable Non-Stick Gas Stove Burner Covers, Easy Clean, Washable, Heat-Resistant, Durable, Stovetop Protection, Kitchen Cleaner",
+     "link": "https://www.facebook.com/ads/library/?id=1236495741952663",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "Deja de frotar la placa cada día: se quita, se lava y la placa queda como nueva (a quien cocina a diario).",
+    "Antes de devolver el piso de alquiler: protege la fianza (a inquilinos).",
+    "Demo de grasa quemada saliendo en el fregadero en 5 s."
+   ]
+  },
+  "egg_opener": {
+   "top3": [
+    {
+     "inicio": "2026-08-05",
+     "dias": 55,
+     "formato": "vídeo",
+     "frase": "🥚 Tired of messy egg cracking? Egg Shell Opener – Clean, quick & universal – Perfect for raw or hard-boiled eggs – No yolk damage, no dirty hands! 🍳✨  ✅ Simple ",
+     "link": "https://www.facebook.com/ads/library/?id=1376936634635023",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-08-05",
+     "dias": 55,
+     "formato": "vídeo",
+     "frase": "🥚 Tired of messy egg cracking? Egg Shell Opener – Clean, quick & universal – Perfect for raw or hard-boiled eggs – No yolk damage, no dirty hands! 🍳✨  ✅ Simple ",
+     "link": "https://www.facebook.com/ads/library/?id=1714365259818721",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-08-19",
+     "dias": 41,
+     "formato": "vídeo",
+     "frase": "🥚 Tired of messy egg cracking? Egg Shell Opener – Clean, quick & universal – Perfect for raw or hard-boiled eggs – No yolk damage, no dirty hands! 🍳✨  ✅ Simple ",
+     "link": "https://www.facebook.com/ads/library/?id=1456272666312730",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "Cero cáscaras en la masa: un clic y el huevo cae limpio (a quien hornea).",
+    "Desayuno con niños: que casquen los huevos ellos sin desastre.",
+    "Mano con artritis: abrir huevos sin fuerza (sin claim de salud: solo \"sin esfuerzo\")."
+   ]
+  },
+  "hose_nozzle": {
+   "top3": [
+    {
+     "inicio": "2026-08-29",
+     "dias": 31,
+     "formato": "vídeo",
+     "frase": "💪 Your old garden hose just got a serious upgrade",
+     "link": "https://www.facebook.com/ads/library/?id=4558956664361807",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-08-30",
+     "dias": 30,
+     "formato": "vídeo",
+     "frase": "💪 Your old garden hose just got a serious upgrade",
+     "link": "https://www.facebook.com/ads/library/?id=2108359113103905",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-09-13",
+     "dias": 16,
+     "formato": "vídeo",
+     "frase": "💪🏠 Full-body workouts at home — multifunction pedal resistance band that tones arms, legs & core! 🌀✨🏃‍♀️ Adjustable resistance, massive results — pedal band for",
+     "link": "https://www.facebook.com/ads/library/?id=2100064910609478",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "Hidrolimpiadora sin hidrolimpiadora: la manguera de siempre quita barro del coche (a quien lava el coche en casa).",
+    "Patio verde de moho → piedra limpia en una pasada (antes/después en 5 s).",
+    "La boquilla de plástico que se rompe cada verano vs. metal que dura."
+   ]
+  },
+  "leather_repair_patch": {
+   "top3": [
+    {
+     "inicio": "2026-08-25",
+     "dias": 35,
+     "formato": "vídeo",
+     "frase": "🛋️ Don’t replace it — repair it! Tired of ugly scratches, cracks, and tears ruining your leather sofa, car seats, or favorite bags? Our Self-Adhesive Leather Re",
+     "link": "https://www.facebook.com/ads/library/?id=1239388791647432",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "No tires el sofá: cortar, pegar, presionar y el roto desaparece.",
+    "Asiento del coche agrietado por $30 en vez de tapicero.",
+    "Arañazos del gato en el sofá de piel."
+   ]
+  },
+  "back_seat_extender": {
+   "top3": [
+    {
+     "inicio": "2026-09-02",
+     "dias": 27,
+     "formato": "vídeo",
+     "frase": "Give your dog more than just a seat cover – give them the full back-seat setup",
+     "link": "https://www.facebook.com/ads/library/?id=1700136691088592",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-09-02",
+     "dias": 27,
+     "formato": "vídeo",
+     "frase": "Give your dog more than just a seat cover – give them the full back-seat setup",
+     "link": "https://www.facebook.com/ads/library/?id=1706957821430607",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-09-03",
+     "dias": 26,
+     "formato": "imagen",
+     "frase": "Give your dog more than just a seat cover – give them the full back-seat setup",
+     "link": "https://www.facebook.com/ads/library/?id=944935251300539",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "El perro grande que se cae al hueco del suelo en cada frenazo: base rígida = plataforma plana.",
+    "Pelo y barro fuera del asiento en viajes largos.",
+    "Kit completo \"back-seat setup\" (lo que venden los líderes)."
+   ]
+  },
+  "exfoliating_glove": {
+   "top3": [
+    {
+     "inicio": "2026-05-25",
+     "dias": 127,
+     "formato": "vídeo",
+     "frase": "Tired of rough, dry skin and stubborn KP? The CheekyGlo Glove is here to help! 🧤 With zero chemicals and no added lotions, it naturally exfoliates to leave your",
+     "link": "https://www.facebook.com/ads/library/?id=1910243522971957",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-06-30",
+     "dias": 91,
+     "formato": "vídeo",
+     "frase": "Tired of rough, dry skin and stubborn KP? The CheekyGlo Glove is here to help! 🧤 With zero chemicals and no added lotions, it naturally exfoliates to leave your",
+     "link": "https://www.facebook.com/ads/library/?id=1275702284636499",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-06-30",
+     "dias": 91,
+     "formato": "vídeo",
+     "frase": "Tired of rough, dry skin and stubborn KP? The CheekyGlo Glove is here to help! 🧤 With zero chemicals and no added lotions, it naturally exfoliates to leave your",
+     "link": "https://www.facebook.com/ads/library/?id=945515535213155",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "Piel suave tras una ducha sin exfoliantes químicos (sin prometer curar nada).",
+    "Antes del autobronceador: base uniforme.",
+    "Adiós a la esponja que cría bacterias: se lava y se seca."
+   ]
+  },
+  "ice_cube_water_bottle": {
+   "top3": [
+    {
+     "inicio": "2026-07-02",
+     "dias": 89,
+     "formato": "vídeo",
+     "frase": "Sadly, we are closing our ChillSip™ ice cube water bottle collection",
+     "link": "https://www.facebook.com/ads/library/?id=3204492829742529",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-07-02",
+     "dias": 89,
+     "formato": "vídeo",
+     "frase": "Sadly, we are closing our ChillSip™ ice cube water bottle collection",
+     "link": "https://www.facebook.com/ads/library/?id=2292548861279380",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-07-02",
+     "dias": 89,
+     "formato": "vídeo",
+     "frase": "Sadly, we are closing our ChillSip™ ice cube water bottle collection",
+     "link": "https://www.facebook.com/ads/library/?id=1579588333880585",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "Hielo que cabe en la botella: cubos alargados listos al salir.",
+    "Agua fría todo el día en el gimnasio.",
+    "Congela, presiona, bebe: demo de 3 pasos."
+   ]
+  }
+ }
+}

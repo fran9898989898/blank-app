@@ -2,7 +2,7 @@
 
 Uso:  python tools/ali_search.py "3d sleep mask" "weighted eye mask" --pages 2 > out.csv
 Campos: consulta, id, título, precio de venta, precio tachado, descuento, vendidos, estrellas,
-envío (etiquetas de la tarjeta), sale desde (shipFrom), ¿precio de nuevo usuario?, url.
+envío (etiquetas de la tarjeta), sale desde (shipFrom), ¿precio de nuevo usuario?, url, imagen.
 No inventa nada: si la tarjeta no trae un dato, la celda sale vacía.
 """
 import argparse
@@ -76,6 +76,7 @@ def row(q, it):
         "sale_desde": ship_from,
         "precio_nuevo_usuario": "si" if "new_user" in npi else "",
         "url": f"https://www.aliexpress.us/item/{pid}.html" if pid else "",
+        "imagen": ("https:" + img if (img := (it.get("image") or {}).get("imgUrl") or "").startswith("//") else img),
     }
 
 
