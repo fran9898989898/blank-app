@@ -9,19 +9,17 @@ Método de sesiones reales (24–28 sep 2026). Siete barridos, dos filtros (uno 
 
 Expectativa realista: en la sesión de origen salieron 2 productos testables de ~40 tipos mirados en 6 barridos; dos barridos enteros dieron 0 de 10. **Cero es un resultado normal.** Más barridos no fabrican ganadores; sirven para cambiar la pregunta cuando la anterior no tenía respuesta.
 
-## 0. Qué necesitas antes (una vez)
+## 0. Dónde se trabaja (una sola copia)
 
-1. **Claude Code** instalado y una carpeta de trabajo, p. ej. `C:\Proyectos\product-radar\`.
-2. **SearchTheTrend (STT)** conectado como MCP en scope user. Ver `references/setup.md`. Comprobación: dentro de `claude`, escribe `/mcp` → `searchthetrend · Connected`.
-3. **Apify** con un actor de Meta Ads Library y la clave en `.env`. Ver `references/setup.md`. Fija un **límite mensual en Apify → Settings → Usage**.
-4. Si la carpeta está vacía, el primer prompt de `references/setup.md` construye el pipeline (scripts de fase A/B/C + generador del visor). Después, los barridos lo reutilizan.
+**Una sola fuente de verdad: la rama `main` del repo `blank-app` en GitHub.** Skill, scripts (`tools/`), barridos y `barridos/radar.html` viven ahí. Cualquier copia que no esté al día con `main` da resultados viejos.
 
-Para entrar (PowerShell):
-```
-cd C:\Proyectos\product-radar
-claude
-```
-Espera al prompt de Claude Code y **entonces** pega el barrido entero. Atajo: `notepad $PROFILE` → añade `function radar { Set-Location C:\Proyectos\product-radar; claude }`.
+Dos formas de trabajar, las dos valen (también desde el móvil la primera):
+- **Nube (web o app de Claude, también móvil)**: sesión de Claude Code sobre `blank-app`, rama `main`. El entorno ya tiene STT conectado y `APIFY_TOKEN`. Al terminar, Claude sube el barrido y abre un PR a `main`; se fusiona desde GitHub.
+- **PC (Windows)**: en la carpeta donde esté clonado el repo (la ruta no importa), `git checkout main` y `git pull` **antes de cada barrido**; luego `claude`. Atajo opcional: `notepad $PROFILE` → `function radar { Set-Location <tu carpeta>; git pull; claude }`.
+
+Antes de empezar, Claude comprueba que está en `main` y al día (`git status`, `git pull`). Si está en otra rama o atrasado, lo dice y lo arregla antes de barrer.
+
+Requisitos (solo la primera vez en un equipo nuevo; ver `references/setup.md`): STT conectado como MCP (`/mcp` → `searchthetrend · Connected`) y `APIFY_TOKEN` en el entorno con límite mensual en Apify → Settings → Usage. El pipeline ya existe en `tools/`: no hay que construirlo.
 
 ## 1. El orden de ejecución (qué barrido toca)
 
