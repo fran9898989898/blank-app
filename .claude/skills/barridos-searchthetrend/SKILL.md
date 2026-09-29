@@ -126,6 +126,8 @@ Y un **mini-check** de $0,30 para un tipo suelto (en `references/prompts.md`).
 
 Salida: **2–3 tipos**. Con ellos, ficha de decisión (breakeven por pack, ángulo, mensaje al agente) antes de montar nada. Antes de montar: precio del genérico en Amazon Prime a mano; un competidor "vivo" no valida, tres escalando o una marca DTC grande sí.
 
+Del visor al test: registro en `tests.md`, checklist de lanzamiento (compra de prueba US, eventos del pixel, permalinks), 2–3 tests en paralelo y kill criteria escritos antes de gastar → `references/test-y-kill.md`. Si hay un producto VIVO sin ronda 2, avísalo antes de barrer.
+
 ## 6. Anatomía del prompt (para modificarlo)
 
 1. **Cabecera**: nombre, fecha, tope Apify, carpeta `barridos/AAAA-MM-DD-<letra>/`, "reutiliza los scripts".
@@ -148,3 +150,4 @@ Salida: **2–3 tipos**. Con ellos, ficha de decisión (breakeven por pack, áng
 - `references/prompts.md` — barridos A–D + mini-check.
 - `references/leer-visor.md` — campo a campo del visor y lecturas reales.
 - `references/setup.md` — MCP de STT, Apify, pipeline inicial.
+- `references/test-y-kill.md` — `tests.md`, checklist de lanzamiento, kill criteria y ronda 2.
