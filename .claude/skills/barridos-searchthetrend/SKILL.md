@@ -137,6 +137,7 @@ Del visor al test: registro en `tests.md`, checklist de lanzamiento (compra de p
 5. **FASE B — Genérico**: AliExpress + gate. Apify solo si STT deja dudas.
 6. **FASE C — Ficha**: tipo, anunciantes, líder, PVP, genérico, gate, hueco, 3 anuncios más antiguos con link. Añade columnas según barrido.
 7. **ENTREGA**: `visor.html` un fichero, filtros, `start visor.html`, gasto real de Apify, **"Sin recomendación: elijo yo mirando los anuncios"**.
+8. **RADAR (siempre, sin que el usuario lo pida)**: al terminar, añade cada tipo evaluado a `barridos/radar.html` (el acumulado de todos los barridos): una pestaña nueva en `BARRIDOS` y una entrada por tipo en `T` con el mismo formato que las existentes y estado `vivo` (pasa todo el filtro) · `duda` (pasa con dudas o datos sin verificar) · `kill` (falla escala, gate, ancla o ticket) · `fuera` (regla de producto: claim, electrónica, tallas, POD, mercado). Actualiza «Siguiente paso» y el gasto de Apify del ciclo. Solo datos leídos en el barrido; lo no verificado se escribe como «no verificado».
 
 ## 7. Reglas operativas
 
@@ -144,6 +145,7 @@ Del visor al test: registro en `tests.md`, checklist de lanzamiento (compra de p
 - Bash > 7 min → `ctrl+b` a segundo plano; no `/clear` hasta tener el resumen.
 - Autopsia con datos: pide el resumen completo y relee los números; el veredicto de Claude no es un motivo.
 - Cada descartado → EXCLUIDOS del siguiente.
+- **Entrega final de cada barrido**: el visor del barrido + `barridos/radar.html` actualizado + en el chat un resumen corto: vivos, dudosos, KILL y fuera (con el total acumulado), qué barrido toca después según §1 y el gasto real de Apify. EXCLUIDOS del siguiente barrido = todo lo que ya está en el radar.
 - **Kill del research**: sin tipos con escala + hueco no se fuerza; se pasa al siguiente barrido del orden (§1). Tres ceros seguidos → revisar filtro y lectura antes de seguir barriendo.
 
 ## Referencias
