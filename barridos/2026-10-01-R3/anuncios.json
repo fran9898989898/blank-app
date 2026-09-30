@@ -1,0 +1,342 @@
+{
+ "tipos": [
+  {
+   "k": "frying_pot",
+   "tipo": "Olla de freír de acero con escurridor (tipo japonesa)",
+   "categoria": "Cocina",
+   "anunciantes_21d": 8,
+   "dias_mas_antiguo": 53,
+   "lider": "m.sakerplus.com",
+   "lider_anuncios_muestra": 3,
+   "lider_stt_activos": null,
+   "precio_rivales": 33.32,
+   "precios_leidos": "$27.99 / $34.99 / $36.99",
+   "precio_ali": 6.33,
+   "ali_tachado": "20.88",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "500+ sold",
+   "ali_titulo": "Stainless Steel Deep Fryer with Basket Multi Purpose Home Commercial Use for Frying Tempura Chicken Anti Slip ",
+   "ali_url": "https://www.aliexpress.us/item/3256809857842506.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/S273f95a9515e412a9c0477444a9936a0q.jpg",
+   "landed_pct": 19,
+   "margen_bruto": 18.99,
+   "escalon": "Base",
+   "falla": "precio Ali de nuevo usuario ($6,33; tachado $20,88): si el real pasa de $8,30 deja de ser verde. Ellis (marca) la vende a $59,99"
+  },
+  {
+   "k": "stainless_steel_cutting_board",
+   "tipo": "Tabla de cortar de acero inoxidable",
+   "categoria": "Cocina",
+   "anunciantes_21d": 8,
+   "dias_mas_antiguo": 165,
+   "lider": "luxelane.life",
+   "lider_anuncios_muestra": 4,
+   "lider_stt_activos": null,
+   "precio_rivales": 32.47,
+   "precios_leidos": "$29.99 / $34.95",
+   "precio_ali": 5.42,
+   "ali_tachado": "18",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "10,000+ sold",
+   "ali_titulo": "316 Stainless Steel Panel and Chopping Board Kitchen Household Thickened Double Sided Cutting Board Block Knea",
+   "ali_url": "https://www.aliexpress.us/item/3256806392706375.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/Sfdac8ed966ae4d33ae4b0ac3129a243fJ.png",
+   "landed_pct": 17,
+   "margen_bruto": 19.05,
+   "escalon": "Escalón 1",
+   "falla": "anuncio más antiguo 165 d (>120); mindsparkl lanzó 15+ anuncios hace 12 días (enjambre llegando); persona sin ver (el texto describe manos cortando)"
+  },
+  {
+   "k": "bark_deterrent",
+   "tipo": "Disuasor ultrasónico de ladridos",
+   "categoria": "Mascotas",
+   "anunciantes_21d": 2,
+   "dias_mas_antiguo": 150,
+   "lider": "try.furrybasics.com",
+   "lider_anuncios_muestra": 10,
+   "lider_stt_activos": null,
+   "precio_rivales": 37.49,
+   "precios_leidos": "$34.99 / $39.99",
+   "precio_ali": 6.39,
+   "ali_tachado": "21.39",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "10,000+ sold",
+   "ali_titulo": "Pet Training Control Device Rechargeable Ultrasonic Dog Barking Deterrent Trainer To Stop Barking",
+   "ali_url": "https://www.aliexpress.us/item/3256809902812909.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/Sf963e6917a1849e18bbd4b0fd15d1a6dj.jpg",
+   "landed_pct": 17,
+   "margen_bruto": 23.1,
+   "escalon": "Escalón 1 + 2",
+   "falla": "solo 2 anunciantes con ≥21 d (FurryBasics 137 d, pawtique 150 d); 6 tiendas nuevas en <14 d"
+  },
+  {
+   "k": "christmas_projector",
+   "tipo": "Proyector navideño HD (escenas en la pared)",
+   "categoria": "Hogar / Q4",
+   "anunciantes_21d": 5,
+   "dias_mas_antiguo": 49,
+   "lider": "gochicgolden.com",
+   "lider_anuncios_muestra": 8,
+   "lider_stt_activos": null,
+   "precio_rivales": 25.32,
+   "precios_leidos": "$25.99 / $24.99 / $24.99",
+   "precio_ali": 7.6,
+   "ali_tachado": "15.51",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "1,000+ sold",
+   "ali_titulo": "Christmas Projector Light 16Pattern Projection Fairy Lamp Outdoor/Indoor Holiday Projection Night Lamp for Hom",
+   "ali_url": "https://www.aliexpress.us/item/3256809548574579.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/S7869177e4ada421594bdd4adb9155844U.jpg",
+   "landed_pct": 30,
+   "margen_bruto": 9.72,
+   "escalon": "Base",
+   "falla": "landed 30 % y margen $9,7 a $25: solo sale si se vende a $35+"
+  },
+  {
+   "k": "mini_steam_iron",
+   "tipo": "Mini plancha de vapor portátil",
+   "categoria": "Hogar",
+   "anunciantes_21d": 3,
+   "dias_mas_antiguo": 106,
+   "lider": "loribeaut.com",
+   "lider_anuncios_muestra": 10,
+   "lider_stt_activos": null,
+   "precio_rivales": 27.99,
+   "precios_leidos": "$29.99 / $19.99 / $33.99",
+   "precio_ali": 15.51,
+   "ali_tachado": "31.02",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "1,000+ sold",
+   "ali_titulo": "NEW Handheld Portable Vertical Steam Iron Laundry Appliance Mini Clothes Steamer Travel Garment Steamer Steam ",
+   "ali_url": "https://www.aliexpress.us/item/3256812845106910.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/S88b2887f5aa84f8984aee8544b6f59a4i.png",
+   "landed_pct": 55,
+   "margen_bruto": 4.48,
+   "escalon": "Base",
+   "falla": "genérico $15,51 (>$12); aparato de 110 V: enchufe y certificación a revisar"
+  },
+  {
+   "k": "deshedding_tool",
+   "tipo": "Cepillo deslanador para perro y gato",
+   "categoria": "Mascotas",
+   "anunciantes_21d": 6,
+   "dias_mas_antiguo": 532,
+   "lider": "rhykin.com",
+   "lider_anuncios_muestra": 3,
+   "lider_stt_activos": null,
+   "precio_rivales": 23.49,
+   "precios_leidos": "$29.0 / $22.99 / $23.99 / $17.99",
+   "precio_ali": 5.33,
+   "ali_tachado": "18.3",
+   "ali_nuevo_usuario": "si",
+   "ali_vendidos": "2,000+ sold",
+   "ali_titulo": "3‑In‑1 Pet Deshedding Brush, Dog Cat Fur Remover Knot Cutter Comb, Multifunctional Puppy Grooming Shedding Bru",
+   "ali_url": "https://www.aliexpress.us/item/3256808858899774.html",
+   "ali_foto": "https://ae-pic-a1.aliexpress-media.com/kf/S99f641d402e84bba9ad11260f507af26z.jpg",
+   "landed_pct": 23,
+   "margen_bruto": 10.16,
+   "escalon": "Fuera de filtro",
+   "falla": "tipo con 532 d (evergreen) y marca de referencia FURminator en retail; margen $10"
+  }
+ ],
+ "anuncios": {
+  "frying_pot": {
+   "top3": [
+    {
+     "inicio": "2026-08-14",
+     "dias": 46,
+     "formato": "vídeo",
+     "frase": "Why keep separate cookware for frying, boiling and everyday meal prep when one practical pot can handle more?  Made from 304 stainless steel, it offers a durabl",
+     "link": "https://www.facebook.com/ads/library/?id=1034801636110232",
+     "persona": "sí"
+    },
+    {
+     "inicio": "2026-08-20",
+     "dias": 40,
+     "formato": "vídeo",
+     "frase": "Why keep separate cookware for frying, boiling and everyday meal prep when one practical pot can handle more?  Made from 304 stainless steel, it offers a durabl",
+     "link": "https://www.facebook.com/ads/library/?id=4520793058158221",
+     "persona": "sí"
+    },
+    {
+     "inicio": "2026-09-11",
+     "dias": 18,
+     "formato": "vídeo",
+     "frase": "🍟😩 Love crispy food but hate oil splashing everywhere? The Multifunctional 304 Stainless Steel Fryer features a deeper pot design that helps keep hot oil contai",
+     "link": "https://www.facebook.com/ads/library/?id=1393417926263605",
+     "persona": "sí"
+    }
+   ],
+   "angulos": [
+    "Fritos crujientes sin llenar la cocina de aceite: freír, levantar, escurrir y verter en una sola olla (a quien fríe en casa y odia el desastre).",
+    "La freidora de aire no fríe de verdad: esto sí, con 1/3 del aceite de una freidora.",
+    "Termómetro + rejilla: el aceite a la temperatura justa sin adivinar (demo de alitas en 5 s)."
+   ]
+  },
+  "stainless_steel_cutting_board": {
+   "top3": [
+    {
+     "inicio": "2026-06-06",
+     "dias": 115,
+     "formato": "vídeo",
+     "frase": "Most people don’t realize this… Wooden cutting boards absorb bacteria from raw meat 🦠 Scratches + moisture = hidden germs",
+     "link": "https://www.facebook.com/ads/library/?id=964882216424063",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-06-16",
+     "dias": 105,
+     "formato": "vídeo",
+     "frase": "Most people don’t realize this… Wooden cutting boards absorb bacteria from raw meat 🦠 Scratches + moisture = hidden germs",
+     "link": "https://www.facebook.com/ads/library/?id=1361641326070857",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-06-30",
+     "dias": 91,
+     "formato": "vídeo",
+     "frase": "Most people don’t realize this… Wooden cutting boards absorb bacteria from raw meat 🦠 Scratches + moisture = hidden germs",
+     "link": "https://www.facebook.com/ads/library/?id=1369105635101900",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "La tabla de madera guarda bacterias y olores: el acero se enjuaga en 10 segundos (demo con pollo crudo).",
+    "No se raya, no se deforma, no huele: la última tabla que compras.",
+    "Doble cara: acero para carne, la otra cara para verdura o masa."
+   ]
+  },
+  "bark_deterrent": {
+   "top3": [
+    {
+     "inicio": "2026-05-15",
+     "dias": 137,
+     "formato": "vídeo",
+     "frase": "The barking’s gonna stop in three, two, one",
+     "link": "https://www.facebook.com/ads/library/?id=1979133516307727",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-05-15",
+     "dias": 137,
+     "formato": "vídeo",
+     "frase": "The barking’s gonna stop in three, two, one",
+     "link": "https://www.facebook.com/ads/library/?id=1500129284884197",
+     "persona": "verificar"
+    },
+    {
+     "inicio": "2026-05-16",
+     "dias": 136,
+     "formato": "vídeo",
+     "frase": "The barking’s gonna stop in three, two, one",
+     "link": "https://www.facebook.com/ads/library/?id=1551631173044761",
+     "persona": "verificar"
+    }
+   ],
+   "angulos": [
+    "El perro del vecino (o el tuyo) deja de ladrar sin collar ni descargas.",
+    "Pulsa y silencio: cartero, timbre, tele.",
+    "Paz con los vecinos antes de la queja."
+   ]
+  },
+  "christmas_projector": {
+   "top3": [
+    {
+     "inicio": "2026-09-03",
+     "dias": 26,
+     "formato": "vídeo",
+     "frase": "Create an instant Christmas atmosphere with an HD scene projector featuring 6 or 10 festive projection discs",
+     "link": "https://www.facebook.com/ads/library/?id=1066861225938898",
+     "persona": "sí"
+    },
+    {
+     "inicio": "2026-09-04",
+     "dias": 25,
+     "formato": "vídeo",
+     "frase": "🎄 Your Christmas decorations are ready—but your room still doesn’t feel magical enough",
+     "link": "https://www.facebook.com/ads/library/?id=1245691391029750",
+     "persona": "sí"
+    },
+    {
+     "inicio": "2026-09-04",
+     "dias": 25,
+     "formato": "vídeo",
+     "frase": "🎄 Your Christmas decorations are ready—but your room still doesn’t feel magical enough",
+     "link": "https://www.facebook.com/ads/library/?id=1622508019450537",
+     "persona": "sí"
+    }
+   ],
+   "angulos": [
+    "Navidad en la pared en 10 segundos sin colgar luces.",
+    "Noche de peli navideña con los niños.",
+    "Regalo de $30 para Q4."
+   ]
+  },
+  "mini_steam_iron": {
+   "top3": [
+    {
+     "inicio": "2026-08-05",
+     "dias": 55,
+     "formato": "vídeo",
+     "frase": "👕 Wrinkled Clothes? Fix It in Seconds Meet the Portable Mini Steam Iron — your on-the-go solution",
+     "link": "https://www.facebook.com/ads/library/?id=1730195571645337",
+     "persona": "sí"
+    },
+    {
+     "inicio": "2026-08-07",
+     "dias": 53,
+     "formato": "vídeo",
+     "frase": "👕 Wrinkled Clothes? Fix It in Seconds Meet the Portable Mini Steam Iron — your on-the-go solution",
+     "link": "https://www.facebook.com/ads/library/?id=2498924503938063",
+     "persona": "sí"
+    },
+    {
+     "inicio": "2026-08-07",
+     "dias": 53,
+     "formato": "vídeo",
+     "frase": "👕 Wrinkled Clothes? Fix It in Seconds Meet the Portable Mini Steam Iron — your on-the-go solution",
+     "link": "https://www.facebook.com/ads/library/?id=28361252480148491",
+     "persona": "sí"
+    }
+   ],
+   "angulos": [
+    "Camisa arrugada lista en 60 s sin tabla.",
+    "Para viajes: cabe en la maleta.",
+    "Rota 90°: plancha en percha."
+   ]
+  },
+  "deshedding_tool": {
+   "top3": [
+    {
+     "inicio": "2026-07-29",
+     "dias": 62,
+     "formato": "imagen",
+     "frase": "I brushed a second dog out of my first dog",
+     "link": "https://www.facebook.com/ads/library/?id=1022788313683255",
+     "persona": "sí"
+    },
+    {
+     "inicio": "2026-07-29",
+     "dias": 62,
+     "formato": "imagen",
+     "frase": "Do not shave your dog this summer",
+     "link": "https://www.facebook.com/ads/library/?id=2655663091554061",
+     "persona": "sí"
+    },
+    {
+     "inicio": "2026-07-29",
+     "dias": 62,
+     "formato": "imagen",
+     "frase": "My son's allergist asked one question that kept our dog in this family",
+     "link": "https://www.facebook.com/ads/library/?id=1803510467479036",
+     "persona": "sí"
+    }
+   ],
+   "angulos": [
+    "—",
+    "—",
+    "—"
+   ]
+  }
+ }
+}
