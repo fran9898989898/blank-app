@@ -189,3 +189,25 @@ Un producto muerto entra en EXCLUIDOS del siguiente barrido. Anota en una línea
 3. Elige UNO con 3-4 casillas del check humano.
 4. $150, 3 anuncios, 4 días, kill escrito antes de empezar.
 5. Muerto → excluidos → siguiente barrido. Testear es el objetivo; acertar viene después.
+
+---
+
+## v2 (1-oct-2026) — Economía primero. Sustituye el filtro de la §1.1 donde choque
+
+Lecciones de 4 barridos R (29-sep a 1-oct) que dieron 0 verdes reales:
+- El precio de AliExpress que devuelve la búsqueda es de **nuevo usuario**: la olla salía a $6,33 y el real era $10,02. Con ese error se pintó un verde falso.
+- «Días activo» no valida: hay anuncios de 32 días con 195 personas de alcance y $1,80 de gasto (tiendas-catálogo que dejan anuncios encendidos sin presupuesto).
+- Ticket $20–45 + genérico ≤25 % + $8 de envío + margen ≥$15 casi no existe: con genérico real de $8–12 hace falta vender a **$35 o más**.
+- Casi todo lo que STT enseña a $13–20 es la red mindsparkl/bisnftwrem/perpetualing/thegiftnorth (misma foto, mismo texto): enjambre, no validación.
+
+**Orden nuevo (script `tools/barrido_eco.py`, candidatos en `candidatos.json`):**
+1. Genérico AliExpress: 3 más vendidos que contengan las palabras del tipo → **precio real leyendo la ficha** (navegador de Apify, ~$0,0025). Se elige el equivalente funcional (mismas piezas que el pack del rival), no el más barato.
+2. Precio de rivales: fichas Shopify de los anunciantes de la Biblioteca (Apify).
+3. **Margen = mediana de rivales − Ali real − envío (8; 10 si pesa) − 3 %. Si <$15 → GRIS y se para ahí** (no se gasta más en ese tipo).
+4. Ancla Amazon (Apify): mínimo con ≥50 reseñas <70 % de la mediana de rivales → aviso.
+5. Biblioteca: 3–8 anunciantes con ≥21 d (redes gemelas unidas), **el líder** con ≤120 d (no el anuncio más antiguo del tipo), tiendas nuevas <21 d ≥5 → aviso «enjambre».
+6. Persona en pantalla: clasificación del creativo en STT (`search_ads` / `get_ad`: formato UGC/demo/talking-head con avatar) o vista del fotograma. Sin verificar → no hay verde.
+
+**Fuente de candidatos:** `search_ads` de STT en US (21–120 d, formatos ugc/demo/talking-head) ordenado por variaciones y rango del anuncio; el «gasto» de STT es alcance UE/UK (Meta no publica gasto de US): sirve para descubrir, no para validar. Priorizar tipos que los rivales venden a $35–70 o en pack de 2–3.
+
+VERDE = margen ≥$15 con precios reales + Amazon ok + 3–8 anunciantes ≥21 d + líder ≤120 d + persona «sí». AMARILLO = margen ok y falla una. GRIS = margen <$15.
