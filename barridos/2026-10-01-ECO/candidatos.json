@@ -1,0 +1,220 @@
+[
+ {
+  "k": "bark_deterrent",
+  "tipo": "Disuasor ultrasónico de ladridos",
+  "cat": "Mascotas",
+  "library_q": [
+   "bark deterrent"
+  ],
+  "redes": [
+   "try.furrybasics.com+furrybasics.com",
+   "convictioni.com+bestemall.com+onemartly.com"
+  ],
+  "ali_q": "ultrasonic dog bark deterrent",
+  "ali_must": [
+   "bark"
+  ],
+  "amazon_q": "ultrasonic bark deterrent device",
+  "amazon_must": [
+   "bark"
+  ]
+ },
+ {
+  "k": "stainless_steel_cutting_board",
+  "tipo": "Tabla de cortar de acero inoxidable",
+  "cat": "Cocina",
+  "library_q": [
+   "stainless steel cutting board"
+  ],
+  "ali_q": "stainless steel cutting board",
+  "ali_must": [
+   "cutting board"
+  ],
+  "envio": 10,
+  "excluir": [
+   "getkant.shop",
+   "luxelane.life"
+  ],
+  "amazon_must": [
+   "stainless",
+   "cutting board"
+  ]
+ },
+ {
+  "k": "push_up_board",
+  "tipo": "Tabla de flexiones plegable",
+  "cat": "Fitness",
+  "library_q": [
+   "push up board"
+  ],
+  "ali_q": "push up board",
+  "ali_must": [
+   "push"
+  ],
+  "envio": 10,
+  "amazon_must": [
+   "push",
+   "board"
+  ]
+ },
+ {
+  "k": "pilates_bar",
+  "tipo": "Barra de pilates con bandas",
+  "cat": "Fitness",
+  "library_q": [
+   "pilates bar"
+  ],
+  "ali_q": "pilates bar kit resistance bands",
+  "ali_must": [
+   "pilates",
+   "bar"
+  ],
+  "envio": 10,
+  "excluir": [
+   "barmethod.com",
+   "theliftedmethod.com",
+   "elliosa.com"
+  ]
+ },
+ {
+  "k": "wall_sconces",
+  "tipo": "Apliques de pared inalámbricos recargables",
+  "cat": "Hogar",
+  "library_q": [
+   "wall sconces"
+  ],
+  "ali_q": "rechargeable wireless wall sconce",
+  "ali_must": [
+   "wall"
+  ],
+  "envio": 10,
+  "excluir": [
+   "fergusonhome.com",
+   "lampsplus.com"
+  ]
+ },
+ {
+  "k": "christmas_projector",
+  "tipo": "Proyector navideño HD",
+  "cat": "Hogar / Q4",
+  "library_q": [
+   "christmas projector"
+  ],
+  "ali_q": "christmas projector light",
+  "ali_must": [
+   "christmas",
+   "projector"
+  ],
+  "persona": "sí",
+  "excluir": [
+   "covertcreations.net"
+  ]
+ },
+ {
+  "k": "mini_steam_iron",
+  "tipo": "Mini plancha de vapor portátil",
+  "cat": "Hogar",
+  "library_q": [
+   "mini steam iron"
+  ],
+  "ali_q": "portable mini steam iron",
+  "ali_must": [
+   "steam"
+  ],
+  "persona": "sí",
+  "excluir": [
+   "profinancegermany.com"
+  ]
+ },
+ {
+  "k": "heatless_curls",
+  "tipo": "Rulo sin calor",
+  "cat": "Belleza",
+  "library_q": [
+   "heatless curls"
+  ],
+  "ali_q": "heatless curling rod headband",
+  "ali_must": [
+   "heatless"
+  ],
+  "excluir": [
+   "zaaz.co",
+   "olaplex.com"
+  ]
+ },
+ {
+  "k": "pedal_resistance_band",
+  "tipo": "Banda elástica de pedal",
+  "cat": "Fitness",
+  "library_q": [
+   "pedal resistance band"
+  ],
+  "redes": [
+   "cozyhoome.com+shopellox.com",
+   "wordmindglow.com+feasiblte.com+booksoftmind.com+zenblux.com"
+  ],
+  "ali_q": "pedal resistance band",
+  "ali_must": [
+   "pedal"
+  ],
+  "excluir": [
+   "anrdre.com"
+  ]
+ },
+ {
+  "k": "pilates_ring",
+  "tipo": "Aro de pilates",
+  "cat": "Fitness",
+  "library_q": [
+   "pilates ring"
+  ],
+  "redes": [
+   "wondeea.com+housewor.com+ancienflow.com+forttender.com"
+  ],
+  "ali_q": "pilates ring",
+  "ali_must": [
+   "pilates",
+   "ring"
+  ]
+ },
+ {
+  "k": "rain_catcher",
+  "tipo": "Cadena de lluvia con pájaros",
+  "cat": "Jardín",
+  "library_q": [
+   "rain catcher"
+  ],
+  "redes": [
+   "dailyardmall.com+dailyardpro.com"
+  ],
+  "ali_q": "rain chain bird bath",
+  "ali_must": [
+   "rain"
+  ],
+  "excluir": [
+   "buckturner.com",
+   "trapski.com"
+  ]
+ },
+ {
+  "k": "ab_roller",
+  "tipo": "Rueda abdominal",
+  "cat": "Fitness",
+  "library_q": [
+   "ab roller"
+  ],
+  "redes": [
+   "postureflex.co+try.postureflex.co+30daychallenge.postureflex.co"
+  ],
+  "ali_q": "ab roller wheel",
+  "ali_must": [
+   "roller"
+  ],
+  "excluir": [
+   "infinityhoop.com",
+   "trynomend.com",
+   "colody.com",
+   "north-alpine.com"
+  ]
+ }
+]
