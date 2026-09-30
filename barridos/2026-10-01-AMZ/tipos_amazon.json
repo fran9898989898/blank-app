@@ -1,0 +1,360 @@
+[
+ {
+  "k": "sourdough_kit",
+  "tipo": "Kit de pan de masa madre (banneton)",
+  "q": "sourdough bread proofing basket kit",
+  "must": [
+   "banneton"
+  ]
+ },
+ {
+  "k": "cocktail_smoker",
+  "tipo": "Ahumador de cócteles (sin soplete)",
+  "q": "cocktail smoker kit",
+  "must": [
+   "smoker"
+  ]
+ },
+ {
+  "k": "whiskey_stones",
+  "tipo": "Piedras de whisky set regalo",
+  "q": "whiskey stones gift set",
+  "must": [
+   "whiskey",
+   "stone"
+  ]
+ },
+ {
+  "k": "soil_blocker",
+  "tipo": "Bloque de siembra (soil blocker)",
+  "q": "soil blocker",
+  "must": [
+   "soil block"
+  ]
+ },
+ {
+  "k": "espresso_wdt",
+  "tipo": "Distribuidor espresso WDT",
+  "q": "espresso wdt tool",
+  "must": [
+   "wdt"
+  ]
+ },
+ {
+  "k": "espresso_tamper",
+  "tipo": "Tamper espresso calibrado",
+  "q": "espresso tamper calibrated",
+  "must": [
+   "tamper"
+  ]
+ },
+ {
+  "k": "puck_screen",
+  "tipo": "Filtro de pastilla espresso (puck screen)",
+  "q": "espresso puck screen",
+  "must": [
+   "puck screen"
+  ]
+ },
+ {
+  "k": "embroidery_kit",
+  "tipo": "Kit de bordado para principiantes",
+  "q": "embroidery kit for beginners",
+  "must": [
+   "embroidery"
+  ]
+ },
+ {
+  "k": "punch_needle_kit",
+  "tipo": "Kit de punch needle",
+  "q": "punch needle kit",
+  "must": [
+   "punch needle"
+  ]
+ },
+ {
+  "k": "needle_felting_kit",
+  "tipo": "Kit de fieltro con aguja",
+  "q": "needle felting kit",
+  "must": [
+   "felting"
+  ]
+ },
+ {
+  "k": "crochet_kit",
+  "tipo": "Kit de ganchillo para principiantes",
+  "q": "crochet kit for beginners",
+  "must": [
+   "crochet"
+  ]
+ },
+ {
+  "k": "leather_craft_kit",
+  "tipo": "Kit de marroquinería",
+  "q": "leather working kit",
+  "must": [
+   "leather"
+  ]
+ },
+ {
+  "k": "bread_lame",
+  "tipo": "Cuchilla para greñar pan (lame)",
+  "q": "bread lame scoring tool",
+  "must": [
+   "lame"
+  ]
+ },
+ {
+  "k": "pasta_drying_rack",
+  "tipo": "Tendedero de pasta",
+  "q": "pasta drying rack",
+  "must": [
+   "pasta",
+   "rack"
+  ]
+ },
+ {
+  "k": "dog_paw_cleaner",
+  "tipo": "Limpiador de patas para perro",
+  "q": "dog paw cleaner cup",
+  "must": [
+   "paw"
+  ]
+ },
+ {
+  "k": "lick_mat",
+  "tipo": "Alfombrilla de lamer para perro",
+  "q": "dog lick mat",
+  "must": [
+   "lick"
+  ]
+ },
+ {
+  "k": "cup_holder_expander",
+  "tipo": "Expansor de portavasos de coche",
+  "q": "car cup holder expander",
+  "must": [
+   "cup holder"
+  ]
+ },
+ {
+  "k": "steering_wheel_desk",
+  "tipo": "Bandeja de volante",
+  "q": "steering wheel desk tray",
+  "must": [
+   "steering wheel"
+  ]
+ },
+ {
+  "k": "jewelry_travel_case",
+  "tipo": "Joyero de viaje",
+  "q": "travel jewelry case",
+  "must": [
+   "jewelry"
+  ]
+ },
+ {
+  "k": "magnetic_knife_strip",
+  "tipo": "Barra magnética para cuchillos",
+  "q": "magnetic knife holder for wall",
+  "must": [
+   "magnetic",
+   "knife"
+  ]
+ },
+ {
+  "k": "herb_keeper",
+  "tipo": "Conservador de hierbas",
+  "q": "herb keeper",
+  "must": [
+   "herb"
+  ]
+ },
+ {
+  "k": "butter_dish",
+  "tipo": "Mantequera con tapa",
+  "q": "butter dish with lid",
+  "must": [
+   "butter"
+  ]
+ },
+ {
+  "k": "pour_over_stand",
+  "tipo": "Soporte de café pour-over",
+  "q": "pour over coffee stand",
+  "must": [
+   "pour over"
+  ]
+ },
+ {
+  "k": "wine_chiller_stick",
+  "tipo": "Varilla enfriadora de vino",
+  "q": "wine chiller stick",
+  "must": [
+   "chill"
+  ]
+ },
+ {
+  "k": "window_bird_feeder",
+  "tipo": "Comedero de pájaros de ventana",
+  "q": "window bird feeder",
+  "must": [
+   "window",
+   "feeder"
+  ]
+ },
+ {
+  "k": "hummingbird_feeder",
+  "tipo": "Bebedero de colibríes",
+  "q": "hummingbird feeder",
+  "must": [
+   "hummingbird",
+   "feeder"
+  ]
+ },
+ {
+  "k": "propagation_station",
+  "tipo": "Estación de propagación de plantas",
+  "q": "plant propagation station",
+  "must": [
+   "propagation"
+  ]
+ },
+ {
+  "k": "terrarium_kit",
+  "tipo": "Kit de terrario",
+  "q": "terrarium kit",
+  "must": [
+   "terrarium"
+  ]
+ },
+ {
+  "k": "claw_clips",
+  "tipo": "Set de pinzas de pelo (claw clips)",
+  "q": "claw clips set",
+  "must": [
+   "claw"
+  ]
+ },
+ {
+  "k": "silk_scrunchies",
+  "tipo": "Coleteros de seda",
+  "q": "silk scrunchies",
+  "must": [
+   "silk"
+  ]
+ },
+ {
+  "k": "fly_tying_kit",
+  "tipo": "Kit de montaje de moscas",
+  "q": "fly tying kit",
+  "must": [
+   "fly tying"
+  ]
+ },
+ {
+  "k": "divot_tool",
+  "tipo": "Arreglapiques de golf",
+  "q": "golf divot tool",
+  "must": [
+   "divot"
+  ]
+ },
+ {
+  "k": "golf_swing_trainer",
+  "tipo": "Entrenador de swing de golf",
+  "q": "golf swing trainer",
+  "must": [
+   "swing"
+  ]
+ },
+ {
+  "k": "knitting_loom",
+  "tipo": "Telar de tejer (knitting loom)",
+  "q": "knitting loom kit",
+  "must": [
+   "loom"
+  ]
+ },
+ {
+  "k": "calligraphy_set",
+  "tipo": "Set de caligrafía",
+  "q": "calligraphy set for beginners",
+  "must": [
+   "calligraphy"
+  ]
+ },
+ {
+  "k": "wood_carving_kit",
+  "tipo": "Kit de tallado en madera",
+  "q": "wood carving kit",
+  "must": [
+   "carving"
+  ]
+ },
+ {
+  "k": "macrame_kit",
+  "tipo": "Kit de macramé",
+  "q": "macrame kit",
+  "must": [
+   "macrame"
+  ]
+ },
+ {
+  "k": "sushi_kit",
+  "tipo": "Kit para hacer sushi",
+  "q": "sushi making kit",
+  "must": [
+   "sushi"
+  ]
+ },
+ {
+  "k": "matcha_set",
+  "tipo": "Set de matcha (batidor + cuenco)",
+  "q": "matcha whisk set",
+  "must": [
+   "matcha"
+  ]
+ },
+ {
+  "k": "spice_organizer",
+  "tipo": "Organizador de especias de cajón",
+  "q": "spice drawer organizer",
+  "must": [
+   "spice"
+  ]
+ },
+ {
+  "k": "dog_seat_belt",
+  "tipo": "Cinturón de coche para perro",
+  "q": "dog seat belt",
+  "must": [
+   "seat belt"
+  ]
+ },
+ {
+  "k": "cat_window_perch",
+  "tipo": "Hamaca de ventana para gato",
+  "q": "cat window perch",
+  "must": [
+   "window",
+   "perch"
+  ]
+ },
+ {
+  "k": "garlic_rocker",
+  "tipo": "Prensa de ajos rocker",
+  "q": "garlic press rocker",
+  "must": [
+   "garlic"
+  ]
+ },
+ {
+  "k": "cheese_slicer",
+  "tipo": "Cortador de queso de alambre",
+  "q": "cheese slicer wire",
+  "must": [
+   "cheese"
+  ]
+ }
+]

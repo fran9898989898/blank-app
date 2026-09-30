@@ -8,6 +8,7 @@ Uso:
 """
 import os
 import sys
+import time
 
 import requests
 
@@ -16,9 +17,17 @@ def read(url, browser=True, tope=0.05):
     token = os.environ.get("APIFY_TOKEN") or sys.exit("Falta APIFY_TOKEN.")
     body = {"query": url, "maxResults": 1, "outputFormats": ["markdown"],
             "scrapingTool": "browser-playwright" if browser else "raw-http"}
-    r = requests.post("https://api.apify.com/v2/acts/apify~rag-web-browser/run-sync-get-dataset-items",
-                      headers={"Authorization": f"Bearer {token}"}, params={"timeout": 180, "maxTotalChargeUsd": tope}, json=body, timeout=200)
-    r.raise_for_status()
+    for intento in range(4):  # la conexión con Apify se corta a veces (connection reset): reintentar con espera
+        try:
+            r = requests.post("https://api.apify.com/v2/acts/apify~rag-web-browser/run-sync-get-dataset-items",
+                              headers={"Authorization": f"Bearer {token}"}, params={"timeout": 180, "maxTotalChargeUsd": tope},
+                              json=body, timeout=200)
+            r.raise_for_status()
+            break
+        except (requests.ConnectionError, requests.Timeout):
+            if intento == 3:
+                raise
+            time.sleep(2 ** (intento + 1))
     items = r.json()
     return (items[0].get("markdown") or "") if items else ""
 
