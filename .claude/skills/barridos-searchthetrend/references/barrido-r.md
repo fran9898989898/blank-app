@@ -211,3 +211,7 @@ Lecciones de 4 barridos R (29-sep a 1-oct) que dieron 0 verdes reales:
 **Fuente de candidatos:** `search_ads` de STT en US (21–120 d, formatos ugc/demo/talking-head) ordenado por variaciones y rango del anuncio; el «gasto» de STT es alcance UE/UK (Meta no publica gasto de US): sirve para descubrir, no para validar. Priorizar tipos que los rivales venden a $35–70 o en pack de 2–3.
 
 VERDE = margen ≥$15 con precios reales + Amazon ok + 3–8 anunciantes ≥21 d + líder ≤120 d + persona «sí». AMARILLO = margen ok y falla una. GRIS = margen <$15.
+
+### Resultado del primer barrido v2 (1-oct, `barridos/2026-10-01-ECO/eco.json`, Apify $0,31)
+12 candidatos con ticket alto, precios reales: **0 verdes**. 5 mueren por margen (tabla de cortar $14,66, proyector $6,47, plancha, aro de pilates $14,51, cadena de lluvia $2,17 con el genérico real de $19,89). Los que tienen margen (disuasor de ladridos, barra de pilates, rulo sin calor, banda de pedal, apliques, rueda abdominal) los tumba **Amazon**: el mismo producto a $4,99–16,99 con miles de reseñas (rulo CORATED $4,99 con 18.900 reseñas; disuasor $19,99 con 2.300), o solo 1–2 anunciantes.
+**Lección:** en commodity de hogar/fitness el filtro que manda es el ancla de Amazon. Siguiente barrido: invertir el orden → buscar primero en Amazon US productos con precio ≥$30 y ventas altas («bought in past month») cuyo genérico real en AliExpress cueste ≤$10, y solo entonces mirar anunciantes en Meta.

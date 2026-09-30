@@ -83,10 +83,9 @@
   "library_q": [
    "wall sconces"
   ],
-  "ali_q": "rechargeable wireless wall sconce",
+  "ali_q": "rechargeable wall sconce battery",
   "ali_must": [
-   "wall",
-   "lamp"
+   "sconce"
   ],
   "envio": 10,
   "excluir": [
@@ -94,9 +93,9 @@
    "lampsplus.com"
   ],
   "amazon_must": [
-   "wall",
    "sconce"
-  ]
+  ],
+  "amazon_q": "rechargeable wall sconces set of 2"
  },
  {
   "k": "christmas_projector",
@@ -180,6 +179,10 @@
   "ali_must": [
    "pilates",
    "ring"
+  ],
+  "amazon_q": "pilates ring",
+  "amazon_must": [
+   "pilates"
   ]
  },
  {
@@ -192,13 +195,18 @@
   "redes": [
    "dailyardmall.com+dailyardpro.com"
   ],
-  "ali_q": "rain chain bird bath",
+  "ali_q": "rain chain bird cups",
   "ali_must": [
-   "rain"
+   "rain",
+   "chain"
   ],
   "excluir": [
    "buckturner.com",
    "trapski.com"
+  ],
+  "amazon_q": "rain chain bird cups",
+  "amazon_must": [
+   "rain"
   ]
  },
  {
