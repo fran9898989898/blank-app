@@ -1,0 +1,36 @@
+FICHA DE TEST — Olla de freír de acero con escurridor (tipo japonesa)
+Origen: Barrido R 1-oct · barridos/2026-10-01-R3/visor.html · semáforo VERDE
+Guardado: 2026-10-01 · Estado: PENDIENTE (sin lanzar)
+
+DATOS DEL BARRIDO
+- Anunciantes ≥21 días en US: 8 (pineapplea, clarioy, sakerplus, familygiftsale, tewvo, alessntials, shopellisellis/Ellis, summarizei)
+- Anuncio más antiguo del tipo: 53 días
+- Persona en pantalla: sí (STT clasifica el anuncio de sakerplus como UGC, mujer)
+- Rivales: pineapplea $27,99 · clarioy $34,99 · tewvo $36,99 · Ellis (marca) $59,99
+- Genérico AliExpress: https://www.aliexpress.us/item/3256809857842506.html — $6,33 precio de nuevo usuario (tachado $20,88), 500+ vendidos
+- Alternativa más parecida (kit 4 piezas con escurridor): https://www.aliexpress.us/item/3256807619364427.html — $13,49
+- Líder (anuncios): https://www.facebook.com/ads/library/?id=1034801636110232
+
+PRODUCTO: Olla de freír de acero inoxidable 304 con escurridor y rejilla
+PRECIO DE VENTA: $   (propuesta $32,99; rivales $27,99–36,99)
+COSTE ALI + ENVÍO A US: $   (PENDIENTE: precio real sin descuento de nuevo usuario + envío a US)
+MARGEN BRUTO POR VENTA: $   (venta − landed − $8 envío estimado − 3 % pasarela)
+BREAKEVEN: gasto máximo por compra = margen bruto. Si el margen es <$15, no testear.
+  Con landed $6,33 → margen ≈ $17,7 · con landed $8,30 → ≈ $15,7 · con landed $10 → ≈ $14 (NO testear)
+ÁNGULO 1 (del anuncio más antiguo del líder): una sola olla para freír, escurrir y verter; menos desastre de aceite.
+ÁNGULO 2 (hueco): la freidora de aire no fríe de verdad; esto sí, con poco aceite (demo de alitas crujientes en 5 s).
+ÁNGULO 3: termómetro + rejilla: aceite a la temperatura justa sin adivinar.
+ANUNCIOS: 3 vídeos, uno por ángulo, 15-30 s, persona usando la olla en los primeros 2 s.
+PRESUPUESTO DEL TEST: $150 en total. $30-40/día. Una campaña, US, sin segmentar.
+
+KILL (se cumple, se para, sin negociar)
+- Día 2: anuncio con CTR ≤1 % → pausa. Los tres por debajo → kill.
+- Día 3: clics pero 0 carritos → cambiar una cosa (precio −$5 o foto principal) y 1 día más.
+- Día 4 o $150 gastados: 0 ventas → kill. 1-2 ventas con coste por compra < margen bruto → 3 días más, mismo presupuesto.
+- Nunca subir presupuesto ni añadir un cuarto anuncio en el test.
+
+ANTES DE MONTAR NADA
+[ ] Precio real AliExpress con envío a US (≤$8,30)
+[ ] Peso/envío: confirmar que $8 de envío estimado aguanta (es una olla, pesa más que un gadget)
+[ ] Check humano en el visor (≥3 casillas)
+[ ] Amazon a mano: genérico Prime a ≤$11 → pensarlo dos veces
