@@ -197,18 +197,30 @@ def main():
     a = ap.parse_args()
     carpeta = os.path.dirname(a.candidatos)
     budget = Budget(a.tope)
-    out = []
+    dest = os.path.join(carpeta, "eco.json")
+    prev = json.load(open(dest)) if os.path.exists(dest) else {"gasto_estimado": 0, "fichas": []}
+    hechos = {f["k"]: f for f in prev["fichas"]}
+    out = list(prev["fichas"])
     for cfg in json.load(open(a.candidatos)):
-        try:
-            f = evalua(cfg, carpeta, budget)
-        except SystemExit as e:
-            print(e, file=sys.stderr)
-            break
+        if cfg["k"] in hechos:
+            continue
+        f = None
+        for intento in range(3):  # cortes de red (connection reset) no deben tirar el barrido entero
+            try:
+                f = evalua(cfg, carpeta, budget)
+                break
+            except SystemExit as e:
+                print(e, file=sys.stderr)
+                break
+            except Exception as e:  # noqa: BLE001
+                print(f"# {cfg['k']}: intento {intento + 1} falló: {e.__class__.__name__}", file=sys.stderr)
+        if f is None:
+            continue
         out.append(f)
+        json.dump({"gasto_estimado": round(prev["gasto_estimado"] + budget.used, 3), "fichas": out},
+                  open(dest, "w"), ensure_ascii=False, indent=1)
         print(f"{f['semaforo']:8s} {f['k']:28s} margen={f['margen']} rivales={f['precio_rivales']} "
               f"ali={f['ali'] and f['ali']['real']} amz={f.get('amazon_min')} {f['motivo']}", file=sys.stderr)
-    json.dump({"gasto_estimado": round(budget.used, 3), "fichas": out},
-              open(os.path.join(carpeta, "eco.json"), "w"), ensure_ascii=False, indent=1)
     print(f"Gasto Apify estimado: ${budget.used:.2f}", file=sys.stderr)
 
 
