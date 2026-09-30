@@ -1,0 +1,25 @@
+PRUEBA DE VIDA DEL RADAR — 2026-09-30 (sesión Claude Code en la nube)
+
+1. MCP searchthetrend — herramientas (nombres exactos):
+   search, fetch, search_products, get_product, search_ads, get_ad, search_brands, get_brand,
+   get_brand_creative_mix, get_history, search_advertisers, get_advertiser, get_reference_set,
+   request_brand_scan, get_brand_scan_status, my_saved
+   → OK, responde.
+
+2. Consulta STT (search_products, US, ≥30 días, límite 5):
+   - Scum Bum Hard Water Stain Remover (speedcleaning.com) — 270 días
+   - SPOTMINDERS Wallet Tracking Card (spotminders.com) — 429 días
+   - SEURE EdgePatrol Metal Phone Case (seure.co) — 337 días
+   - Duchess Rose Fragrance (altfragrances.com) — 224 días
+   - Rodent Repellent Pouches (sofyre.com) — 94 días
+   → OK, con créditos.
+
+3. Apify — actor apify~facebook-ads-scraper, "car organizer", US, activos, 5 anuncios (APIFY_TOKEN del entorno):
+   - Lakany Shop — inicio 2025-11-25
+   - Amazon.com — inicio 2026-07-22
+   - Everything Envy — inicio 2026-06-17
+   - Lakany Shop — inicio 2025-11-25
+   - Everyneeding — inicio 2026-05-19
+   → OK. Coste ≈ $0,03.
+
+OK — listo para el barrido R
