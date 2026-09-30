@@ -1,6 +1,6 @@
 FICHA DE TEST — Olla de freír de acero con escurridor (tipo japonesa)
 Origen: Barrido R 1-oct · barridos/2026-10-01-R3/visor.html · semáforo VERDE
-Guardado: 2026-10-01 · Estado: PENDIENTE (sin lanzar)
+Guardado: 2026-10-01 · Estado: DESCARTADO 1-oct (margen <$15 con precios reales)
 
 DATOS DEL BARRIDO
 - Anunciantes ≥21 días en US: 8 (pineapplea, clarioy, sakerplus, familygiftsale, tewvo, alessntials, shopellisellis/Ellis, summarizei)
@@ -34,3 +34,9 @@ ANTES DE MONTAR NADA
 [ ] Peso/envío: confirmar que $8 de envío estimado aguanta (es una olla, pesa más que un gadget)
 [ ] Check humano en el visor (≥3 casillas)
 [ ] Amazon a mano: genérico Prime a ≤$11 → pensarlo dos veces
+
+VERIFICACIÓN 1-OCT (precios reales, no de nuevo usuario)
+- AliExpress leído con navegador de Apify: básico $10,02 (no $6,33) · kit con escurridor $13,49. Envío a US no mostrado.
+- Amazon US (Apify): Yopay $22,99 · cuomaop $28,99 (500+/mes) · ZOOFOX $29,99 · $34,98 · $35,99 (200+/mes) · Saltlas $49,97 (1K+/mes).
+- Margen a $33: $33 − $10,02 − $8 − $1 = ~$14 (básico) · ~$10,5 (kit). Regla de la ficha: <$15 → no testear.
+- Demanda real confirmada (Amazon 500–1K+ compras/mes), pero el precio de Amazon con Prime deja poco hueco por encima de $30.
