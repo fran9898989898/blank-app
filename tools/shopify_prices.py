@@ -11,7 +11,6 @@ import csv
 import os
 import sys
 
-import requests
 
 ACTOR = "autofacts~shopify"
 
@@ -20,15 +19,13 @@ def main():
     urls = sys.argv[1:]
     if not urls:
         sys.exit(__doc__)
-    token = os.environ.get("APIFY_TOKEN") or sys.exit("Falta APIFY_TOKEN.")
+    from apify_guard import run
     body = {"startUrls": [{"url": u} for u in urls], "maxRequestsPerCrawl": 2 * len(urls),
-            "maxResults": 2 * len(urls), "proxy": {"useApifyProxy": True}}
-    r = requests.post(f"https://api.apify.com/v2/acts/{ACTOR}/run-sync-get-dataset-items",
-                      headers={"Authorization": f"Bearer {token}"}, params={"timeout": 240, "maxTotalChargeUsd": 0.1}, json=body, timeout=280)
-    r.raise_for_status()
+            "maxResults": min(2 * len(urls), 30), "proxy": {"useApifyProxy": True}}
+    items = run(ACTOR, body, tope_usd=0.1, timeout=240)
     w = csv.writer(sys.stdout)
     w.writerow(["url", "producto", "variante", "precio", "precio_tachado", "stock"])
-    for p in r.json():
+    for p in items:
         for v in p.get("variants") or []:
             pr = v.get("price") or {}
             cents = lambda x: f"{x / 100:.2f}" if x else ""

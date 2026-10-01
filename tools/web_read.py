@@ -1,4 +1,4 @@
-"""Lee cualquier página web vía Apify (actor apify~rag-web-browser, ~$0,0025 por página) y la
+"""Lee cualquier página web vía Apify (actor apify~rag-web-browser, ~$0,009–0,016 por página medido el 1-oct) y la
 devuelve en markdown. Sirve cuando la red de la sesión bloquea el dominio (tiendas, Amazon...).
 No necesita aprobar permisos en Apify.
 
@@ -8,27 +8,14 @@ Uso:
 """
 import os
 import sys
-import time
-
-import requests
 
 
 def read(url, browser=True, tope=0.05):
-    token = os.environ.get("APIFY_TOKEN") or sys.exit("Falta APIFY_TOKEN.")
+    """Pasa por apify_guard (caché 7 días, corte de sesión, sin reintentos). Coste real medido: ~$0,009–0,016 por página."""
+    from apify_guard import run
     body = {"query": url, "maxResults": 1, "outputFormats": ["markdown"],
             "scrapingTool": "browser-playwright" if browser else "raw-http"}
-    for intento in range(4):  # la conexión con Apify se corta a veces (connection reset): reintentar con espera
-        try:
-            r = requests.post("https://api.apify.com/v2/acts/apify~rag-web-browser/run-sync-get-dataset-items",
-                              headers={"Authorization": f"Bearer {token}"}, params={"timeout": 180, "maxTotalChargeUsd": tope},
-                              json=body, timeout=200)
-            r.raise_for_status()
-            break
-        except (requests.ConnectionError, requests.Timeout):
-            if intento == 3:
-                raise
-            time.sleep(2 ** (intento + 1))
-    items = r.json()
+    items = run("apify~rag-web-browser", body, tope_usd=tope, timeout=180)
     return (items[0].get("markdown") or "") if items else ""
 
 

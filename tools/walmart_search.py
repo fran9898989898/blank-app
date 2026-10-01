@@ -10,7 +10,6 @@ import csv
 import os
 import sys
 
-import requests
 
 ACTOR = "axesso_data~walmart-search-scraper"
 
@@ -26,11 +25,9 @@ def pick(d, *keys):
 
 
 def search(token, q, tope):
-    r = requests.post(f"https://api.apify.com/v2/acts/{ACTOR}/run-sync-get-dataset-items",
-                      headers={"Authorization": f"Bearer {token}"}, params={"timeout": 240, "maxTotalChargeUsd": tope},
-                      json={"input": [{"keyword": q, "startPage": 1, "endPage": 1, "sortBy": "best_match"}]}, timeout=270)
-    r.raise_for_status()
-    return r.json()
+    from apify_guard import run  # caché, corte de sesión y sin reintentos
+    return run(ACTOR, {"input": [{"keyword": q, "startPage": 1, "endPage": 1, "sortBy": "best_match"}]},
+               tope_usd=tope, timeout=240)
 
 
 def main():

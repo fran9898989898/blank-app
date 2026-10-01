@@ -42,15 +42,11 @@ def library_url(q, exacta):
 
 
 def run_actor(token, q, max_items, tope, exacta):
+    """Pasa por apify_guard: ≤30 anuncios, ≤$0,50 por run, corte de sesión a $2, caché 7 días, sin reintentos.
+    `token` se mantiene por compatibilidad; el guard lo lee del entorno."""
+    from apify_guard import run
     body = {"startUrls": [{"url": library_url(q, exacta)}], "resultsLimit": max_items, "activeStatus": "active"}
-    r = requests.post(
-        f"{API}/acts/{ACTOR}/run-sync-get-dataset-items",
-        headers={"Authorization": f"Bearer {token}"}, params={"maxTotalChargeUsd": tope, "timeout": 300},
-        json=body,
-        timeout=330,
-    )
-    r.raise_for_status()
-    return r.json()
+    return run(ACTOR, body, tope_usd=tope)
 
 
 def pick(d, *keys):

@@ -42,11 +42,8 @@ def parse(md):
 
 
 def search(q):
-    for _ in range(3):  # Amazon devuelve a veces una página de error: reintentar
-        rows = parse(read("https://www.amazon.com/s?k=" + urllib.parse.quote_plus(q) + "&ref=nb_sb_noss"))
-        if rows:
-            return rows
-    return []
+    # Sin reintentos (auditoría 1-oct: 260 runs para 59 búsquedas). Si Amazon devuelve error, queda sin dato.
+    return parse(read("https://www.amazon.com/s?k=" + urllib.parse.quote_plus(q) + "&ref=nb_sb_noss"))
 
 
 def evalua(t, minimo, cache):
@@ -81,7 +78,7 @@ def main():
     tipos = json.load(open(a.tipos))
     cache = os.path.join(os.path.dirname(a.tipos), "amazon_raw")
     os.makedirs(cache, exist_ok=True)
-    with ThreadPoolExecutor(3) as ex:
+    with ThreadPoolExecutor(1) as ex:  # en serie: el guard lee el gasto real antes de cada run
         res = list(ex.map(lambda t: evalua(t, a.min, cache), tipos))
     json.dump(res, open(os.path.join(os.path.dirname(a.tipos), "amazon.json"), "w"), ensure_ascii=False, indent=1)
     for r in sorted(res, key=lambda r: -(r["barato"] or {}).get("precio", 0)):

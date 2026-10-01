@@ -35,7 +35,7 @@ from web_read import read  # noqa: E402
 HERE = os.path.dirname(__file__)
 RETAIL = {"amazon.com", "walmart.com", "target.com", "temu.com", "etsy.com", "ebay.com", "facebook.com", "fb.me",
           "instagram.com", "amzn.to", "amzlink.to", "amzn.markable.ai", "m.shein.com", "urlgeni.us", "homedepot.com"}
-COST = {"lib_ad": 0.0058, "page": 0.0025, "shopify": 0.002}
+COST = {"lib_ad": 0.005, "page": 0.016, "shopify": 0.007}  # costes reales medidos en la auditoría del 1-oct
 
 
 class Budget:
@@ -68,11 +68,8 @@ def ali_real(pid, budget):
 
 
 def amazon(q, budget):
-    for _ in range(2):
-        budget.spend(COST["page"])
-        rows = amazon_parse(read("https://www.amazon.com/s?k=" + urllib.parse.quote_plus(q)))
-        if rows:
-            break
+    budget.spend(COST["page"])
+    rows = amazon_parse(read("https://www.amazon.com/s?k=" + urllib.parse.quote_plus(q)))
     out = []
     for r in rows:
         revs = r[3].replace(",", "").upper()
@@ -205,15 +202,15 @@ def main():
         if cfg["k"] in hechos:
             continue
         f = None
-        for intento in range(3):  # cortes de red (connection reset) no deben tirar el barrido entero
-            try:
-                f = evalua(cfg, carpeta, budget)
+        try:  # sin reintentos: un fallo deja el candidato sin ficha y se sigue
+            f = evalua(cfg, carpeta, budget)
+        except SystemExit as e:
+            print(e, file=sys.stderr)
+            break
+        except Exception as e:  # noqa: BLE001 (GuardError incluido: corte de sesión)
+            print(f"# {cfg['k']}: {e.__class__.__name__}: {e}", file=sys.stderr)
+            if e.__class__.__name__ == "GuardError":
                 break
-            except SystemExit as e:
-                print(e, file=sys.stderr)
-                break
-            except Exception as e:  # noqa: BLE001
-                print(f"# {cfg['k']}: intento {intento + 1} falló: {e.__class__.__name__}", file=sys.stderr)
         if f is None:
             continue
         out.append(f)

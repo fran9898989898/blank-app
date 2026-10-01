@@ -1,0 +1,570 @@
+inicio_utc,actor,query,items,coste_usd,resultado_usado
+2026-09-29T01:19,shopify,url:https://wildbeartools.com/products/extension-wrench,3,0.0054,sesión anterior
+2026-09-29T01:20,shopify,url:https://autovia-uk.com/products/gapblock-pro,3,0.0054,sesión anterior
+2026-09-29T01:21,facebook-ads-scraper,meta:absorbent bath mat,30,0.174,sesión anterior
+2026-09-29T01:30,rag-web-browser,amazon:3d contoured sleep mask,1,0.0118,sesión anterior
+2026-09-29T01:31,rag-web-browser,amazon:weighted eye mask,1,0.0072,sesión anterior
+2026-09-29T01:32,rag-web-browser,amazon:weighted eye mask,1,0.0067,sesión anterior
+2026-09-29T01:32,rag-web-browser,amazon:weighted eye mask,1,0.0066,sesión anterior
+2026-09-29T01:32,rag-web-browser,amazon:weighted eye mask,1,0.0072,sesión anterior
+2026-09-29T01:32,rag-web-browser,amazon:weighted eye mask,1,0.0058,sesión anterior
+2026-09-29T01:33,rag-web-browser,amazon:weighted eye mask,1,0.005,sesión anterior
+2026-09-29T01:33,rag-web-browser,amazon:weighted sleep mask,1,0.0123,sesión anterior
+2026-09-29T01:34,rag-web-browser,amazon:weighted sleep mask,1,0.0067,sesión anterior
+2026-09-29T01:34,rag-web-browser,amazon:weighted sleep mask,1,0.0066,sesión anterior
+2026-09-29T01:34,rag-web-browser,amazon:weighted sleep mask,1,0.0072,sesión anterior
+2026-09-29T01:37,rag-web-browser,amazon:rodent repellent pouches,1,0.0071,sesión anterior
+2026-09-29T01:38,rag-web-browser,amazon:rodent repellent pouches,1,0.0069,sesión anterior
+2026-09-29T01:38,rag-web-browser,amazon:rodent repellent pouches,1,0.0064,sesión anterior
+2026-09-29T01:38,rag-web-browser,amazon:quilted storage basket,1,0.0075,sesión anterior
+2026-09-29T01:38,rag-web-browser,amazon:quilted storage basket,1,0.0067,sesión anterior
+2026-09-29T01:39,rag-web-browser,amazon:quilted storage basket,1,0.0086,sesión anterior
+2026-09-29T01:39,rag-web-browser,amazon:hands free dog leash,1,0.0104,sesión anterior
+2026-09-29T01:39,rag-web-browser,amazon:waterproof car seat cover towel,1,0.0064,sesión anterior
+2026-09-29T01:40,rag-web-browser,amazon:waterproof car seat cover towel,1,0.0071,sesión anterior
+2026-09-29T01:40,rag-web-browser,amazon:waterproof car seat cover towel,1,0.0079,sesión anterior
+2026-09-29T01:40,rag-web-browser,amazon:fishing lure covers,1,0.0057,sesión anterior
+2026-09-29T01:40,rag-web-browser,amazon:fishing lure covers,1,0.006,sesión anterior
+2026-09-29T01:41,rag-web-browser,amazon:fishing lure covers,1,0.0076,sesión anterior
+2026-09-29T01:41,shopify,url:https://emmafy.com/products/quilty-the-roomiest-everything-basket,5,0.009,sesión anterior
+2026-09-29T01:48,facebook-ads-scraper,meta:quilted basket,30,0.174,sesión anterior
+2026-09-29T01:48,facebook-ads-scraper,meta:repellent pouches,30,0.174,sesión anterior
+2026-09-29T01:49,rag-web-browser,amazon:peppermint mouse repellent pouches,1,0.006,sesión anterior
+2026-09-29T01:49,rag-web-browser,amazon:peppermint mouse repellent pouches,1,0.0047,sesión anterior
+2026-09-29T01:49,rag-web-browser,amazon:peppermint mouse repellent pouches,1,0.0053,sesión anterior
+2026-09-29T02:34,facebook-ads-scraper,meta:everything basket,1,0.005,sesión anterior
+2026-09-29T02:34,facebook-ads-scraper,meta:quilted storage basket,4,0.02,sesión anterior
+2026-09-29T02:34,facebook-ads-scraper,meta:quilted organizer,6,0.03,sesión anterior
+2026-09-29T02:35,facebook-ads-scraper,meta:quilted tote,30,0.15,sesión anterior
+2026-09-29T02:35,facebook-ads-scraper,meta:car basket,30,0.15,sesión anterior
+2026-09-29T02:36,facebook-ads-scraper,meta:mouse repellent,30,0.15,sesión anterior
+2026-09-29T02:36,facebook-ads-scraper,meta:rodent repellent,1,0.005,sesión anterior
+2026-09-29T02:36,facebook-ads-scraper,meta:peppermint pouches,30,0.15,sesión anterior
+2026-09-29T02:37,facebook-ads-scraper,meta:keep mice away,30,0.15,sesión anterior
+2026-09-29T02:37,rag-web-browser,ali_item:3256808207752706,1,0.0171,sesión anterior
+2026-09-29T02:37,rag-web-browser,ali_item:3256809926373073,1,0.0112,sesión anterior
+2026-09-29T02:37,rag-web-browser,ali_item:3256812408071561,1,0.0132,sesión anterior
+2026-09-29T02:37,rag-web-browser,ali_item:3256812198825219,1,0.0148,sesión anterior
+2026-09-29T02:37,rag-web-browser,page:https://www.walmart.com/search?q=mouse+repellent+pouches,1,0.0088,sesión anterior
+2026-09-29T02:37,rag-web-browser,ali_item:3256812224482810,1,0.013,sesión anterior
+2026-09-29T02:37,rag-web-browser,ali_item:3256811384035290,1,0.0122,sesión anterior
+2026-09-29T02:37,facebook-ads-scraper,meta:mice out,10,0.05,sesión anterior
+2026-09-29T02:44,rag-web-browser,page:https://www.walmart.com/search?q=quilted+car+basket,1,0.0084,sesión anterior
+2026-09-29T02:44,rag-web-browser,page:https://www.walmart.com/search?q=peppermint+mouse+repellent+pouches,1,0.0063,sesión anterior
+2026-09-29T02:45,walmart-search-scraper,"otro:{""input"": [{""keyword"": ""quilted car basket"", ""startPage"": 1,",62,0.0031,sesión anterior
+2026-09-29T02:45,walmart-search-scraper,"otro:{""input"": [{""keyword"": ""peppermint mouse repellent pouches"",",70,0.0035,sesión anterior
+2026-09-29T02:48,rag-web-browser,ali_item:3256812408071561,1,0.0174,sesión anterior
+2026-09-29T02:48,rag-web-browser,ali_item:3256812562689579,1,0.0181,sesión anterior
+2026-09-29T02:49,rag-web-browser,ali_item:3256812469365621,1,0.0131,sesión anterior
+2026-09-29T02:50,rag-web-browser,ali_item:3256811384035290,1,0.0141,sesión anterior
+2026-09-29T02:51,facebook-ads-scraper,meta:quilted basket,30,0.15,sesión anterior
+2026-09-29T02:51,facebook-ads-scraper,meta:diaper caddy,30,0.15,sesión anterior
+2026-09-29T02:52,facebook-ads-scraper,meta:car organizer basket,1,0.005,sesión anterior
+2026-09-29T02:52,facebook-ads-scraper,meta:floral basket,30,0.15,sesión anterior
+2026-09-29T02:53,facebook-ads-scraper,meta:mom car,10,0.05,sesión anterior
+2026-09-29T02:53,facebook-ads-scraper,meta:repellent pouches,30,0.15,sesión anterior
+2026-09-29T02:54,facebook-ads-scraper,meta:no more mice,30,0.15,sesión anterior
+2026-09-29T02:54,facebook-ads-scraper,meta:mice repellent,19,0.095,sesión anterior
+2026-09-29T02:54,facebook-ads-scraper,meta:rodent pouches,30,0.15,sesión anterior
+2026-09-29T02:55,facebook-ads-scraper,meta:keep rodents away,30,0.15,sesión anterior
+2026-09-29T18:43,facebook-ads-scraper,meta:dryer vent cleaner,30,0.15,sesión anterior
+2026-09-29T18:43,facebook-ads-scraper,meta:christmas wine glass,30,0.15,sesión anterior
+2026-09-29T18:44,facebook-ads-scraper,meta:santa breaking in,1,0.005,sesión anterior
+2026-09-29T18:44,facebook-ads-scraper,meta:sink organizer,30,0.15,sesión anterior
+2026-09-29T18:44,facebook-ads-scraper,meta:dust remover,30,0.15,sesión anterior
+2026-09-29T18:44,facebook-ads-scraper,meta:rotating window cleaner,1,0.005,sesión anterior
+2026-09-29T18:44,facebook-ads-scraper,meta:tire pressure caps,1,0.005,sesión anterior
+2026-09-29T18:44,facebook-ads-scraper,meta:rivet nut,30,0.15,sesión anterior
+2026-09-29T18:44,facebook-ads-scraper,meta:key decoder,30,0.15,sesión anterior
+2026-09-29T18:45,facebook-ads-scraper,meta:pants rack,30,0.15,sesión anterior
+2026-09-29T18:45,facebook-ads-scraper,meta:wall anchors,30,0.15,sesión anterior
+2026-09-29T18:45,facebook-ads-scraper,meta:stackable storage,30,0.15,sesión anterior
+2026-09-29T18:45,shopify,url:https://joyeloo.com/products/dryer-vent-cleaner-kit,11,0.0177,sesión anterior
+2026-09-29T18:45,rag-web-browser,amazon:dryer vent cleaner kit,1,0.007,sesión anterior
+2026-09-29T18:45,facebook-ads-scraper,meta:couch tray,30,0.15,sesión anterior
+2026-09-29T18:45,rag-web-browser,amazon:dryer vent cleaner kit,1,0.0071,sesión anterior
+2026-09-29T18:46,rag-web-browser,amazon:dryer vent cleaner kit,1,0.0061,sesión anterior
+2026-09-29T18:46,facebook-ads-scraper,meta:sofa tray,3,0.015,sesión anterior
+2026-09-29T18:46,rag-web-browser,amazon:rivet nut tool kit,1,0.0047,sesión anterior
+2026-09-29T18:46,facebook-ads-scraper,meta:ice cube tray bottle,1,0.005,sesión anterior
+2026-09-29T18:46,rag-web-browser,amazon:rivet nut tool kit,1,0.0065,sesión anterior
+2026-09-29T18:46,rag-web-browser,amazon:rivet nut tool kit,1,0.0277,sesión anterior
+2026-09-29T22:18,facebook-ads-scraper,meta:car organizer,5,0.025,no (sesión anterior / sin guardar)
+2026-09-29T22:20,facebook-ads-scraper,meta:hat rack,24,0.12,sí
+2026-09-29T22:20,facebook-ads-scraper,meta:back seat extender,24,0.12,sí
+2026-09-29T22:20,facebook-ads-scraper,meta:sheet holder,24,0.12,sí
+2026-09-29T22:20,facebook-ads-scraper,meta:egg opener,24,0.12,sí
+2026-09-29T22:20,facebook-ads-scraper,meta:burner covers,24,0.12,sí
+2026-09-29T22:20,facebook-ads-scraper,meta:ice cube water bottle,24,0.12,sí
+2026-09-29T22:20,facebook-ads-scraper,meta:leather repair patch,24,0.12,sí
+2026-09-29T22:20,facebook-ads-scraper,meta:rain catcher,24,0.12,sí
+2026-09-29T22:20,facebook-ads-scraper,meta:stackable storage bins,24,0.12,sí
+2026-09-29T22:20,facebook-ads-scraper,meta:exfoliating glove,24,0.12,sí
+2026-09-29T22:21,facebook-ads-scraper,meta:hose nozzle,24,0.12,sí
+2026-09-29T22:21,facebook-ads-scraper,meta:pet hair remover,24,0.12,sí
+2026-09-29T22:21,facebook-ads-scraper,meta:jar opener,24,0.12,sí
+2026-09-29T22:21,facebook-ads-scraper,meta:burner covers,24,0.12,sí
+2026-09-29T22:23,shopify,url:https://urbanpupgears.com/products/hard-bottom-dog-car-seat-cover,25,0.0401,sí (precios rivales)
+2026-09-29T22:28,shopify,url:https://jetjetty.com/products/self-adhesive-leather-repair,1,0.0016,sí (precios rivales)
+2026-09-29T23:20,facebook-ads-scraper,meta:pilates bar,24,0.12,sí
+2026-09-29T23:20,facebook-ads-scraper,meta:push up board,24,0.12,sí
+2026-09-29T23:20,facebook-ads-scraper,meta:ab roller,24,0.12,sí
+2026-09-29T23:20,facebook-ads-scraper,meta:ankle weights,24,0.12,sí
+2026-09-29T23:20,facebook-ads-scraper,meta:weighted hula hoop,13,0.065,sí
+2026-09-29T23:21,facebook-ads-scraper,meta:pull up bar,24,0.12,sí
+2026-09-29T23:21,facebook-ads-scraper,meta:suspension trainer,24,0.12,sí
+2026-09-29T23:21,facebook-ads-scraper,meta:core sliders,1,0.005,sí
+2026-09-29T23:21,facebook-ads-scraper,meta:grip strengthener,24,0.12,sí
+2026-09-29T23:21,facebook-ads-scraper,meta:pedal resistance band,24,0.12,sí
+2026-09-29T23:21,facebook-ads-scraper,meta:yoga wheel,6,0.03,sí
+2026-09-29T23:21,facebook-ads-scraper,meta:jump rope,24,0.12,sí
+2026-09-29T23:21,facebook-ads-scraper,meta:pilates ring,24,0.12,sí
+2026-09-29T23:28,shopify,url:https://clingman.co/products/push-up-board-1,18,0.0289,sí (precios rivales)
+2026-09-30T02:23,facebook-ads-scraper,meta:car organizer,5,0.025,no (sesión anterior / sin guardar)
+2026-09-30T02:28,facebook-ads-scraper,meta:ice roller,24,0.12,sí
+2026-09-30T02:28,facebook-ads-scraper,meta:grout pen,24,0.12,sí
+2026-09-30T02:28,facebook-ads-scraper,meta:hair towel wrap,24,0.12,sí
+2026-09-30T02:28,facebook-ads-scraper,meta:wall sconces,24,0.12,sí
+2026-09-30T02:28,facebook-ads-scraper,meta:heatless curls,24,0.12,sí
+2026-09-30T02:28,facebook-ads-scraper,meta:tire valve caps,24,0.12,sí
+2026-09-30T02:28,facebook-ads-scraper,meta:scratch remover,24,0.12,sí
+2026-09-30T02:28,facebook-ads-scraper,meta:mandala light,24,0.12,sí
+2026-09-30T02:28,facebook-ads-scraper,meta:bumper repair,24,0.12,sí
+2026-09-30T02:28,facebook-ads-scraper,meta:diamond painting,24,0.12,sí
+2026-09-30T02:29,shopify,url:https://www.makdledge.com/products/anti-mould-and-waterproof-joint-pen,20,0.0321,sí (precios rivales)
+2026-09-30T03:49,facebook-ads-scraper,meta:deshedding tool,30,0.15,sí
+2026-09-30T03:49,facebook-ads-scraper,meta:christmas projector,30,0.15,sí
+2026-09-30T03:49,facebook-ads-scraper,meta:shower door hook,1,0.005,sí
+2026-09-30T03:49,facebook-ads-scraper,meta:drill free rod,1,0.005,sí
+2026-09-30T03:49,facebook-ads-scraper,meta:mini steam iron,30,0.15,sí
+2026-09-30T03:49,facebook-ads-scraper,meta:bark deterrent,30,0.15,sí
+2026-09-30T03:49,shopify,url:https://ggvbeauty.com/products/plug-play-hd-christmas-projector,14,0.0225,sí (precios rivales)
+2026-09-30T03:53,facebook-ads-scraper,meta:frying pot,30,0.15,sí
+2026-09-30T03:53,facebook-ads-scraper,meta:stainless steel cutting board,30,0.15,sí
+2026-09-30T03:53,shopify,url:https://getkant.shop/products/kant-honeycomp-stainless-steel-board,8,0.0129,sí (precios rivales)
+2026-09-30T04:12,rag-web-browser,amazon:japanese deep frying pot,1,0.0068,no (reintento/repetida)
+2026-09-30T04:12,rag-web-browser,amazon:japanese deep frying pot,1,0.0119,sí
+2026-09-30T04:13,rag-web-browser,amazon:deep fryer pot stainless steel with thermometer,1,0.0074,no (reintento/repetida)
+2026-09-30T04:13,rag-web-browser,amazon:deep fryer pot stainless steel with thermometer,1,0.0059,no (reintento/repetida)
+2026-09-30T04:13,rag-web-browser,amazon:deep fryer pot stainless steel with thermometer,1,0.0285,sí
+2026-09-30T04:14,rag-web-browser,ali_item:3256807619364427,1,0.012,no (candidato descartado o repetido)
+2026-09-30T04:15,rag-web-browser,ali_item:3256809857842506,1,0.018,no (candidato descartado o repetido)
+2026-09-30T04:16,rag-web-browser,ali_item:3256809857842506,1,0.0595,no (candidato descartado o repetido)
+2026-09-30T04:25,rag-web-browser,ali_item:3256809902812909,1,0.0143,no (candidato descartado o repetido)
+2026-09-30T04:25,rag-web-browser,ali_item:3256806674519233,1,0.0132,no (candidato descartado o repetido)
+2026-09-30T04:26,rag-web-browser,ali_item:3256805567484204,1,0.0141,no (candidato descartado o repetido)
+2026-09-30T04:26,shopify,url:https://www.pawtique.co/products/ultrasonic-dog-repeller,2,0.0033,sí (precios rivales)
+2026-09-30T04:26,rag-web-browser,amazon:ultrasonic bark deterrent device,1,0.0594,no (reintento/repetida)
+2026-09-30T04:29,rag-web-browser,amazon:ultrasonic bark deterrent device,1,0.0075,no (reintento/repetida)
+2026-09-30T04:29,rag-web-browser,ali_item:3256806392706375,1,0.012,no (candidato descartado o repetido)
+2026-09-30T04:29,rag-web-browser,ali_item:3256809396008885,1,0.0249,no (candidato descartado o repetido)
+2026-09-30T04:30,rag-web-browser,ali_item:3256810386379080,1,0.0139,no (candidato descartado o repetido)
+2026-09-30T04:31,shopify,url:https://getkant.shop/products/kant-honeycomp-stainless-steel-board,3,0.0049,sí (precios rivales)
+2026-09-30T04:31,rag-web-browser,amazon:stainless steel cutting board,1,0.0073,no (reintento/repetida)
+2026-09-30T04:31,rag-web-browser,amazon:stainless steel cutting board,1,0.0149,sí
+2026-09-30T04:32,rag-web-browser,ali_item:3256809087241593,1,0.0141,no (candidato descartado o repetido)
+2026-09-30T04:33,rag-web-browser,ali_item:3256810491435903,1,0.0114,no (candidato descartado o repetido)
+2026-09-30T04:33,rag-web-browser,ali_item:3256813019213706,1,0.0151,no (candidato descartado o repetido)
+2026-09-30T04:34,shopify,url:https://clingman.co/products/push-up-board-1,3,0.0049,sí (precios rivales)
+2026-09-30T04:34,rag-web-browser,amazon:push up board,1,0.0096,no (reintento/repetida)
+2026-09-30T04:35,rag-web-browser,ali_item:2251832389746211,1,0.0135,no (candidato descartado o repetido)
+2026-09-30T04:35,rag-web-browser,ali_item:3256810098166038,1,0.0124,no (candidato descartado o repetido)
+2026-09-30T04:36,rag-web-browser,ali_item:3256809902812909,1,0.033,no (candidato descartado o repetido)
+2026-09-30T04:37,rag-web-browser,ali_item:3256809902800957,1,0.0143,no (candidato descartado o repetido)
+2026-09-30T04:37,rag-web-browser,ali_item:3256806737391708,1,0.047,no (candidato descartado o repetido)
+2026-09-30T04:39,shopify,url:https://www.pawtique.co/products/ultrasonic-dog-repeller,2,0.0033,sí (precios rivales)
+2026-09-30T04:39,rag-web-browser,amazon:ultrasonic bark deterrent device,1,0.0103,no (reintento/repetida)
+2026-09-30T04:40,rag-web-browser,ali_item:3256806392706375,1,0.0122,no (candidato descartado o repetido)
+2026-09-30T04:40,rag-web-browser,ali_item:3256807406045650,1,0.0123,sí
+2026-09-30T04:41,rag-web-browser,ali_item:3256806674839254,1,0.016,no (candidato descartado o repetido)
+2026-09-30T04:41,shopify,url:https://shoppurevo.com/products/304-stainless-steel-cutting-board-food,3,0.0049,sí (precios rivales)
+2026-09-30T04:42,rag-web-browser,ali_item:3256809087241593,1,0.0143,no (candidato descartado o repetido)
+2026-09-30T04:42,rag-web-browser,ali_item:3256810491435903,1,0.013,no (candidato descartado o repetido)
+2026-09-30T04:43,rag-web-browser,ali_item:3256813019213706,1,0.0121,no (candidato descartado o repetido)
+2026-09-30T04:43,shopify,url:https://clingman.co/products/push-up-board-1,3,0.0049,sí (precios rivales)
+2026-09-30T04:44,rag-web-browser,amazon:push up board,1,0.0103,sí
+2026-09-30T04:44,rag-web-browser,ali_item:2251832389746211,1,0.0117,no (candidato descartado o repetido)
+2026-09-30T04:45,rag-web-browser,ali_item:3256810098166038,1,0.0126,no (candidato descartado o repetido)
+2026-09-30T04:45,rag-web-browser,ali_item:3256812784473837,1,0.0122,sí
+2026-09-30T04:46,shopify,url:https://stretchedfusion.com/products/thepilatesbar,1,0.0016,sí (precios rivales)
+2026-09-30T04:46,rag-web-browser,amazon:pilates bar kit resistance bands,1,0.0108,no (reintento/repetida)
+2026-09-30T04:47,rag-web-browser,ali_item:3256808840504680,1,0.0155,no (candidato descartado o repetido)
+2026-09-30T04:47,rag-web-browser,ali_item:3256806810331395,1,0.0168,no (candidato descartado o repetido)
+2026-09-30T04:48,rag-web-browser,ali_item:3256808219995727,1,0.0129,no (candidato descartado o repetido)
+2026-09-30T04:48,shopify,url:https://pridola.co/collections/best-selling/products/wall-sconces,1,0.0016,sí (precios rivales)
+2026-09-30T04:48,rag-web-browser,amazon:rechargeable wireless wall sconce,1,0.0106,no (reintento/repetida)
+2026-09-30T04:49,rag-web-browser,ali_item:3256809548574579,1,0.0128,no (candidato descartado o repetido)
+2026-09-30T04:49,rag-web-browser,ali_item:3256809779104681,1,0.0222,no (candidato descartado o repetido)
+2026-09-30T04:50,rag-web-browser,ali_item:3256810190094682,1,0.0112,no (candidato descartado o repetido)
+2026-09-30T04:51,shopify,url:https://ggvbeauty.com/products/plug-play-hd-christmas-projector,3,0.0049,sí (precios rivales)
+2026-09-30T04:51,rag-web-browser,ali_item:3256806810153155,1,0.0167,no (candidato descartado o repetido)
+2026-09-30T04:52,rag-web-browser,ali_item:3256809923283859,1,0.0095,sí
+2026-09-30T04:52,rag-web-browser,ali_item:3256809265741932,1,0.0138,no (candidato descartado o repetido)
+2026-09-30T04:53,shopify,url:https://clarioy.com/products/houstonget-ironing-machine,3,0.0049,sí (precios rivales)
+2026-09-30T04:53,rag-web-browser,ali_item:3256807619425397,1,0.0111,no (candidato descartado o repetido)
+2026-09-30T04:53,rag-web-browser,ali_item:3256810467119627,1,0.0141,no (candidato descartado o repetido)
+2026-09-30T04:54,rag-web-browser,ali_item:3256807284218547,1,0.0122,no (candidato descartado o repetido)
+2026-09-30T04:54,shopify,url:https://www.mykitsch.com/products/kitsch-set-flow-active-headband-heat,2,0.0033,sí (precios rivales)
+2026-09-30T04:55,rag-web-browser,amazon:heatless curling rod headband,1,0.0093,no (reintento/repetida)
+2026-09-30T04:55,rag-web-browser,ali_item:3256806677420989,1,0.0141,no (candidato descartado o repetido)
+2026-09-30T04:55,rag-web-browser,ali_item:3256811754873752,1,0.0135,sí
+2026-09-30T04:56,rag-web-browser,ali_item:3256811467967704,1,0.0163,no (candidato descartado o repetido)
+2026-09-30T04:57,shopify,url:https://gentlegains.com/products/full-body-toning-exercise-band,2,0.0033,sí (precios rivales)
+2026-09-30T04:57,rag-web-browser,amazon:pedal resistance band,1,0.0056,no (reintento/repetida)
+2026-09-30T04:57,rag-web-browser,amazon:pedal resistance band,1,0.0101,no (reintento/repetida)
+2026-09-30T04:57,rag-web-browser,ali_item:3256809462573193,1,0.0142,sí
+2026-09-30T04:58,rag-web-browser,ali_item:3256811596589473,1,0.0124,no (candidato descartado o repetido)
+2026-09-30T04:58,rag-web-browser,ali_item:3256808078032822,1,0.0126,no (candidato descartado o repetido)
+2026-09-30T04:59,shopify,url:https://wondeea.com/products/pilates-ring,3,0.0049,sí (precios rivales)
+2026-09-30T04:59,rag-web-browser,amazon:pilates ring,1,0.0053,no (reintento/repetida)
+2026-09-30T04:59,rag-web-browser,amazon:pilates ring,1,0.0111,no (reintento/repetida)
+2026-09-30T05:00,rag-web-browser,ali_item:3256808973005163,1,0.0196,no (candidato descartado o repetido)
+2026-09-30T05:01,rag-web-browser,ali_item:3256812457822214,1,0.0169,no (candidato descartado o repetido)
+2026-09-30T05:01,rag-web-browser,ali_item:3256809873794397,1,0.0137,no (candidato descartado o repetido)
+2026-09-30T05:02,shopify,url:https://perpetualing.com/products/bring-life-back-to-your-garden-peace,2,0.0033,sí (precios rivales)
+2026-09-30T05:02,rag-web-browser,amazon:rain chain bird bath,1,0.0067,no (reintento/repetida)
+2026-09-30T05:02,rag-web-browser,amazon:rain chain bird bath,1,0.0068,no (reintento/repetida)
+2026-09-30T05:03,rag-web-browser,ali_item:3256809902872571,1,0.0149,sí
+2026-09-30T05:04,rag-web-browser,ali_item:3256811812521055,1,0.0088,no (candidato descartado o repetido)
+2026-09-30T05:04,rag-web-browser,ali_item:3256809091775453,1,0.0579,no (candidato descartado o repetido)
+2026-09-30T05:06,shopify,url:https://www.pawtique.co/products/ultrasonic-dog-repeller,2,0.0033,sí (precios rivales)
+2026-09-30T05:07,rag-web-browser,amazon:ultrasonic bark deterrent device,1,0.0099,sí
+2026-09-30T05:07,rag-web-browser,ali_item:3256809396008885,1,0.0104,no (candidato descartado o repetido)
+2026-09-30T05:07,rag-web-browser,ali_item:3256806392706375,1,0.0145,no (candidato descartado o repetido)
+2026-09-30T05:08,rag-web-browser,ali_item:3256807406045650,1,0.013,sí
+2026-09-30T05:08,shopify,url:https://shoppurevo.com/products/304-stainless-steel-cutting-board-food,3,0.0049,sí (precios rivales)
+2026-09-30T05:09,rag-web-browser,ali_item:3256809087241593,1,0.0168,no (candidato descartado o repetido)
+2026-09-30T05:09,rag-web-browser,ali_item:3256810491435903,1,0.0127,no (candidato descartado o repetido)
+2026-09-30T05:10,rag-web-browser,ali_item:3256813019213706,1,0.0144,no (candidato descartado o repetido)
+2026-09-30T05:10,shopify,url:https://clingman.co/products/push-up-board-1,3,0.0049,sí (precios rivales)
+2026-09-30T05:11,rag-web-browser,ali_item:2251832389746211,1,0.0121,no (candidato descartado o repetido)
+2026-09-30T05:11,rag-web-browser,ali_item:3256810098166038,1,0.0117,no (candidato descartado o repetido)
+2026-09-30T05:12,rag-web-browser,ali_item:3256812784473837,1,0.0126,sí
+2026-09-30T05:12,shopify,url:https://stretchedfusion.com/products/thepilatesbar,1,0.0016,sí (precios rivales)
+2026-09-30T05:12,rag-web-browser,amazon:pilates bar kit resistance bands,1,0.0116,sí
+2026-09-30T05:13,rag-web-browser,ali_item:3256808840504680,1,0.0119,no (candidato descartado o repetido)
+2026-09-30T05:13,rag-web-browser,ali_item:3256808910562793,1,0.0584,no (candidato descartado o repetido)
+2026-09-30T05:16,rag-web-browser,ali_item:3256807846117943,1,0.0107,no (candidato descartado o repetido)
+2026-09-30T05:16,shopify,url:https://pridola.co/collections/best-selling/products/wall-sconces,1,0.0016,sí (precios rivales)
+2026-09-30T05:16,rag-web-browser,amazon:rechargeable wireless wall sconce,1,0.0066,no (reintento/repetida)
+2026-09-30T05:16,rag-web-browser,amazon:rechargeable wireless wall sconce,1,0.0061,sí
+2026-09-30T05:17,rag-web-browser,ali_item:3256806097732513,1,0.0139,sí
+2026-09-30T05:17,rag-web-browser,ali_item:3256808219732241,1,0.0128,no (candidato descartado o repetido)
+2026-09-30T05:18,rag-web-browser,ali_item:3256809993753976,1,0.0103,no (candidato descartado o repetido)
+2026-09-30T05:18,shopify,url:https://ggvbeauty.com/products/plug-play-hd-christmas-projector,3,0.0049,sí (precios rivales)
+2026-09-30T05:20,rag-web-browser,ali_item:3256806810153155,1,0.0139,no (candidato descartado o repetido)
+2026-09-30T05:21,rag-web-browser,ali_item:3256807184333506,1,0.0156,no (candidato descartado o repetido)
+2026-09-30T05:21,rag-web-browser,ali_item:3256809923283859,1,0.0139,sí
+2026-09-30T05:22,shopify,url:https://clarioy.com/products/houstonget-ironing-machine,3,0.0049,sí (precios rivales)
+2026-09-30T05:22,rag-web-browser,ali_item:3256809729883045,1,0.0107,no (candidato descartado o repetido)
+2026-09-30T05:22,rag-web-browser,ali_item:3256809462765798,1,0.0119,sí
+2026-09-30T05:23,rag-web-browser,ali_item:3256810467119627,1,0.0172,no (candidato descartado o repetido)
+2026-09-30T05:23,shopify,url:https://www.mykitsch.com/products/kitsch-set-flow-active-headband-heat,2,0.0033,sí (precios rivales)
+2026-09-30T05:23,rag-web-browser,amazon:heatless curling rod headband,1,0.0045,no (reintento/repetida)
+2026-09-30T05:24,rag-web-browser,amazon:heatless curling rod headband,1,0.0156,sí
+2026-09-30T05:24,rag-web-browser,ali_item:3256811754873752,1,0.0141,sí
+2026-09-30T05:25,rag-web-browser,ali_item:3256811467967704,1,0.0133,no (candidato descartado o repetido)
+2026-09-30T05:25,rag-web-browser,ali_item:3256812724144823,1,0.0117,no (candidato descartado o repetido)
+2026-09-30T05:26,shopify,url:https://gentlegains.com/products/full-body-toning-exercise-band,2,0.0033,sí (precios rivales)
+2026-09-30T05:26,rag-web-browser,amazon:pedal resistance band,1,0.0105,sí
+2026-09-30T05:26,rag-web-browser,ali_item:3256809462963347,1,0.0126,no (candidato descartado o repetido)
+2026-09-30T05:27,rag-web-browser,ali_item:3256809462573193,1,0.0254,sí
+2026-09-30T05:28,rag-web-browser,ali_item:3256811596589473,1,0.0112,no (candidato descartado o repetido)
+2026-09-30T05:28,shopify,url:https://wondeea.com/products/pilates-ring,3,0.0049,sí (precios rivales)
+2026-09-30T05:28,rag-web-browser,amazon:pilates ring,1,0.0073,no (reintento/repetida)
+2026-09-30T05:29,rag-web-browser,amazon:pilates ring,1,0.0071,sí
+2026-09-30T05:29,rag-web-browser,ali_item:3256805272937741,1,0.0154,no (candidato descartado o repetido)
+2026-09-30T05:30,rag-web-browser,ali_item:3256808973005163,1,0.0363,no (candidato descartado o repetido)
+2026-09-30T05:31,rag-web-browser,ali_item:3256809615515656,1,0.0187,sí
+2026-09-30T05:32,rag-web-browser,ali_item:3256805272937741,1,0.0112,no (candidato descartado o repetido)
+2026-09-30T05:32,rag-web-browser,ali_item:3256808973005163,1,0.0345,no (candidato descartado o repetido)
+2026-09-30T05:34,rag-web-browser,ali_item:3256809615515656,1,0.0108,sí
+2026-09-30T05:34,shopify,url:https://perpetualing.com/products/bring-life-back-to-your-garden-peace,2,0.0033,sí (precios rivales)
+2026-09-30T05:34,rag-web-browser,amazon:rain chain bird bath,1,0.0081,no (reintento/repetida)
+2026-09-30T05:35,rag-web-browser,amazon:rain chain bird bath,1,0.0061,sí
+2026-09-30T05:35,rag-web-browser,ali_item:3256807718471241,1,0.013,sí
+2026-09-30T05:35,rag-web-browser,ali_item:3256806776636739,1,0.0101,no (candidato descartado o repetido)
+2026-09-30T05:36,rag-web-browser,ali_item:3256811754967327,1,0.0152,no (candidato descartado o repetido)
+2026-09-30T05:36,shopify,url:https://www.postureflex.co/products/postureflex-ab-roller,2,0.0033,sí (precios rivales)
+2026-09-30T05:37,rag-web-browser,amazon:ab roller wheel,1,0.0057,no (reintento/repetida)
+2026-09-30T05:37,rag-web-browser,amazon:ab roller wheel,1,0.0063,sí
+2026-09-30T05:37,rag-web-browser,ali_item:3256808061797667,1,0.0148,no (candidato descartado o repetido)
+2026-09-30T05:38,rag-web-browser,ali_item:3256804551977519,1,0.0189,sí
+2026-09-30T05:39,rag-web-browser,ali_item:3256810252911199,1,0.0144,no (candidato descartado o repetido)
+2026-09-30T05:39,shopify,url:https://pridola.co/collections/best-selling/products/wall-sconces,1,0.0016,sí (precios rivales)
+2026-09-30T05:39,rag-web-browser,amazon:rechargeable wall sconces set of 2,1,0.0333,sí
+2026-09-30T05:41,rag-web-browser,ali_item:3256809462963347,1,0.0112,no (candidato descartado o repetido)
+2026-09-30T05:41,rag-web-browser,ali_item:3256809462573193,1,0.0118,sí
+2026-09-30T05:42,rag-web-browser,ali_item:3256808078032822,1,0.0117,no (candidato descartado o repetido)
+2026-09-30T05:42,shopify,url:https://wondeea.com/products/pilates-ring,3,0.0049,sí (precios rivales)
+2026-09-30T05:42,rag-web-browser,ali_item:3256809615515656,1,0.0111,sí
+2026-09-30T05:43,rag-web-browser,ali_item:3256811982331062,1,0.0095,no (candidato descartado o repetido)
+2026-09-30T05:43,rag-web-browser,ali_item:3256808480995854,1,0.0109,no (candidato descartado o repetido)
+2026-09-30T05:43,shopify,url:https://perpetualing.com/products/bring-life-back-to-your-garden-peace,2,0.0033,sí (precios rivales)
+2026-09-30T05:48,rag-web-browser,amazon:matcha whisk set,1,0.0046,no (reintento/repetida)
+2026-09-30T05:49,rag-web-browser,amazon:matcha whisk set,1,0.0061,no (reintento/repetida)
+2026-09-30T05:49,rag-web-browser,amazon:matcha whisk set,1,0.0065,no (reintento/repetida)
+2026-09-30T05:49,rag-web-browser,amazon:matcha whisk set,1,0.0124,no (reintento/repetida)
+2026-09-30T05:50,rag-web-browser,amazon:sourdough bread proofing basket kit,1,0.0068,no (reintento/repetida)
+2026-09-30T05:50,rag-web-browser,amazon:soil blocker,1,0.0102,no (reintento/repetida)
+2026-09-30T05:50,rag-web-browser,amazon:whiskey stones gift set,1,0.0067,no (reintento/repetida)
+2026-09-30T05:50,rag-web-browser,amazon:cocktail smoker kit,1,0.0112,no (reintento/repetida)
+2026-09-30T05:51,rag-web-browser,amazon:whiskey stones gift set,1,0.0048,no (reintento/repetida)
+2026-09-30T05:51,rag-web-browser,amazon:sourdough bread proofing basket kit,1,0.0162,no (reintento/repetida)
+2026-09-30T05:51,rag-web-browser,amazon:espresso wdt tool,1,0.0105,no (reintento/repetida)
+2026-09-30T05:51,rag-web-browser,amazon:espresso tamper calibrated,1,0.0048,no (reintento/repetida)
+2026-09-30T05:51,rag-web-browser,amazon:whiskey stones gift set,1,0.0093,no (reintento/repetida)
+2026-09-30T05:51,rag-web-browser,amazon:espresso tamper calibrated,1,0.0057,no (reintento/repetida)
+2026-09-30T05:51,rag-web-browser,amazon:espresso puck screen,1,0.0065,no (reintento/repetida)
+2026-09-30T05:51,rag-web-browser,amazon:embroidery kit for beginners,1,0.0081,no (reintento/repetida)
+2026-09-30T05:51,rag-web-browser,amazon:espresso tamper calibrated,1,0.0114,no (reintento/repetida)
+2026-09-30T05:51,rag-web-browser,amazon:punch needle kit,1,0.0063,no (reintento/repetida)
+2026-09-30T05:51,rag-web-browser,amazon:espresso puck screen,1,0.0082,no (reintento/repetida)
+2026-09-30T05:51,rag-web-browser,amazon:needle felting kit,1,0.0107,no (reintento/repetida)
+2026-09-30T05:51,rag-web-browser,amazon:punch needle kit,1,0.0072,no (reintento/repetida)
+2026-09-30T05:52,rag-web-browser,amazon:crochet kit for beginners,1,0.0299,no (reintento/repetida)
+2026-09-30T05:52,rag-web-browser,amazon:leather working kit,1,0.0067,no (reintento/repetida)
+2026-09-30T05:52,rag-web-browser,amazon:punch needle kit,1,0.0058,no (reintento/repetida)
+2026-09-30T05:52,rag-web-browser,amazon:bread lame scoring tool,1,0.0057,no (reintento/repetida)
+2026-09-30T05:52,rag-web-browser,amazon:leather working kit,1,0.0103,no (reintento/repetida)
+2026-09-30T05:52,rag-web-browser,amazon:pasta drying rack,1,0.0058,no (reintento/repetida)
+2026-09-30T05:52,rag-web-browser,amazon:bread lame scoring tool,1,0.0066,no (reintento/repetida)
+2026-09-30T05:52,rag-web-browser,amazon:pasta drying rack,1,0.0128,no (reintento/repetida)
+2026-09-30T05:52,rag-web-browser,amazon:bread lame scoring tool,1,0.0062,no (reintento/repetida)
+2026-09-30T05:52,rag-web-browser,amazon:dog paw cleaner cup,1,0.0065,no (reintento/repetida)
+2026-09-30T05:53,rag-web-browser,amazon:dog lick mat,1,0.0053,no (reintento/repetida)
+2026-09-30T05:53,rag-web-browser,amazon:dog paw cleaner cup,1,0.0066,no (reintento/repetida)
+2026-09-30T05:53,rag-web-browser,amazon:car cup holder expander,1,0.006,no (reintento/repetida)
+2026-09-30T05:53,rag-web-browser,amazon:steering wheel desk tray,1,0.009,no (reintento/repetida)
+2026-09-30T05:53,rag-web-browser,amazon:dog lick mat,1,0.0088,no (reintento/repetida)
+2026-09-30T05:53,rag-web-browser,amazon:travel jewelry case,1,0.0063,no (reintento/repetida)
+2026-09-30T05:53,rag-web-browser,amazon:car cup holder expander,1,0.0044,no (reintento/repetida)
+2026-09-30T05:53,rag-web-browser,amazon:magnetic knife holder for wall,1,0.0052,no (reintento/repetida)
+2026-09-30T05:53,rag-web-browser,amazon:car cup holder expander,1,0.0047,no (reintento/repetida)
+2026-09-30T05:53,rag-web-browser,amazon:travel jewelry case,1,0.0128,no (reintento/repetida)
+2026-09-30T05:53,rag-web-browser,amazon:herb keeper,1,0.0115,no (reintento/repetida)
+2026-09-30T05:53,rag-web-browser,amazon:butter dish with lid,1,0.012,no (reintento/repetida)
+2026-09-30T05:53,rag-web-browser,amazon:magnetic knife holder for wall,1,0.0048,no (reintento/repetida)
+2026-09-30T05:53,rag-web-browser,amazon:magnetic knife holder for wall,1,0.0081,no (reintento/repetida)
+2026-09-30T05:54,rag-web-browser,amazon:pour over coffee stand,1,0.0075,no (reintento/repetida)
+2026-09-30T05:54,rag-web-browser,amazon:wine chiller stick,1,0.0073,no (reintento/repetida)
+2026-09-30T05:54,rag-web-browser,amazon:window bird feeder,1,0.0044,no (reintento/repetida)
+2026-09-30T05:54,rag-web-browser,amazon:hummingbird feeder,1,0.0048,no (reintento/repetida)
+2026-09-30T05:54,rag-web-browser,amazon:pour over coffee stand,1,0.0053,no (reintento/repetida)
+2026-09-30T05:54,rag-web-browser,amazon:wine chiller stick,1,0.0155,no (reintento/repetida)
+2026-09-30T05:54,rag-web-browser,amazon:window bird feeder,1,0.0045,no (reintento/repetida)
+2026-09-30T05:54,rag-web-browser,amazon:hummingbird feeder,1,0.0096,no (reintento/repetida)
+2026-09-30T05:54,rag-web-browser,amazon:pour over coffee stand,1,0.0076,no (reintento/repetida)
+2026-09-30T05:54,rag-web-browser,amazon:window bird feeder,1,0.0222,no (reintento/repetida)
+2026-09-30T05:54,rag-web-browser,amazon:plant propagation station,1,0.0077,no (reintento/repetida)
+2026-09-30T05:54,rag-web-browser,amazon:hummingbird feeder,1,0.016,no (reintento/repetida)
+2026-09-30T05:54,rag-web-browser,amazon:terrarium kit,1,0.0048,no (reintento/repetida)
+2026-09-30T05:55,rag-web-browser,amazon:plant propagation station,1,0.0063,no (reintento/repetida)
+2026-09-30T05:55,rag-web-browser,amazon:terrarium kit,1,0.006,no (reintento/repetida)
+2026-09-30T05:55,rag-web-browser,amazon:terrarium kit,1,0.0113,no (reintento/repetida)
+2026-09-30T05:55,rag-web-browser,amazon:plant propagation station,1,0.007,no (reintento/repetida)
+2026-09-30T05:55,rag-web-browser,amazon:claw clips set,1,0.0047,no (reintento/repetida)
+2026-09-30T05:55,rag-web-browser,amazon:silk scrunchies,1,0.0097,no (reintento/repetida)
+2026-09-30T05:55,rag-web-browser,amazon:claw clips set,1,0.0063,no (reintento/repetida)
+2026-09-30T05:55,rag-web-browser,amazon:fly tying kit,1,0.0069,no (reintento/repetida)
+2026-09-30T05:55,rag-web-browser,amazon:golf divot tool,1,0.0097,no (reintento/repetida)
+2026-09-30T05:55,rag-web-browser,amazon:claw clips set,1,0.0179,no (reintento/repetida)
+2026-09-30T05:55,rag-web-browser,amazon:golf swing trainer,1,0.0061,no (reintento/repetida)
+2026-09-30T05:55,rag-web-browser,amazon:fly tying kit,1,0.0069,no (reintento/repetida)
+2026-09-30T05:56,rag-web-browser,amazon:golf swing trainer,1,0.0066,no (reintento/repetida)
+2026-09-30T05:56,rag-web-browser,amazon:knitting loom kit,1,0.0054,no (reintento/repetida)
+2026-09-30T05:56,rag-web-browser,amazon:wood carving kit,1,0.0064,no (reintento/repetida)
+2026-09-30T05:56,rag-web-browser,amazon:golf swing trainer,1,0.0111,no (reintento/repetida)
+2026-09-30T05:56,rag-web-browser,amazon:macrame kit,1,0.0102,no (reintento/repetida)
+2026-09-30T05:56,rag-web-browser,amazon:wood carving kit,1,0.0073,no (reintento/repetida)
+2026-09-30T05:56,rag-web-browser,amazon:sushi making kit,1,0.0056,no (reintento/repetida)
+2026-09-30T05:56,rag-web-browser,amazon:wood carving kit,1,0.0104,no (reintento/repetida)
+2026-09-30T05:56,rag-web-browser,amazon:matcha whisk set,1,0.0079,no (reintento/repetida)
+2026-09-30T05:56,rag-web-browser,amazon:sushi making kit,1,0.0052,no (reintento/repetida)
+2026-09-30T05:57,rag-web-browser,amazon:matcha whisk set,1,0.0045,no (reintento/repetida)
+2026-09-30T05:57,rag-web-browser,amazon:sushi making kit,1,0.0133,no (reintento/repetida)
+2026-09-30T05:57,rag-web-browser,amazon:matcha whisk set,1,0.009,no (reintento/repetida)
+2026-09-30T05:57,rag-web-browser,amazon:spice drawer organizer,1,0.0053,no (reintento/repetida)
+2026-09-30T05:57,rag-web-browser,amazon:knitting loom kit,1,0.0053,no (reintento/repetida)
+2026-09-30T05:57,rag-web-browser,amazon:spice drawer organizer,1,0.0057,no (reintento/repetida)
+2026-09-30T05:57,rag-web-browser,amazon:dog seat belt,1,0.0101,no (reintento/repetida)
+2026-09-30T05:57,rag-web-browser,amazon:cat window perch,1,0.0046,no (reintento/repetida)
+2026-09-30T05:57,rag-web-browser,amazon:knitting loom kit,1,0.0102,no (reintento/repetida)
+2026-09-30T05:57,rag-web-browser,amazon:spice drawer organizer,1,0.0054,no (reintento/repetida)
+2026-09-30T05:57,rag-web-browser,amazon:cat window perch,1,0.0046,no (reintento/repetida)
+2026-09-30T05:58,rag-web-browser,amazon:garlic press rocker,1,0.01,no (reintento/repetida)
+2026-09-30T05:58,rag-web-browser,amazon:cat window perch,1,0.0045,no (reintento/repetida)
+2026-09-30T05:58,rag-web-browser,amazon:cheese slicer wire,1,0.01,no (reintento/repetida)
+2026-09-30T05:58,rag-web-browser,amazon:cocktail smoker kit,1,0.0121,sí
+2026-09-30T05:58,rag-web-browser,amazon:whiskey stones gift set,1,0.0093,sí
+2026-09-30T05:58,rag-web-browser,amazon:sourdough bread proofing basket kit,1,0.0045,no (reintento/repetida)
+2026-09-30T05:58,rag-web-browser,amazon:sourdough bread proofing basket kit,1,0.0077,no (reintento/repetida)
+2026-09-30T05:58,rag-web-browser,amazon:soil blocker,1,0.0047,no (reintento/repetida)
+2026-09-30T05:59,rag-web-browser,amazon:espresso wdt tool,1,0.0061,no (reintento/repetida)
+2026-09-30T05:59,rag-web-browser,amazon:sourdough bread proofing basket kit,1,0.0052,no (reintento/repetida)
+2026-09-30T05:59,rag-web-browser,amazon:soil blocker,1,0.0087,sí
+2026-09-30T05:59,rag-web-browser,amazon:espresso tamper calibrated,1,0.0065,no (reintento/repetida)
+2026-09-30T05:59,rag-web-browser,amazon:espresso wdt tool,1,0.008,sí
+2026-09-30T05:59,rag-web-browser,amazon:espresso puck screen,1,0.0066,no (reintento/repetida)
+2026-09-30T05:59,rag-web-browser,amazon:espresso tamper calibrated,1,0.0062,no (reintento/repetida)
+2026-09-30T05:59,rag-web-browser,amazon:embroidery kit for beginners,1,0.0058,no (reintento/repetida)
+2026-09-30T05:59,rag-web-browser,amazon:espresso puck screen,1,0.0082,no (reintento/repetida)
+2026-09-30T05:59,rag-web-browser,amazon:espresso tamper calibrated,1,0.0057,no (reintento/repetida)
+2026-09-30T05:59,rag-web-browser,amazon:embroidery kit for beginners,1,0.0096,no (reintento/repetida)
+2026-09-30T05:59,rag-web-browser,amazon:punch needle kit,1,0.0055,no (reintento/repetida)
+2026-09-30T06:00,rag-web-browser,amazon:espresso puck screen,1,0.0064,no (reintento/repetida)
+2026-09-30T06:00,rag-web-browser,amazon:embroidery kit for beginners,1,0.0414,no (reintento/repetida)
+2026-09-30T06:00,rag-web-browser,amazon:punch needle kit,1,0.0123,no (reintento/repetida)
+2026-09-30T06:00,rag-web-browser,amazon:needle felting kit,1,0.0177,no (reintento/repetida)
+2026-09-30T06:00,rag-web-browser,amazon:punch needle kit,1,0.0139,sí
+2026-09-30T06:00,rag-web-browser,amazon:needle felting kit,1,0.0149,sí
+2026-09-30T06:01,rag-web-browser,amazon:crochet kit for beginners,1,0.0321,sí
+2026-09-30T06:01,rag-web-browser,amazon:leather working kit,1,0.0092,no (reintento/repetida)
+2026-09-30T06:01,rag-web-browser,amazon:bread lame scoring tool,1,0.0045,no (reintento/repetida)
+2026-09-30T06:01,rag-web-browser,amazon:leather working kit,1,0.0071,no (reintento/repetida)
+2026-09-30T06:01,rag-web-browser,amazon:bread lame scoring tool,1,0.0061,no (reintento/repetida)
+2026-09-30T06:02,rag-web-browser,amazon:bread lame scoring tool,1,0.011,sí
+2026-09-30T06:02,rag-web-browser,amazon:leather working kit,1,0.0118,sí
+2026-09-30T06:02,rag-web-browser,amazon:pasta drying rack,1,0.0094,no (reintento/repetida)
+2026-09-30T06:02,rag-web-browser,amazon:dog paw cleaner cup,1,0.0105,sí
+2026-09-30T06:02,rag-web-browser,amazon:dog lick mat,1,0.0081,no (reintento/repetida)
+2026-09-30T06:02,rag-web-browser,amazon:pasta drying rack,1,0.0182,sí
+2026-09-30T06:02,rag-web-browser,amazon:dog lick mat,1,0.0104,sí
+2026-09-30T06:02,rag-web-browser,amazon:car cup holder expander,1,0.0067,no (reintento/repetida)
+2026-09-30T06:03,rag-web-browser,amazon:car cup holder expander,1,0.0085,no (reintento/repetida)
+2026-09-30T06:03,rag-web-browser,amazon:steering wheel desk tray,1,0.0386,no (reintento/repetida)
+2026-09-30T06:03,rag-web-browser,amazon:travel jewelry case,1,0.0056,no (reintento/repetida)
+2026-09-30T06:03,rag-web-browser,amazon:car cup holder expander,1,0.0064,no (reintento/repetida)
+2026-09-30T06:03,rag-web-browser,amazon:travel jewelry case,1,0.0059,no (reintento/repetida)
+2026-09-30T06:03,rag-web-browser,amazon:magnetic knife holder for wall,1,0.0054,no (reintento/repetida)
+2026-09-30T06:03,rag-web-browser,amazon:travel jewelry case,1,0.0058,no (reintento/repetida)
+2026-09-30T06:03,rag-web-browser,amazon:magnetic knife holder for wall,1,0.0052,no (reintento/repetida)
+2026-09-30T06:04,rag-web-browser,amazon:herb keeper,1,0.0095,no (reintento/repetida)
+2026-09-30T06:04,rag-web-browser,amazon:magnetic knife holder for wall,1,0.0115,sí
+2026-09-30T06:04,rag-web-browser,amazon:herb keeper,1,0.0053,no (reintento/repetida)
+2026-09-30T06:04,rag-web-browser,amazon:butter dish with lid,1,0.0085,sí
+2026-09-30T06:04,rag-web-browser,amazon:herb keeper,1,0.0142,sí
+2026-09-30T06:04,rag-web-browser,amazon:steering wheel desk tray,1,0.0071,no (reintento/repetida)
+2026-09-30T06:04,rag-web-browser,amazon:pour over coffee stand,1,0.0064,no (reintento/repetida)
+2026-09-30T06:05,rag-web-browser,amazon:steering wheel desk tray,1,0.0054,no (reintento/repetida)
+2026-09-30T06:05,rag-web-browser,amazon:pour over coffee stand,1,0.0179,sí
+2026-09-30T06:05,rag-web-browser,amazon:wine chiller stick,1,0.0073,no (reintento/repetida)
+2026-09-30T06:05,rag-web-browser,amazon:window bird feeder,1,0.0053,no (reintento/repetida)
+2026-09-30T06:05,rag-web-browser,amazon:window bird feeder,1,0.0071,no (reintento/repetida)
+2026-09-30T06:05,rag-web-browser,amazon:wine chiller stick,1,0.0063,no (reintento/repetida)
+2026-09-30T06:05,rag-web-browser,amazon:window bird feeder,1,0.0048,no (reintento/repetida)
+2026-09-30T06:05,rag-web-browser,amazon:wine chiller stick,1,0.0059,no (reintento/repetida)
+2026-09-30T06:05,rag-web-browser,amazon:hummingbird feeder,1,0.0084,sí
+2026-09-30T06:05,rag-web-browser,amazon:plant propagation station,1,0.0079,no (reintento/repetida)
+2026-09-30T06:05,rag-web-browser,amazon:terrarium kit,1,0.0213,sí
+2026-09-30T06:06,rag-web-browser,amazon:claw clips set,1,0.0097,sí
+2026-09-30T06:06,rag-web-browser,amazon:plant propagation station,1,0.0074,no (reintento/repetida)
+2026-09-30T06:06,rag-web-browser,amazon:plant propagation station,1,0.008,no (reintento/repetida)
+2026-09-30T06:06,rag-web-browser,amazon:silk scrunchies,1,0.0196,sí
+2026-09-30T06:06,rag-web-browser,amazon:fly tying kit,1,0.0049,no (reintento/repetida)
+2026-09-30T06:06,rag-web-browser,amazon:golf divot tool,1,0.0057,no (reintento/repetida)
+2026-09-30T06:06,rag-web-browser,amazon:fly tying kit,1,0.0064,no (reintento/repetida)
+2026-09-30T06:06,rag-web-browser,amazon:golf divot tool,1,0.0095,no (reintento/repetida)
+2026-09-30T06:07,rag-web-browser,amazon:fly tying kit,1,0.0057,no (reintento/repetida)
+2026-09-30T06:07,rag-web-browser,amazon:golf swing trainer,1,0.0096,sí
+2026-09-30T06:07,rag-web-browser,amazon:golf divot tool,1,0.0082,sí
+2026-09-30T06:07,rag-web-browser,amazon:knitting loom kit,1,0.005,no (reintento/repetida)
+2026-09-30T06:07,rag-web-browser,amazon:calligraphy set for beginners,1,0.0046,no (reintento/repetida)
+2026-09-30T06:07,rag-web-browser,amazon:knitting loom kit,1,0.0242,sí
+2026-09-30T06:07,rag-web-browser,amazon:wood carving kit,1,0.0057,no (reintento/repetida)
+2026-09-30T06:07,rag-web-browser,amazon:calligraphy set for beginners,1,0.006,no (reintento/repetida)
+2026-09-30T06:07,rag-web-browser,amazon:wood carving kit,1,0.009,sí
+2026-09-30T06:08,rag-web-browser,amazon:calligraphy set for beginners,1,0.0056,no (reintento/repetida)
+2026-09-30T06:08,rag-web-browser,amazon:macrame kit,1,0.0048,no (reintento/repetida)
+2026-09-30T06:08,rag-web-browser,amazon:sushi making kit,1,0.0058,no (reintento/repetida)
+2026-09-30T06:08,rag-web-browser,amazon:macrame kit,1,0.0044,no (reintento/repetida)
+2026-09-30T06:08,rag-web-browser,amazon:sushi making kit,1,0.0085,no (reintento/repetida)
+2026-09-30T06:08,rag-web-browser,amazon:matcha whisk set,1,0.0074,no (reintento/repetida)
+2026-09-30T06:08,rag-web-browser,amazon:macrame kit,1,0.0086,sí
+2026-09-30T06:08,rag-web-browser,amazon:sushi making kit,1,0.0063,no (reintento/repetida)
+2026-09-30T06:08,rag-web-browser,amazon:matcha whisk set,1,0.0066,no (reintento/repetida)
+2026-09-30T06:08,rag-web-browser,amazon:spice drawer organizer,1,0.0193,sí
+2026-09-30T06:09,rag-web-browser,amazon:dog seat belt,1,0.0067,no (reintento/repetida)
+2026-09-30T06:09,rag-web-browser,amazon:matcha whisk set,1,0.0061,no (reintento/repetida)
+2026-09-30T06:09,rag-web-browser,amazon:dog seat belt,1,0.0101,sí
+2026-09-30T06:09,rag-web-browser,amazon:cat window perch,1,0.008,no (reintento/repetida)
+2026-09-30T06:09,rag-web-browser,amazon:cat window perch,1,0.0065,no (reintento/repetida)
+2026-09-30T06:09,rag-web-browser,amazon:garlic press rocker,1,0.0096,sí
+2026-09-30T06:09,rag-web-browser,amazon:cheese slicer wire,1,0.0065,no (reintento/repetida)
+2026-09-30T06:09,rag-web-browser,amazon:cat window perch,1,0.0104,sí
+2026-09-30T06:09,rag-web-browser,amazon:cheese slicer wire,1,0.0058,no (reintento/repetida)
+2026-09-30T06:10,rag-web-browser,amazon:cheese slicer wire,1,0.0072,no (reintento/repetida)
+2026-09-30T06:10,rag-web-browser,amazon:espresso tamper calibrated,1,0.012,sí
+2026-09-30T06:10,rag-web-browser,amazon:espresso puck screen,1,0.0121,sí
+2026-09-30T06:10,rag-web-browser,amazon:sourdough bread proofing basket kit,1,0.0085,sí
+2026-09-30T06:10,rag-web-browser,amazon:car cup holder expander,1,0.0066,no (reintento/repetida)
+2026-09-30T06:11,rag-web-browser,amazon:steering wheel desk tray,1,0.0058,no (reintento/repetida)
+2026-09-30T06:11,rag-web-browser,amazon:travel jewelry case,1,0.0063,no (reintento/repetida)
+2026-09-30T06:11,rag-web-browser,amazon:car cup holder expander,1,0.0047,no (reintento/repetida)
+2026-09-30T06:11,rag-web-browser,amazon:steering wheel desk tray,1,0.0054,no (reintento/repetida)
+2026-09-30T06:11,rag-web-browser,amazon:travel jewelry case,1,0.0097,sí
+2026-09-30T06:11,rag-web-browser,amazon:car cup holder expander,1,0.0045,no (reintento/repetida)
+2026-09-30T06:11,rag-web-browser,amazon:steering wheel desk tray,1,0.0057,no (reintento/repetida)
+2026-09-30T06:11,rag-web-browser,amazon:wine chiller stick,1,0.0061,no (reintento/repetida)
+2026-09-30T06:11,rag-web-browser,amazon:window bird feeder,1,0.0068,no (reintento/repetida)
+2026-09-30T06:11,rag-web-browser,amazon:plant propagation station,1,0.0414,sí
+2026-09-30T06:11,rag-web-browser,amazon:wine chiller stick,1,0.0056,no (reintento/repetida)
+2026-09-30T06:11,rag-web-browser,amazon:window bird feeder,1,0.0092,sí
+2026-09-30T06:11,rag-web-browser,amazon:wine chiller stick,1,0.0053,no (reintento/repetida)
+2026-09-30T06:12,rag-web-browser,amazon:fly tying kit,1,0.0066,no (reintento/repetida)
+2026-09-30T06:12,rag-web-browser,amazon:calligraphy set for beginners,1,0.0085,sí
+2026-09-30T06:12,rag-web-browser,amazon:fly tying kit,1,0.0274,sí
+2026-09-30T06:12,rag-web-browser,amazon:sushi making kit,1,0.0091,sí
+2026-09-30T06:12,rag-web-browser,amazon:matcha whisk set,1,0.0047,no (reintento/repetida)
+2026-09-30T06:13,rag-web-browser,amazon:matcha whisk set,1,0.0121,sí
+2026-09-30T06:13,rag-web-browser,amazon:cheese slicer wire,1,0.0112,sí
+2026-10-01T00:06,rag-web-browser,amazon:embroidery kit for beginners,1,0.0383,no (reintento/repetida)
+2026-10-01T00:06,rag-web-browser,amazon:car cup holder expander,1,0.0104,sí
+2026-10-01T00:06,rag-web-browser,amazon:steering wheel desk tray,1,0.0113,sí
+2026-10-01T00:06,rag-web-browser,ali_item:3256808448398330,1,0.0187,sí
+2026-10-01T00:06,rag-web-browser,amazon:wine chiller stick,1,0.008,no (reintento/repetida)
+2026-10-01T00:06,rag-web-browser,amazon:bonsai tool kit,1,0.0148,sí
+2026-10-01T00:07,rag-web-browser,amazon:wine chiller stick,1,0.0088,no (reintento/repetida)
+2026-10-01T00:07,rag-web-browser,amazon:kalimba 17 keys,1,0.0072,no (reintento/repetida)
+2026-10-01T00:07,rag-web-browser,ali_item:3256808286682413,1,0.0153,sí
+2026-10-01T00:07,rag-web-browser,amazon:wine chiller stick,1,0.0112,no (reintento/repetida)
+2026-10-01T00:07,rag-web-browser,amazon:kalimba 17 keys,1,0.0049,no (reintento/repetida)
+2026-10-01T00:07,rag-web-browser,amazon:embroidery kit for beginners,1,0.0228,sí
+2026-10-01T00:07,rag-web-browser,amazon:kalimba 17 keys,1,0.0093,no (reintento/repetida)
+2026-10-01T00:07,rag-web-browser,amazon:kendama,1,0.0211,sí
+2026-10-01T00:08,rag-web-browser,ali_item:3256807181436243,1,0.0274,sí
+2026-10-01T00:08,rag-web-browser,amazon:wax seal stamp kit,1,0.0044,no (reintento/repetida)
+2026-10-01T00:08,rag-web-browser,amazon:wax seal stamp kit,1,0.0071,no (reintento/repetida)
+2026-10-01T00:08,rag-web-browser,amazon:wax seal stamp kit,1,0.0056,no (reintento/repetida)
+2026-10-01T00:08,rag-web-browser,amazon:3d wooden puzzle mechanical model kit,1,0.0172,sí
+2026-10-01T00:08,rag-web-browser,amazon:shoe shine kit,1,0.01,sí
+2026-10-01T00:08,rag-web-browser,amazon:guitar tool kit,1,0.0093,no (reintento/repetida)
+2026-10-01T00:09,rag-web-browser,amazon:guitar tool kit,1,0.0136,sí
+2026-10-01T00:09,rag-web-browser,amazon:bookbinding kit,1,0.0062,no (reintento/repetida)
+2026-10-01T00:09,rag-web-browser,amazon:watch repair kit,1,0.005,no (reintento/repetida)
+2026-10-01T00:09,rag-web-browser,ali_item:3256809983570411,1,0.0272,sí
+2026-10-01T00:09,rag-web-browser,amazon:watch repair kit,1,0.0089,no (reintento/repetida)
+2026-10-01T00:09,rag-web-browser,amazon:bookbinding kit,1,0.0073,no (reintento/repetida)
+2026-10-01T00:09,rag-web-browser,amazon:fountain pen set,1,0.0063,no (reintento/repetida)
+2026-10-01T00:09,rag-web-browser,amazon:bookbinding kit,1,0.0155,sí
+2026-10-01T00:09,rag-web-browser,amazon:watch repair kit,1,0.0067,no (reintento/repetida)
+2026-10-01T00:10,rag-web-browser,amazon:fountain pen set,1,0.01,no (reintento/repetida)
+2026-10-01T00:10,rag-web-browser,amazon:needlepoint kit,1,0.0057,no (reintento/repetida)
+2026-10-01T00:10,rag-web-browser,amazon:needlepoint kit,1,0.0072,no (reintento/repetida)
+2026-10-01T00:10,rag-web-browser,amazon:ocarina 12 hole,1,0.0165,sí
+2026-10-01T00:10,rag-web-browser,ali_item:3256807619237153,1,0.0124,sí
+2026-10-01T00:10,rag-web-browser,amazon:fountain pen set,1,0.0128,sí
+2026-10-01T00:10,rag-web-browser,amazon:needlepoint kit,1,0.0075,no (reintento/repetida)
+2026-10-01T00:10,rag-web-browser,amazon:wooden puzzle box secret,1,0.0111,sí
+2026-10-01T00:11,rag-web-browser,ali_item:3256812117982748,1,0.0128,sí
+2026-10-01T00:11,rag-web-browser,amazon:leather stamping tools set,1,0.0088,no (reintento/repetida)
+2026-10-01T00:11,rag-web-browser,amazon:fly fishing flies assortment,1,0.0147,sí
+2026-10-01T00:11,rag-web-browser,amazon:leather stamping tools set,1,0.0102,sí
+2026-10-01T00:11,rag-web-browser,amazon:kalimba 17 keys,1,0.0066,no (reintento/repetida)
+2026-10-01T00:12,rag-web-browser,amazon:wine chiller stick,1,0.0358,sí
+2026-10-01T00:12,rag-web-browser,amazon:wax seal stamp kit,1,0.0119,sí
+2026-10-01T00:12,rag-web-browser,amazon:kalimba 17 keys,1,0.0153,sí
+2026-10-01T00:12,rag-web-browser,amazon:watch repair kit,1,0.0073,no (reintento/repetida)
+2026-10-01T00:12,rag-web-browser,amazon:needlepoint kit,1,0.0243,sí
+2026-10-01T00:12,rag-web-browser,amazon:watch repair kit,1,0.0201,sí
+2026-10-01T00:13,facebook-ads-scraper,meta:fly tying kit,10,0.05,sí

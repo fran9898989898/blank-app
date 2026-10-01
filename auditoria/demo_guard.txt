@@ -1,0 +1,9 @@
+Runs totales en la cuenta ANTES: 593
+1) Sesión nueva → base del ciclo $14.492
+2) Caché: misma consulta → 10 anuncios devueltos desde caché, sin lanzar run
+3) Recorte: pedido resultsLimit=100 y tope $2,00 → lanzaría con resultsLimit=30 y tope $0.50
+4) Corte de sesión OK → Corte de sesión: gastado $1.80 + tope del run $0.50 > $2.00. No se lanza.
+5) Bucles de reintento con Apify en tools/: ninguno
+6) Llamadas directas a la API de actores fuera del guard: ninguna
+Runs totales DESPUÉS: 593 → runs nuevos en la demo: 0
+Estado: {'inicio': '2026-10-01T02:10:30Z', 'gastado_sesion': 0.0, 'ciclo': 14.492, 'limite_sesion': 2.0, 'runs': 0}
