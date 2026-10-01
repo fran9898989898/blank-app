@@ -91,7 +91,7 @@ footer{color:var(--muted);font-size:.82rem;border-top:1px solid var(--line);padd
 
 <div class="wrap">
   <header>
-    <div class="eyebrow">Barridos 27–29 sep 2026 · 12 barridos · US · filtro por escala</div>
+    <div class="eyebrow">Barridos 27–29 sep 2026 · 13 barridos · US · filtro por escala</div>
     <h1>Radar de producto</h1>
     <p class="lead">Todo lo evaluado en los barridos, con el veredicto de cada tipo y enlaces a la Biblioteca de Meta para ver los anuncios tú mismo. Sin recomendación: eliges tú mirando los anuncios.</p>
   </header>
@@ -127,6 +127,7 @@ const AD = id => "https://www.facebook.com/ads/library/?id=" + id;
 
 const BARRIDOS = [
   {id:"todo", name:"Todos", meta:"Todos los tipos evaluados en todos los barridos."},
+  {id:"AMZ", name:"Amazon primero (1-oct)", meta:"1-oct. 59 tipos sin electrónica: ancla = equivalente más barato en Amazon US con Prime y ≥100 reseñas (pasa si ≥$25). Pasa 1 (kit de montaje de moscas, $39,92), que muere en AliExpress (equivalente real $27,21) y en Meta (1 operador ≥30 d). Visor: 2026-10-01-AMZ/visor.html"},
   {id:"R3", name:"R · Por gasto (1-oct)", meta:"1-oct. Candidatos sacados de anuncios de STT en US (21–120 d, formato UGC/demo/talking-head) ordenados por gasto y variaciones; conteo en la Biblioteca (Apify, 30 anuncios); precios Shopify con Apify; AliExpress. 1 VERDE (olla de freír), 4 AMARILLO, 1 GRIS. Apify $0,95. Visor: 2026-10-01-R3/visor.html"},
   {id:"R2", name:"R · General 2 (30-sep)", meta:"30-sep. 2º barrido R general, excluyendo lo del radar. STT (US, 21–120 d, orden crecimiento 30 d) para candidatos + 10 búsquedas en la Biblioteca (Apify, 24 anuncios) + precios Shopify con Apify + AliExpress. 0 VERDE, 5 AMARILLO, 5 GRIS. Único que pasa el filtro base salvo persona: rulo sin calor. Apify $1,26. Visor: 2026-09-30-R2/visor.html"},
   {id:"RF", name:"R · Fitness en casa (30-sep)", meta:"30-sep. Barrido R sobre fitness en casa. STT (Fitness & Gym, US) solo devuelve máquinas de $500+, claims (rodilleras, luz roja, EMS) y la red mindsparkl → 13 búsquedas en la Biblioteca (Apify, 24 anuncios) + precios Shopify con Apify + AliExpress. 0 VERDE, 2 AMARILLO, 8 GRIS. Patrón: marcas DTC únicas que venden genéricos de $1–13 a $50–90 (terreno de vía lateral, no de R). Apify $1,33. Visor: 2026-09-30-R-fitness/visor.html"},

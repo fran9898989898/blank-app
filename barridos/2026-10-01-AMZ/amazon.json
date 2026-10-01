@@ -667,32 +667,40 @@
   ],
   "n_resultados": 50,
   "n_relevantes": 49,
-  "barato": null,
+  "barato": {
+   "titulo": "Friendship Bracelet String 50 Skeins Rainbow Color Embroidery Floss Cross Stitch Embroidery Thread Cotton Floss Bracelet Yarn, Craft Floss",
+   "precio": 5.99,
+   "resenas": 7100,
+   "mes": 10000,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Friendship-Bracelet-String-Rainbow-Embroidery/dp/B07YFBRZ3J"
+  },
   "pasa": false,
   "mas_vendido": {
    "titulo": "Friendship Bracelet String 50 Skeins Rainbow Color Embroidery Floss Cross Stitch Embroidery Thread Cotton Floss Bracelet Yarn, Craft Floss",
    "precio": 5.99,
    "resenas": 7100,
    "mes": 10000,
-   "prime": false,
+   "prime": true,
    "sponsored": false,
    "url": "https://www.amazon.com/Friendship-Bracelet-String-Rainbow-Embroidery/dp/B07YFBRZ3J"
   },
   "marcas_top": [
    [
     "CYANFOUR",
-    3
-   ],
-   [
-    "ERKOON",
     2
    ],
    [
-    "ETSPIL",
+    "BRADOVE",
+    2
+   ],
+   [
+    "RITPVIQ",
     1
    ],
    [
-    "88‑PIECE",
+    "ETSPIL",
     1
    ]
   ],
@@ -702,45 +710,45 @@
     "precio": 13.99,
     "resenas": 1500,
     "mes": 4000,
-    "prime": false,
+    "prime": true,
     "sponsored": false,
     "url": "https://www.amazon.com/cyanfour-Embroidery-Kit-Beginners-Instruction/dp/B0CZHKSSL4"
-   },
-   {
-    "titulo": "ETSPIL Embroidery Kit for Beginners, 4K Step-by-Step Video, Adults, Gift",
-    "precio": 17.97,
-    "resenas": 2300,
-    "mes": 1000,
-    "prime": false,
-    "sponsored": false,
-    "url": "https://www.amazon.com/ETSPIL-Embroidery-Beginners-Adults%EF%BC%8CLearn-Instruction/dp/B0C3ZVKB46"
-   },
-   {
-    "titulo": "88‑Piece Embroidery Kit, Complete Tools with Step‑by‑Step Tutorial",
-    "precio": 29.99,
-    "resenas": 0,
-    "mes": 0,
-    "prime": false,
-    "sponsored": false,
-    "url": "https://www.amazon.com/88%E2%80%91Piece-Embroidery-Kit-Complete-Tutorial/dp/B0HFSM751K"
-   },
-   {
-    "titulo": "Embroidery Stitch Book with Video-Guided Tutorials on Every Page, 27 Essential Stitches, Beginner Embroidery Kit with Floral & Holiday Motifs. Portabl",
-    "precio": 24.99,
-    "resenas": 16,
-    "mes": 0,
-    "prime": false,
-    "sponsored": false,
-    "url": ""
    },
    {
     "titulo": "Bradove Classic Embroidery Learning Kit for Adults and Kids",
     "precio": 27.98,
     "resenas": 2100,
     "mes": 2000,
-    "prime": false,
+    "prime": true,
     "sponsored": false,
     "url": "https://www.amazon.com/Embroidery-Stitches-Practice-Beginners-Patterns/dp/B0B762JW55"
+   },
+   {
+    "titulo": "Ritpviq Bird & Flower Embroidery Kit for Beginners, 3 Patterns",
+    "precio": 13.98,
+    "resenas": 4,
+    "mes": 0,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Ritpviq-Flower-Embroidery-Beginners-Patterns/dp/B0HH2T1188"
+   },
+   {
+    "titulo": "Bradove Beginner Embroidery Kit for Adults and Kids | Hand Embroidery Kit for Beginners with Patterns, Learn to Embroider Kit Adult Beginner, Stitches",
+    "precio": 19.98,
+    "resenas": 31,
+    "mes": 100,
+    "prime": true,
+    "sponsored": true,
+    "url": ""
+   },
+   {
+    "titulo": "ETSPIL Embroidery Kit for Beginners, 4K Step-by-Step Video, Adults, Gift",
+    "precio": 17.97,
+    "resenas": 2300,
+    "mes": 1000,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/ETSPIL-Embroidery-Beginners-Adults%EF%BC%8CLearn-Instruction/dp/B0C3ZVKB46"
    }
   ]
  },
@@ -1504,13 +1512,92 @@
   "must": [
    "cup holder"
   ],
-  "n_resultados": 0,
-  "n_relevantes": 0,
-  "barato": null,
+  "n_resultados": 50,
+  "n_relevantes": 47,
+  "barato": {
+   "titulo": "SEVEN SPARTA Car Cup Holder Expander for 32-40oz Large Bottles & Tumblers",
+   "precio": 9.49,
+   "resenas": 17300,
+   "mes": 0,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/SEVEN-SPARTA-Expander-32-40oz-Tumblers/dp/B07PMHPJJF"
+  },
   "pasa": false,
-  "mas_vendido": null,
-  "marcas_top": [],
-  "top5": []
+  "mas_vendido": {
+   "titulo": "TYKOR Car Cup Holder Expander, Extender for Car with Adjustable Base",
+   "precio": 9.95,
+   "resenas": 3100,
+   "mes": 6000,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/TYKOR-Expander-Extender-Adjustable-Hydroflask/dp/B0C7SVNF9H"
+  },
+  "marcas_top": [
+   [
+    "CAR",
+    3
+   ],
+   [
+    "TYKOR",
+    2
+   ],
+   [
+    "AUTOMATIC",
+    2
+   ],
+   [
+    "SEVEN",
+    2
+   ]
+  ],
+  "top5": [
+   {
+    "titulo": "TYKOR Car Cup Holder Expander, Extender for Car with Adjustable Base",
+    "precio": 9.95,
+    "resenas": 3100,
+    "mes": 6000,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/TYKOR-Expander-Extender-Adjustable-Hydroflask/dp/B0C7SVNF9H"
+   },
+   {
+    "titulo": "Amazon Basics Car Cup Holder Expander with Adjustable Base, Securely Holds Large Bottles 3.4 to 3.8 in Diameter, Compatible with Yeti, Hydro Flask, Ea",
+    "precio": 9.96,
+    "resenas": 4300,
+    "mes": 3000,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Amazon-Basics-Expander-Adapter-Adjustable/dp/B08L9GWSPB"
+   },
+   {
+    "titulo": "2 in 1 Cup Holder Expander with Magnetic Phone Holder for Your Car",
+    "precio": 25.99,
+    "resenas": 1,
+    "mes": 0,
+    "prime": false,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Holder-Expander-Magnetic-Phone-Your/dp/B0HGLT1TQB"
+   },
+   {
+    "titulo": "Automatic Car Cup Holder Expander, Large Water Bottles Holder for Yeti, Hydro Flask, Nalgene, Owala 24/32/45/50oz Travel Tumbler & Mug, Adjustable Car",
+    "precio": 18.98,
+    "resenas": 74,
+    "mes": 700,
+    "prime": false,
+    "sponsored": true,
+    "url": ""
+   },
+   {
+    "titulo": "SEVEN SPARTA Car Cup Holder Expander for 32-40oz Large Bottles & Tumblers",
+    "precio": 9.49,
+    "resenas": 17300,
+    "mes": 0,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/SEVEN-SPARTA-Expander-32-40oz-Tumblers/dp/B07PMHPJJF"
+   }
+  ]
  },
  {
   "k": "steering_wheel_desk",
@@ -1519,13 +1606,92 @@
   "must": [
    "steering wheel"
   ],
-  "n_resultados": 0,
-  "n_relevantes": 0,
-  "barato": null,
+  "n_resultados": 48,
+  "n_relevantes": 48,
+  "barato": {
+   "titulo": "GLSOWEE Car Steering Wheel Tray, Computer Office Car Table Tray, Black",
+   "precio": 8.99,
+   "resenas": 151,
+   "mes": 50,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Car-Steering-Wheel-Tray-Multipurpose/dp/B0CP1QX112"
+  },
   "pasa": false,
-  "mas_vendido": null,
-  "marcas_top": [],
-  "top5": []
+  "mas_vendido": {
+   "titulo": "EcoNour 2 in 1 Car Steering Wheel Desk | Car Tray for Laptop",
+   "precio": 9.99,
+   "resenas": 9900,
+   "mes": 3000,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/EcoNour-Steering-Travel-Accessories-Driver/dp/B08T75LT1Z"
+  },
+  "marcas_top": [
+   [
+    "2-IN-1",
+    4
+   ],
+   [
+    "ECONOUR",
+    2
+   ],
+   [
+    "YONZEE",
+    2
+   ],
+   [
+    "JUSTTOP",
+    2
+   ]
+  ],
+  "top5": [
+   {
+    "titulo": "EcoNour 2 in 1 Car Steering Wheel Desk | Car Tray for Laptop",
+    "precio": 9.99,
+    "resenas": 9900,
+    "mes": 3000,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/EcoNour-Steering-Travel-Accessories-Driver/dp/B08T75LT1Z"
+   },
+   {
+    "titulo": "YONZEE 2-in-1 Car Steering Wheel Desk Tray & Car Seat Gap Filler Organizer – Foldable Carbon Fiber Look Table for Laptop, Eating Food, Writing – for S",
+    "precio": 35.99,
+    "resenas": 441,
+    "mes": 1000,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/YONZEE-Steering-Wheel-Filler-Organizer/dp/B0F7R88XGY"
+   },
+   {
+    "titulo": "JUSTTOP Car Steering Wheel Desk for Laptop,Multipurpose Travel Car Accessories, Car Seat Stand Trays for Eating, Steering Wheel Overhead Table Console",
+    "precio": 9.99,
+    "resenas": 3900,
+    "mes": 1000,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/JUSTTOP-Steering-Multifunctional-Portable-Computer/dp/B08BNRQV8J"
+   },
+   {
+    "titulo": "YONZEE 2-in-1 Car Steering Wheel Desk Tray & Car Seat Gap Filler Organizer – Foldable Carbon Fiber Look Table for Laptop, Eating Food, Writing – for S",
+    "precio": 35.99,
+    "resenas": 441,
+    "mes": 1000,
+    "prime": true,
+    "sponsored": true,
+    "url": ""
+   },
+   {
+    "titulo": "2-in-1 Steering Wheel Tray & Seat Gap Organizer",
+    "precio": 21.99,
+    "resenas": 49,
+    "mes": 300,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Cxprctpu-Steering-Wheel-Tray-Organizer/dp/B0GKFS8DJ5"
+   }
+  ]
  },
  {
   "k": "jewelry_travel_case",
@@ -2005,13 +2171,92 @@
   "must": [
    "chill"
   ],
-  "n_resultados": 0,
-  "n_relevantes": 0,
-  "barato": null,
+  "n_resultados": 49,
+  "n_relevantes": 45,
+  "barato": {
+   "titulo": "Wine Chiller Stick, Bullet-Shaped Pourer Spout, Aerator & Cooler",
+   "precio": 9.49,
+   "resenas": 153,
+   "mes": 0,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/IEOVO-Chiller-Bullet-Shaped-Pourer-Aerator/dp/B08T5Q6W8Q"
+  },
   "pasa": false,
-  "mas_vendido": null,
-  "marcas_top": [],
-  "top5": []
+  "mas_vendido": {
+   "titulo": "Wine Chiller, 3-in-1 Stainless Steel Wine Bottle Cooler Stick - Rapid Iceless Wine Chilling Rod with Aerator and Pourer - The Best Wine Accessories Gi",
+   "precio": 12.99,
+   "resenas": 1400,
+   "mes": 700,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Chiller-Stainless-Steel-Bottle-Cooler/dp/B01FO79GFI"
+  },
+  "marcas_top": [
+   [
+    "WINE",
+    6
+   ],
+   [
+    "RESTAURANTWARE",
+    2
+   ],
+   [
+    "YOUYAH",
+    1
+   ],
+   [
+    "CORKCICLE",
+    1
+   ]
+  ],
+  "top5": [
+   {
+    "titulo": "Wine Chiller, 3-in-1 Stainless Steel Wine Bottle Cooler Stick - Rapid Iceless Wine Chilling Rod with Aerator and Pourer - The Best Wine Accessories Gi",
+    "precio": 12.99,
+    "resenas": 1400,
+    "mes": 700,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Chiller-Stainless-Steel-Bottle-Cooler/dp/B01FO79GFI"
+   },
+   {
+    "titulo": "Wine Chiller - Wine Cooler Stick, 3 in 1 Stainless Steel Wine Bottle Chiller with Aerator and Pourer, The Best Holiday Gifts.",
+    "precio": 11.59,
+    "resenas": 540,
+    "mes": 200,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Chiller-Chohey-Stainless-Chilling-Accessories/dp/B07Z4XD252"
+   },
+   {
+    "titulo": "Wine Chiller Set & Chill Rods + Foil Cutter, Stopper, Ebook - Premium 7in1 Stainless Steel Bottle Cooler Stick, Decanting Aerator & Drip-Free Pourer |",
+    "precio": 17.99,
+    "resenas": 5600,
+    "mes": 200,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Chiller-Chill-Cutter-Stopper-Ebook/dp/B0CDLP4GM5"
+   },
+   {
+    "titulo": "YouYah Wine Chiller Stick 3-in-1 Stainless Steel Wine Bottle Cooler Stick,Rapid Iceless Wine Chilling Rod with Aerator and Pourer,Wine Gift",
+    "precio": 11.99,
+    "resenas": 533,
+    "mes": 200,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Chiller-Stainless-Iceless-Chilling-Aerator/dp/B07YY2D9X8"
+   },
+   {
+    "titulo": "Corkcicle Air Wine Chiller and Pour-Through Aerator for Red and White Wine",
+    "precio": 19.56,
+    "resenas": 1000,
+    "mes": 100,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Corkcicle-Chiller-Aerator-Pourer-Stopper/dp/B00IULFU4C"
+   }
+  ]
  },
  {
   "k": "window_bird_feeder",
@@ -3893,6 +4138,1416 @@
     "prime": true,
     "sponsored": false,
     "url": "https://www.amazon.com/Westmark-Germany-Stainless-Cheese-Adjustable/dp/B000VJ81QK"
+   }
+  ]
+ },
+ {
+  "k": "bonsai_tool_kit",
+  "tipo": "Kit de herramientas de bonsái",
+  "q": "bonsai tool kit",
+  "must": [
+   "bonsai"
+  ],
+  "n_resultados": 48,
+  "n_relevantes": 46,
+  "barato": {
+   "titulo": "Bonsai Tool Set 8 PCS-Mini Gardening Tools Kit for Indoor Outdoor Plant",
+   "precio": 4.49,
+   "resenas": 110,
+   "mes": 0,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Bonsai-PCS-Mini-Gardening-Indoor-Outdoor/dp/B08BL8ZHG1"
+  },
+  "pasa": false,
+  "mas_vendido": {
+   "titulo": "Mudder 5 Roll Bonsai Training Wire Aluminum 1/1.5/2.0mm Classic",
+   "precio": 12.49,
+   "resenas": 1800,
+   "mes": 900,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Training-Anodized-Aluminum-Holding-Branches/dp/B083DMJZD3"
+  },
+  "marcas_top": [
+   [
+    "BONSAI",
+    9
+   ],
+   [
+    "VOUIU",
+    3
+   ],
+   [
+    "SOLIGT",
+    1
+   ],
+   [
+    "NEW",
+    1
+   ]
+  ],
+  "top5": [
+   {
+    "titulo": "Bonsai Tree Tools Kit, 22 PCs Bonsai Tools Set High Carbon Steel Trimming Tools Set Include Pruning Shears, Cutters, Training Wires, Bonsai Grooming C",
+    "precio": 26.99,
+    "resenas": 333,
+    "mes": 200,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/PEEORNT-Bonsai-Tree-Tool-Kit/dp/B09G2DM9BW"
+   },
+   {
+    "titulo": "Bonsai Tools Set, 20-Piece Bonsai Tools Set with Waterproof Repotting Mat, Pruning Shears, Scissors & Training Wire - Indoor Gardening Starter Gifts f",
+    "precio": 23.99,
+    "resenas": 78,
+    "mes": 100,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/20-Piece-Waterproof-Repotting-Scissors-Training/dp/B0GHYV2Y78"
+   },
+   {
+    "titulo": "SOLIGT 12-Piece Bonsai Tools Set With Wood Box, Gift For Men Women",
+    "precio": 44.99,
+    "resenas": 595,
+    "mes": 100,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/SOLIGT-12-Piece-Bonsai-Tools-Women/dp/B09CZF9VPM"
+   },
+   {
+    "titulo": "Bonsai Tools Set, 20 Pcs Gardening Succulent Tree Indoor Beginner Tool Kit, Include 262 Feet Bonsai Wire, 29.5\"x29.5\" Plant Repotting Mat, Leather Bag",
+    "precio": 35.99,
+    "resenas": 688,
+    "mes": 200,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Succulent-Repotting-Scissors-Birthday-Gardening/dp/B09G6F9TW4"
+   },
+   {
+    "titulo": "Bonsai Set 8 Pcs, Bonsai Tools Kit, Garden Tools Set",
+    "precio": 9.99,
+    "resenas": 4100,
+    "mes": 100,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/ZELAR-MADE-Bonsai-Set-Pcs/dp/B01NBVZD0T"
+   }
+  ]
+ },
+ {
+  "k": "kalimba",
+  "tipo": "Kalimba (piano de pulgar)",
+  "q": "kalimba 17 keys",
+  "must": [
+   "kalimba"
+  ],
+  "n_resultados": 50,
+  "n_relevantes": 49,
+  "barato": {
+   "titulo": "Ubblove Kalimba Thumb Piano 17 Keys",
+   "precio": 18.99,
+   "resenas": 507,
+   "mes": 50,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Kalimba-Portable-Finger-Adults-Instrument/dp/B09BZK5J9D"
+  },
+  "pasa": false,
+  "mas_vendido": {
+   "titulo": "Newlam Kalimba Thumb Piano 17 Keys, Musical Gift for Kids and Adults",
+   "precio": 25.99,
+   "resenas": 15500,
+   "mes": 2000,
+   "prime": false,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Kalimba-Portable-Finger-Adults-Beginners/dp/B07Q38FWFJ"
+  },
+  "marcas_top": [
+   [
+    "KALIMBA",
+    7
+   ],
+   [
+    "NEWLAM",
+    2
+   ],
+   [
+    "ORORA",
+    2
+   ],
+   [
+    "GECKO",
+    1
+   ]
+  ],
+  "top5": [
+   {
+    "titulo": "Newlam Kalimba Thumb Piano 17 Keys, Musical Gift for Kids and Adults",
+    "precio": 25.99,
+    "resenas": 15500,
+    "mes": 2000,
+    "prime": false,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Kalimba-Portable-Finger-Adults-Beginners/dp/B07Q38FWFJ"
+   },
+   {
+    "titulo": "GECKO Kalimba 17 Keys Thumb Piano with Waterproof Protective Box, Tune Hammer and Study Instruction, Portable Mbira Sanza Finger Piano, Meditation Sou",
+    "precio": 31.99,
+    "resenas": 9300,
+    "mes": 100,
+    "prime": false,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Waterproof-Protective-Instruction-Beginners-Professional/dp/B079JJZXJ4"
+   },
+   {
+    "titulo": "Kalimba Thumb Piano 17 Keys, Finger Piano Musical Instruments, Mbira Music Kids Gifts Adult Beginners Hand Pianos Brown",
+    "precio": 14.99,
+    "resenas": 269,
+    "mes": 200,
+    "prime": false,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Kalimba-17-Keys-Instruments-Beginners/dp/B09SB5C81M"
+   },
+   {
+    "titulo": "ORORA Kalimba 17 Keys Thumb Piano with 25-Song Songbook | Case & Stand | Varnished wood finger piano with protective case, stand, tuning hammer & acce",
+    "precio": 29.99,
+    "resenas": 498,
+    "mes": 100,
+    "prime": false,
+    "sponsored": false,
+    "url": ""
+   },
+   {
+    "titulo": "Kalimba Thumb Piano, YUNDIE Portable 17 Keys Mbira Finger Piano with Tune Hammer and Instruction,Musical Instruments Birthday Gift for Adult Beginners",
+    "precio": 17.99,
+    "resenas": 1800,
+    "mes": 400,
+    "prime": false,
+    "sponsored": false,
+    "url": "https://www.amazon.com/YUNDIE-Instruction-Instruments-Christmas-Professional/dp/B097N4F824"
+   }
+  ]
+ },
+ {
+  "k": "kendama",
+  "tipo": "Kendama",
+  "q": "kendama",
+  "must": [
+   "kendama"
+  ],
+  "n_resultados": 49,
+  "n_relevantes": 48,
+  "barato": {
+   "titulo": "Bamboo Kendama, Professional Japanese Skill Toy for Kids & Adults(Blue)",
+   "precio": 15.99,
+   "resenas": 479,
+   "mes": 700,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/RQN-Bamboo-Kendama-Translucent-String/dp/B016GBIWJW"
+  },
+  "pasa": false,
+  "mas_vendido": {
+   "titulo": "Professional Competition Kendama - Beech Wood Skill Toy with Ethereal Gradient Finish, Japanese Wooden Ball and Cup Game, Hand-Eye Coordination Traine",
+   "precio": 23.99,
+   "resenas": 46,
+   "mes": 700,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Yuntrove-Professional-Competition-Kendama-Coordination/dp/B0GTYVXHWJ"
+  },
+  "marcas_top": [
+   [
+    "PROFESSIONAL",
+    7
+   ],
+   [
+    "2",
+    2
+   ],
+   [
+    "JUNKIN",
+    1
+   ],
+   [
+    "BAMBOO",
+    1
+   ]
+  ],
+  "top5": [
+   {
+    "titulo": "Professional Competition Kendama - Bamboo Skill Toy, Japanese Wooden Ball and Cup Game, Hand-Eye Coordination Trainer for Kids & Adults (Blue)",
+    "precio": 16.99,
+    "resenas": 46,
+    "mes": 600,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Yuntrove-Professional-Competition-Kendama-Coordination/dp/B0GVFRRG42"
+   },
+   {
+    "titulo": "2 Pack | Competition Pro Kendama Full Size | Solid Wood Ball and Cup Coordination Toy | Blue and Red Bundle",
+    "precio": 29.99,
+    "resenas": 371,
+    "mes": 300,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/KENDAMA-TOY-CO-Pack-Coordination/dp/B014GNONM2"
+   },
+   {
+    "titulo": "Professional Competition Kendama - Beech Wood Skill Toy with Ethereal Gradient Finish, Japanese Wooden Ball and Cup Game, Hand-Eye Coordination Traine",
+    "precio": 23.99,
+    "resenas": 46,
+    "mes": 700,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Yuntrove-Professional-Competition-Kendama-Coordination/dp/B0GTYVXHWJ"
+   },
+   {
+    "titulo": "Junkin Wood Kendama Solid Ball Catch Game, Yellow and Blue | Vintage Toss Catch Toy, Hand Eye Coordination Training, Wooden Game for Beginner, Birthda",
+    "precio": 14.99,
+    "resenas": 4,
+    "mes": 0,
+    "prime": true,
+    "sponsored": true,
+    "url": ""
+   },
+   {
+    "titulo": "Bamboo Kendama, Professional Japanese Skill Toy for Kids & Adults(Blue)",
+    "precio": 15.99,
+    "resenas": 479,
+    "mes": 700,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/RQN-Bamboo-Kendama-Translucent-String/dp/B016GBIWJW"
+   }
+  ]
+ },
+ {
+  "k": "wax_seal_kit",
+  "tipo": "Kit de sello de lacre",
+  "q": "wax seal stamp kit",
+  "must": [
+   "wax seal"
+  ],
+  "n_resultados": 50,
+  "n_relevantes": 49,
+  "barato": {
+   "titulo": "Medieval Traditional Initial Alphabet Wax Seal Stamp, Letter A",
+   "precio": 6.99,
+   "resenas": 3200,
+   "mes": 200,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/TELOSMA-Traditional-Letters-Envelope-Bottle/dp/B0758Z99X6"
+  },
+  "pasa": false,
+  "mas_vendido": {
+   "titulo": "Electric Wax Seal Warmer, Black Wax Seal Kit with Spoon and Tweezers Great Tool for DIY Wax Seals, Wax Seal Stamp and Melting Wax Seal Sticks Sealing ",
+   "precio": 9.98,
+   "resenas": 748,
+   "mes": 1000,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Electric-Warmer-Tweezers-Melting-Sealing/dp/B0CYGMGJXD"
+  },
+  "marcas_top": [
+   [
+    "WAX",
+    2
+   ],
+   [
+    "KAINSY",
+    2
+   ],
+   [
+    "COPPER",
+    1
+   ],
+   [
+    "CHRISTMAS",
+    1
+   ]
+  ],
+  "top5": [
+   {
+    "titulo": "Wax Seal Stamp Kit - 24 Colors, 624 Pcs Stamp Beads, Sealing Wax Warmer, Metallic Pen & Envelope, Gift & Decoration Set",
+    "precio": 21.9,
+    "resenas": 4200,
+    "mes": 500,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/CHUHUAYUAN-Sealing-Metallic-Envelope-Decoration/dp/B08PL1N5RF"
+   },
+   {
+    "titulo": "Copper A Letter Wax Seal Stamp Kit, 360 PCS 18 Colors Wax Beads",
+    "precio": 9.99,
+    "resenas": 154,
+    "mes": 100,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/TEKGERLU-Wedding-Invitations-Envelope-Sealing/dp/B0GD1XFN2X"
+   },
+   {
+    "titulo": "Christmas Wax Seal Kit with 6 Style Sealing Stamp",
+    "precio": 22.99,
+    "resenas": 1,
+    "mes": 0,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Christmas-Seal-Style-Sealing-Stamp/dp/B0HDH6RPDR"
+   },
+   {
+    "titulo": "KAINSY Custom Wax Seal Stamp Kit, Personalized Gift with Logo Name Picture | Brass Wax Stamp for Wedding Invitation, Envelope Seals, Gift Wrapping, Wi",
+    "precio": 10.9,
+    "resenas": 48,
+    "mes": 500,
+    "prime": false,
+    "sponsored": false,
+    "url": ""
+   },
+   {
+    "titulo": "SHOWPIN Wax Seal Kit for Beginners: 2 Wax Seal Stamps, 400 Wax Beads",
+    "precio": 19.99,
+    "resenas": 12,
+    "mes": 100,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/SHOWPIN-Wax-Seal-Kit-Beginners/dp/B0GBWHB8B8"
+   }
+  ]
+ },
+ {
+  "k": "wooden_3d_puzzle",
+  "tipo": "Puzle mecánico 3D de madera",
+  "q": "3d wooden puzzle mechanical model kit",
+  "must": [
+   "wooden"
+  ],
+  "n_resultados": 50,
+  "n_relevantes": 46,
+  "barato": {
+   "titulo": "UGEARS Old Clock Tower 3D Wooden Puzzles for Adults - Wooden Model Kits",
+   "precio": 17.09,
+   "resenas": 4700,
+   "mes": 0,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/UGEARS-Old-Clock-Tower-Wooden/dp/B0B698N6G1"
+  },
+  "pasa": false,
+  "mas_vendido": {
+   "titulo": "ROKR 3D Wooden Puzzles for Adults Marble Run Model Building Kit(LGA01 Marble Night City)",
+   "precio": 56.99,
+   "resenas": 3000,
+   "mes": 400,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/ROKR-Wooden-Puzzles-Adults-Marble/dp/B0948TSRGS"
+  },
+  "marcas_top": [
+   [
+    "ROKR",
+    10
+   ],
+   [
+    "WOODEN.CITY",
+    2
+   ],
+   [
+    "ROWOOD",
+    1
+   ],
+   [
+    "3D",
+    1
+   ]
+  ],
+  "top5": [
+   {
+    "titulo": "ROKR 3D Wooden Puzzles for Adults, Space Shuttle Building Sets Model Kits",
+    "precio": 65.89,
+    "resenas": 258,
+    "mes": 300,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/ROKR-Puzzles-Space-Shuttle-Model/dp/B0FL7P2KMT"
+   },
+   {
+    "titulo": "ROKR 3D Wooden Puzzles for Adults Marble Run Model Building Kit(LGA01 Marble Night City)",
+    "precio": 56.99,
+    "resenas": 3000,
+    "mes": 400,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/ROKR-Wooden-Puzzles-Adults-Marble/dp/B0948TSRGS"
+   },
+   {
+    "titulo": "ROKR 3D Wooden Puzzle for Adults-Mechanical Train Model Kits-Brain Teaser Puzzles-Vehicle Building Kits-Unique Gift for Teens on Birthday/Christmas Da",
+    "precio": 24.99,
+    "resenas": 2200,
+    "mes": 200,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/ROKR-Adults-Mechanical-Kits-Brain-Puzzles-Vehicle-Kits-Unique/dp/B08351H52R"
+   },
+   {
+    "titulo": "WOODEN.CITY Safe 3D Wooden Puzzles for Adultse – Build Your Own Safe Box with Rubber‑Band Motor – Self‑Assembly Model, DIY Gift – Laser‑Cut Wooden 3D ",
+    "precio": 64.9,
+    "resenas": 51,
+    "mes": 0,
+    "prime": false,
+    "sponsored": false,
+    "url": ""
+   },
+   {
+    "titulo": "ROKR 3D Puzzle for Adults 469pcs Electric Vintage Car Steam Engine Model Kits, Mechanical Wooden Assembly Puzzles Vehicle DIY Hobbies Christmas Gifts ",
+    "precio": 59.99,
+    "resenas": 542,
+    "mes": 100,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/ROKR-Locomotive-Electric-Assembly-Christmas/dp/B0CSWG3YS6"
+   }
+  ]
+ },
+ {
+  "k": "shoe_shine_kit",
+  "tipo": "Kit de limpiabotas",
+  "q": "shoe shine kit",
+  "must": [
+   "shoe"
+  ],
+  "n_resultados": 50,
+  "n_relevantes": 45,
+  "barato": {
+   "titulo": "Express Shoe Shine Sponge | Leather Care for Shoes, Boots, Furniture, Jacket, Briefcase and More | Black, 0.23 Fl Oz (Pack of 1)",
+   "precio": 4.83,
+   "resenas": 11100,
+   "mes": 8000,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Express-Shine-Instant-Sponge-Black/dp/B005GYKTCY"
+  },
+  "pasa": false,
+  "mas_vendido": {
+   "titulo": "4 Pcs Horsehair Shine Shoes Brush Kit Polish Dauber Applicators Cleaning Leather Shoes Boots Care Brushes Suede Cleaner Brush with Microfiber Shoe Clo",
+   "precio": 7.99,
+   "resenas": 7800,
+   "mes": 10000,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Horsehair-Applicators-Cleaning-Leather-Microfiber/dp/B09MSMB2B3"
+  },
+  "marcas_top": [
+   [
+    "SHOE",
+    4
+   ],
+   [
+    "EXPRESS",
+    2
+   ],
+   [
+    "BLACK",
+    2
+   ],
+   [
+    "8PCS",
+    1
+   ]
+  ],
+  "top5": [
+   {
+    "titulo": "Shoe Care Kit – 16-in-1 Leather Shoe Polish, Cleaning & Conditioning Kit with Saddle Soap & Mink Oil – Black/Brown/Neutral Shoe Polish, 3 Horsehair Br",
+    "precio": 27.99,
+    "resenas": 633,
+    "mes": 3000,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Feilove-16-Shoe-Polish-Kit/dp/B0FDX5HY4G"
+   },
+   {
+    "titulo": "8Pcs Shoe Polish Kit for Leather Boots, Complete Shoe Shine Kit Leather Wax",
+    "precio": 18.69,
+    "resenas": 517,
+    "mes": 1000,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Fathers-Including-Brushes-Leather-Storage/dp/B0DRV2J61Z"
+   },
+   {
+    "titulo": "13Pcs Leather Boots Polish Wax Kit, Complete Shoe Shine Kit Leather Cream",
+    "precio": 25.99,
+    "resenas": 1900,
+    "mes": 3000,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Horsehair-Neutral-Leather-Cleaning-Sponges/dp/B0D2VKMJ3V"
+   },
+   {
+    "titulo": "Shoe Shine Kit, Mens Gifts Ideas - 15PCS Shoe Polish Kit with Saddle Soap, Mink Oil, 3 Shoe Polishes, 3 Shoe Brushes and more, All-inclusive Leather C",
+    "precio": 22.21,
+    "resenas": 236,
+    "mes": 500,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Shoe-Shine-Mens-Gifts-Ideas/dp/B0FGQNDHK8"
+   },
+   {
+    "titulo": "Express Shoe Shine Sponge | Leather Care for Shoes, Boots, Furniture, Jacket, Briefcase and More | Black, 0.23 Fl Oz (Pack of 1)",
+    "precio": 4.83,
+    "resenas": 11100,
+    "mes": 8000,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Express-Shine-Instant-Sponge-Black/dp/B005GYKTCY"
+   }
+  ]
+ },
+ {
+  "k": "guitar_tool_kit",
+  "tipo": "Kit de herramientas de guitarra",
+  "q": "guitar tool kit",
+  "must": [
+   "guitar"
+  ],
+  "n_resultados": 50,
+  "n_relevantes": 47,
+  "barato": {
+   "titulo": "Kayoubi String Action Gauge, Height Ruler, Guitar Bass Luthier Setup Tool",
+   "precio": 6.99,
+   "resenas": 300,
+   "mes": 800,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/KAYOUBI-Guitar-Action-Gauge-Protective/dp/B0F3CL3QJG"
+  },
+  "pasa": false,
+  "mas_vendido": {
+   "titulo": "D'Addario Accessories Pro-Winder Guitar String Winder, Cutter, Bridge Pin Puller - All in One Guitar Tool - Black",
+   "precio": 12.99,
+   "resenas": 30900,
+   "mes": 4000,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/DAddario-Accessories-Pro-Winder-Guitar-String/dp/B0002E1G5C"
+  },
+  "marcas_top": [
+   [
+    "MIFOGE",
+    2
+   ],
+   [
+    "MUSICNOMAD",
+    2
+   ],
+   [
+    "LEKATO",
+    2
+   ],
+   [
+    "28PCS",
+    1
+   ]
+  ],
+  "top5": [
+   {
+    "titulo": "28Pcs Guitar Tool Kit, Guitar Accessories Gifts for Men, Guitar Maintenance Kit with Carry Bag, Guitar Repair Kit for Acoustic Electric Guitar Ukulele",
+    "precio": 22.99,
+    "resenas": 318,
+    "mes": 300,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Accessories-Maintenance-Acoustic-Electric-TIMDAM/dp/B0CRHNVR1F"
+   },
+   {
+    "titulo": "MIFOGE 45Pcs Guitar Repairing Maintenance Tool Kit with Carry Bag",
+    "precio": 34.99,
+    "resenas": 1800,
+    "mes": 50,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/MIFOGE-Repairing-Maintenance-Instrument-Enthusiast/dp/B08881TP55"
+   },
+   {
+    "titulo": "GUITTO Guitar String Winder Cutter, Bridge Pin Puller with 3 Hex Keys 1 Screwdriver, 7-in-1 Guitar Tool for Acoustic Electric Bass Guitars GGT-02",
+    "precio": 15.99,
+    "resenas": 68,
+    "mes": 100,
+    "prime": true,
+    "sponsored": false,
+    "url": ""
+   },
+   {
+    "titulo": "106Pcs Guitar Tool Kit, Guitar Accessories Guitar Maintenance Kit, Guitar Repair Kit with Capo Guitar Strings Picks Bridge Pins Gauge, TIMDAM Guitar S",
+    "precio": 30.99,
+    "resenas": 160,
+    "mes": 100,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Accessories-Maintenance-Strings-TIMDAM-Mandolin/dp/B0CRDR4LRP"
+   },
+   {
+    "titulo": "D'Addario Accessories Pro-Winder Guitar String Winder, Cutter, Bridge Pin Puller - All in One Guitar Tool - Black",
+    "precio": 12.99,
+    "resenas": 30900,
+    "mes": 4000,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/DAddario-Accessories-Pro-Winder-Guitar-String/dp/B0002E1G5C"
+   }
+  ]
+ },
+ {
+  "k": "bookbinding_kit",
+  "tipo": "Kit de encuadernación",
+  "q": "bookbinding kit",
+  "must": [
+   "bookbinding"
+  ],
+  "n_resultados": 50,
+  "n_relevantes": 37,
+  "barato": {
+   "titulo": "UPTTHOW 6Pcs Bookbinding Easy Scrapbooking Tool for Notebook Calender",
+   "precio": 8.97,
+   "resenas": 912,
+   "mes": 200,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/UPTTHOW-6Pcs-Bookbinding-Scrapbooking-Complete/dp/B0CMZNX5BM"
+  },
+  "pasa": false,
+  "mas_vendido": {
+   "titulo": "Book Binding Kits Bookbinding Kit Book Binding Materials Bone Folder Tool",
+   "precio": 9.29,
+   "resenas": 707,
+   "mes": 800,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Bookbinding-Bone-Folder-Tool-Supplies/dp/B0C3QNX5YL"
+  },
+  "marcas_top": [
+   [
+    "BOOK",
+    4
+   ],
+   [
+    "FUXAFU",
+    2
+   ],
+   [
+    "SAVINA",
+    1
+   ],
+   [
+    "MERGBWLIFE",
+    1
+   ]
+  ],
+  "top5": [
+   {
+    "titulo": "Book Binding Kits Bookbinding Kit Book Binding Materials Bone Folder Tool",
+    "precio": 9.29,
+    "resenas": 707,
+    "mes": 800,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Bookbinding-Bone-Folder-Tool-Supplies/dp/B0C3QNX5YL"
+   },
+   {
+    "titulo": "SAVINA Wooden Bookbinding Cradle with Awl, Hardwood Paper Punching Tool | Piercing cradle & awl for punching aligned holes in signatures, ideal for jo",
+    "precio": 19.9,
+    "resenas": 53,
+    "mes": 100,
+    "prime": false,
+    "sponsored": true,
+    "url": ""
+   },
+   {
+    "titulo": "MeRGBWLife Book Binding Kit with Book Press, Complete Bookbinding Tools Set for DIY Book Repair, Journal Making & Crafts, Portable Easy Assembly (7.9\"",
+    "precio": 35.99,
+    "resenas": 16,
+    "mes": 50,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/MeRGBWLife-Complete-Bookbinding-Portable-Assembly/dp/B0H1B69368"
+   },
+   {
+    "titulo": "FUXAFU 50 Pcs Book Binding Kits, 13\"x7.9\" Inch Wooden Book Press，Books Binding Materials, with Bone Folder, Awl, Needles for DIY Bookbinding, BookRepa",
+    "precio": 39.99,
+    "resenas": 125,
+    "mes": 200,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/FUXAFU-Press%EF%BC%8CBooks-Materials-Bookbinding-BookRepair/dp/B0F13N53RW"
+   },
+   {
+    "titulo": "FUXAFU 50 Pcs Book Binding Kits, 14.7\"x11.4\" Inch Wooden Book Press，Books Binding Materials, with Bone Folder, Awl, Needles for DIY Bookbinding, BookR",
+    "precio": 44.99,
+    "resenas": 107,
+    "mes": 100,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/FUXAFU-Press%EF%BC%8CBooks-Materials-Bookbinding-BookRepair/dp/B0FMFCJQ2H"
+   }
+  ]
+ },
+ {
+  "k": "watch_repair_kit",
+  "tipo": "Kit de reparación de relojes",
+  "q": "watch repair kit",
+  "must": [
+   "watch"
+  ],
+  "n_resultados": 50,
+  "n_relevantes": 48,
+  "barato": {
+   "titulo": "Watch Battery Replacement Tool Kit – Adjustable Case Opener, Watch Band Strap Remover & Pry Back Case Opener, Removal Install Repair Tool for Watch Ba",
+   "precio": 5.99,
+   "resenas": 164,
+   "mes": 700,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Gusxmioi-Watch-Battery-Replacement-Tool/dp/B0GH8D1M1N"
+  },
+  "pasa": false,
+  "mas_vendido": {
+   "titulo": "Watch Repair Kit for Battery Replacement & Link Removal, Resizing &Opener, Watch Repair and Cleaning Screwdriver Set, Wrench Back Remover, Spring Bar ",
+   "precio": 14.99,
+   "resenas": 24500,
+   "mes": 10000,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Battery-Replacement-Resizing-Screwdriver-Cleaning/dp/B09MK72YFD"
+  },
+  "marcas_top": [
+   [
+    "WATCH",
+    12
+   ],
+   [
+    "JOREST",
+    1
+   ],
+   [
+    "【COMBINATION",
+    1
+   ],
+   [
+    "192",
+    1
+   ]
+  ],
+  "top5": [
+   {
+    "titulo": "Watch Repair Kit for Battery Replacement & Link Removal, Resizing &Opener, Watch Repair and Cleaning Screwdriver Set, Wrench Back Remover, Spring Bar ",
+    "precio": 14.99,
+    "resenas": 24500,
+    "mes": 10000,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Battery-Replacement-Resizing-Screwdriver-Cleaning/dp/B09MK72YFD"
+   },
+   {
+    "titulo": "Watch Link Removal Kit, BYNIIUR Watch Repair Kit, Watch Case Opener Spring Bar Tools, Watch Battery Replacement Tool Kit, Watch Band Link Pin Tool Set",
+    "precio": 19.89,
+    "resenas": 16200,
+    "mes": 4000,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Repair-Opener-Battery-Replacement-Carrying/dp/B07HL3VJD3"
+   },
+   {
+    "titulo": "Watch Battery Replacement Kit, Watch Repair Screwdriver, Watch Band Replacement tool, Watch Wrench Back Remover, Watch Case Opener, Watch Back Remover",
+    "precio": 9.99,
+    "resenas": 23500,
+    "mes": 10000,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Battery-Replacement-Screwdriver-Remover-Tweezers/dp/B09B4R1G33"
+   },
+   {
+    "titulo": "JOREST Watch Battery Replacement Kit, Watch Repair Screwdriver, Watch Band Replacement tool, Watch Wrench Back Remover, Watch Case Opener, Watch Back ",
+    "precio": 9.99,
+    "resenas": 23500,
+    "mes": 10000,
+    "prime": true,
+    "sponsored": true,
+    "url": ""
+   },
+   {
+    "titulo": "Watch Repair Tool Kit, Battery Replacement & Strap Adjustment, Wrench Opening Back Cover, Case Opener, Link Remover, Bracelet Resizing, Band Pin Remov",
+    "precio": 21.99,
+    "resenas": 6600,
+    "mes": 2000,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/New%E3%80%91JOREST-Replacement-Adjustment-Bracelet-Screwdriver/dp/B0CT39L4VV"
+   }
+  ]
+ },
+ {
+  "k": "fountain_pen_set",
+  "tipo": "Set de pluma estilográfica",
+  "q": "fountain pen set",
+  "must": [
+   "fountain pen"
+  ],
+  "n_resultados": 51,
+  "n_relevantes": 45,
+  "barato": {
+   "titulo": "EYEYE Fountain Pens for Writing, Fine Nib, White Barrel, Pack of 8",
+   "precio": 9.98,
+   "resenas": 1800,
+   "mes": 2000,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Disposable-Fountain-EYEYE-Assorted-Colorful/dp/B09ZXVXPSF"
+  },
+  "pasa": false,
+  "mas_vendido": {
+   "titulo": "EYEYE Fountain Pens for Writing, Fine Nib, White Barrel, Pack of 8",
+   "precio": 9.98,
+   "resenas": 1800,
+   "mes": 2000,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Disposable-Fountain-EYEYE-Assorted-Colorful/dp/B09ZXVXPSF"
+  },
+  "marcas_top": [
+   [
+    "WORDSWORTH",
+    2
+   ],
+   [
+    "CALLIGRAPHY",
+    2
+   ],
+   [
+    "FOUNTAIN",
+    1
+   ],
+   [
+    "METAL",
+    1
+   ]
+  ],
+  "top5": [
+   {
+    "titulo": "Fountain Pen Set - Fine & Medium Nibs, Includes 18 Ink Cartridges, Ink Refill Converter & Syringe Filler, Gift for Writing, Journaling & Calligraphy M",
+    "precio": 19.99,
+    "resenas": 364,
+    "mes": 200,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/GC-QUILL-Fountain-Pen-Set/dp/B0CYLYQXFF"
+   },
+   {
+    "titulo": "Metal Fountain Pen Set, 0.38mm Pen with 6 Black Ink Cartridges",
+    "precio": 6.59,
+    "resenas": 3,
+    "mes": 0,
+    "prime": false,
+    "sponsored": false,
+    "url": "https://www.amazon.com/DOPENSPI-Metal-Fountain-0-38mm-Cartridges/dp/B0GGJ2PJSQ"
+   },
+   {
+    "titulo": "Scriveiner Silver Chrome Fountain Pen - Stunning Luxury Pen, Real Gold Finish Schmidt Gilded Nib (Medium), Best Pen Gift Set for Men & Women, Professi",
+    "precio": 49.99,
+    "resenas": 13600,
+    "mes": 100,
+    "prime": false,
+    "sponsored": false,
+    "url": ""
+   },
+   {
+    "titulo": "PILOT Precise Varsity Pre-Filled Fountain Pens, 1.0mm, Multicolor, 7-Pack",
+    "precio": 14.18,
+    "resenas": 10300,
+    "mes": 900,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/PILOT-Pre-Filled-Stainless-Turquoise-90029/dp/B00092PRCA"
+   },
+   {
+    "titulo": "EYEYE Fountain Pens for Writing, Fine Nib, White Barrel, Pack of 8",
+    "precio": 9.98,
+    "resenas": 1800,
+    "mes": 2000,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Disposable-Fountain-EYEYE-Assorted-Colorful/dp/B09ZXVXPSF"
+   }
+  ]
+ },
+ {
+  "k": "needlepoint_kit",
+  "tipo": "Kit de needlepoint",
+  "q": "needlepoint kit",
+  "must": [
+   "needlepoint"
+  ],
+  "n_resultados": 50,
+  "n_relevantes": 38,
+  "barato": {
+   "titulo": "Design Works Crafts, 5\" x 7\" Needlepoint Kit Butterflies Galore",
+   "precio": 9.99,
+   "resenas": 346,
+   "mes": 200,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Design-Works-Crafts-Needlepoint-Butterflies/dp/B00VLNPSGG"
+  },
+  "pasa": false,
+  "mas_vendido": {
+   "titulo": "KYOQFVN Horror Cross Stitch Stamped Kits for Adults Beginner - Halloween Embroidery Kits - 11 CT Needlepoint Patterns for Home Decor 14×14 Inch",
+   "precio": 9.99,
+   "resenas": 26,
+   "mes": 600,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/KYOQFVN-Horror-Stitch-Stamped-Beginner/dp/B0GWTR8LPR"
+  },
+  "marcas_top": [
+   [
+    "KAITIAKI",
+    6
+   ],
+   [
+    "XUNYEE",
+    3
+   ],
+   [
+    "CHUMIA",
+    2
+   ],
+   [
+    "DESIGN",
+    1
+   ]
+  ],
+  "top5": [
+   {
+    "titulo": "Kaitiaki 13 mesh Needlepoint Canvas Kit, 8 in Painted Canvas Set with Embroidery Floss, Needles, Guide Card, Instruction, Threader, Scissors & Project",
+    "precio": 29.99,
+    "resenas": 18,
+    "mes": 0,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Kaitiaki-Needlepoint-Kit-Embroidery-Instruction/dp/B0HFMCWMMG"
+   },
+   {
+    "titulo": "Kaitiaki 18 mesh Needlepoint Canvas Kit, 8 in Painted Canvas Set with Embroidery Floss, Needles, Guide Card, Instruction, Threader, Scissors & Project",
+    "precio": 29.99,
+    "resenas": 18,
+    "mes": 200,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Kaitiaki-Needlepoint-Kit-Embroidery-Instruction/dp/B0H3NRJS88"
+   },
+   {
+    "titulo": "Kaitiaki 13 mesh Needlepoint Canvas Kit, 8 in Painted Canvas Set with Embroidery Floss, Needles, Guide Card, Instruction, Threader, Scissors & Project",
+    "precio": 29.99,
+    "resenas": 18,
+    "mes": 300,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Kaitiaki-Needlepoint-Kit-Embroidery-Instruction/dp/B0H3NPV4DP"
+   },
+   {
+    "titulo": "XunYee 23 Pcs Chinese Christmas Tree Needlepoint Kit for Beginners Adults | Starters 18 Mesh Hand Painted Printed Needle Point Canvas Set 2 Xmas Tree ",
+    "precio": 28.99,
+    "resenas": 48,
+    "mes": 50,
+    "prime": true,
+    "sponsored": false,
+    "url": ""
+   },
+   {
+    "titulo": "Kaitiaki 18 mesh Needlepoint Canvas Kit, 8 in Painted Canvas Set with Embroidery Floss, Needles, Guide Card, Instruction, Threader, Scissors & Project",
+    "precio": 29.99,
+    "resenas": 18,
+    "mes": 200,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Kaitiaki-Needlepoint-Kit-Embroidery-Instruction/dp/B0H3NF5G5Z"
+   }
+  ]
+ },
+ {
+  "k": "ocarina",
+  "tipo": "Ocarina",
+  "q": "ocarina 12 hole",
+  "must": [
+   "ocarina"
+  ],
+  "n_resultados": 49,
+  "n_relevantes": 49,
+  "barato": {
+   "titulo": "Ocarina, Horse 12 Holes Alto C Ceramic with Carry Bag Music Book Strap (Crack Blue)",
+   "precio": 7.4,
+   "resenas": 248,
+   "mes": 0,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Horse-Ocarina-Holes-Ceramic-Carry/dp/B08LDDHP12"
+  },
+  "pasa": false,
+  "mas_vendido": {
+   "titulo": "Ohuhu Ocarina 12 Hole Alto C with Song Book, Gift for Music Fans Blue",
+   "precio": 24.99,
+   "resenas": 8600,
+   "mes": 2000,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Ohuhu-Ocarina-Ocarinas-Triforce-Protective/dp/B0148EQYA8"
+  },
+  "marcas_top": [
+   [
+    "12",
+    3
+   ],
+   [
+    "OHUHU",
+    3
+   ],
+   [
+    "ZELDA",
+    2
+   ],
+   [
+    "OCARINAWIND",
+    2
+   ]
+  ],
+  "top5": [
+   {
+    "titulo": "12 Hole Alto C Ocarina Instrument Hand Tuned with Storage Bag for Beginners",
+    "precio": 16.99,
+    "resenas": 81,
+    "mes": 800,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Huazzzyi-Zelda-Ocarina-Collectibles-Instrument/dp/B0CP93BL79"
+   },
+   {
+    "titulo": "Ohuhu Ocarina 12 Hole Alto C with Song Book, Gift for Music Fans Blue",
+    "precio": 24.99,
+    "resenas": 8600,
+    "mes": 2000,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Ohuhu-Ocarina-Ocarinas-Triforce-Protective/dp/B0148EQYA8"
+   },
+   {
+    "titulo": "Zelda Ocarina 12 Hole Alto C with Song Book,Gift for Zelda Fans Blue",
+    "precio": 22.99,
+    "resenas": 6100,
+    "mes": 1000,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Deekec-Legend-Ocarina-Display-Protective/dp/B076DX5PBY"
+   },
+   {
+    "titulo": "rayzm 12-Hole Alto C Ocarina, 13-Note C Major, Durable ABS Plastic Ocarina Wind Musical Instrument with Carry Bag for Beginners (Blue)",
+    "precio": 11.99,
+    "resenas": 53,
+    "mes": 0,
+    "prime": true,
+    "sponsored": false,
+    "url": ""
+   },
+   {
+    "titulo": "OcarinaWind 12 Hole Ceramic Tenor C Ocarina – Bird Loves Flower | Handcrafted Collectible",
+    "precio": 24.95,
+    "resenas": 467,
+    "mes": 50,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/OcarinaWind-Flower-Ceramic-Ocarina-Painting/dp/B077T22K75"
+   }
+  ]
+ },
+ {
+  "k": "puzzle_box",
+  "tipo": "Caja secreta de madera",
+  "q": "wooden puzzle box secret",
+  "must": [
+   "puzzle box"
+  ],
+  "n_resultados": 50,
+  "n_relevantes": 40,
+  "barato": {
+   "titulo": "AHYUAN Wooden Brain Teaser Secret Opening Puzzle Box Handmade 3D Brain Teaser Puzzle Magic Wooden Mysterious Box Gift Cube Game IQ Toys (1PACK)",
+   "precio": 7.98,
+   "resenas": 247,
+   "mes": 0,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Wooden-Teaser-Opening-Handmade-Mysterious/dp/B082F2XFYP"
+  },
+  "pasa": false,
+  "mas_vendido": {
+   "titulo": "Mystery Box - Onietoiy Wooden Puzzle Box, Prank Puzzles for Adults & Kids",
+   "precio": 29.95,
+   "resenas": 686,
+   "mes": 300,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Onietoiy-Wooden-Puzzle-32-Step-Teaser/dp/B0B24GGF17"
+  },
+  "marcas_top": [
+   [
+    "MYSTERY",
+    2
+   ],
+   [
+    "PUZZLE",
+    2
+   ],
+   [
+    "BITS",
+    2
+   ],
+   [
+    "ROSE",
+    1
+   ]
+  ],
+  "top5": [
+   {
+    "titulo": "Mystery Box - Onietoiy Wooden Puzzle Box, Prank Puzzles for Adults & Kids",
+    "precio": 29.95,
+    "resenas": 686,
+    "mes": 300,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Onietoiy-Wooden-Puzzle-32-Step-Teaser/dp/B0B24GGF17"
+   },
+   {
+    "titulo": "Puzzle Box with Hidden Compartments, Secret Lock and Key",
+    "precio": 39.99,
+    "resenas": 719,
+    "mes": 100,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/allboxesinoneplace-Puzzle-Secret-Wooden-Compartments/dp/B07PMXDFQG"
+   },
+   {
+    "titulo": "Rose, Handcrafted Wooden Puzzle Box with Secret Compartment, All-Natural Intarsia Wood Art",
+    "precio": 33.88,
+    "resenas": 93,
+    "mes": 0,
+    "prime": false,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Handmade-Carved-Intarsia-Puzzle-Handcrafted/dp/B005L3VEJW"
+   },
+   {
+    "titulo": "Mystery Box - Onietoiy Wooden Puzzle Box, Prank Puzzles for Adults & Kids",
+    "precio": 29.95,
+    "resenas": 686,
+    "mes": 300,
+    "prime": true,
+    "sponsored": true,
+    "url": ""
+   },
+   {
+    "titulo": "Small Wooden Puzzle Box for Kids, Secret Lock and Key, Carved",
+    "precio": 29.96,
+    "resenas": 47,
+    "mes": 0,
+    "prime": false,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Puzzle-Wooden-Secret-Adults-Compartment/dp/B0FGY832NM"
+   }
+  ]
+ },
+ {
+  "k": "leather_stamping_set",
+  "tipo": "Set de estampar cuero",
+  "q": "leather stamping tools set",
+  "must": [
+   "leather"
+  ],
+  "n_resultados": 50,
+  "n_relevantes": 50,
+  "barato": {
+   "titulo": "Jupean 6 Pcs Leather Stamps Leather Stamping Tools Leather Stamping Kit",
+   "precio": 8.99,
+   "resenas": 464,
+   "mes": 0,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/Jupean-Leather-Stamping-Working-Handmade/dp/B07Y4TMHCX"
+  },
+  "pasa": false,
+  "mas_vendido": {
+   "titulo": "BUTUZE Leather Working Tools, Practical Leather Craft Kit",
+   "precio": 28.98,
+   "resenas": 1200,
+   "mes": 700,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/BUTUZE-Practical-Stitching-Leathercraft-Beginner/dp/B0B38C6LC3"
+  },
+  "marcas_top": [
+   [
+    "LEATHER",
+    2
+   ],
+   [
+    "REALEATHER",
+    2
+   ],
+   [
+    "TLKKUE",
+    1
+   ],
+   [
+    "WONVOC",
+    1
+   ]
+  ],
+  "top5": [
+   {
+    "titulo": "Leather Stamps, 21 PCS Leather Stamping Tools with Rubber Hammer",
+    "precio": 15.98,
+    "resenas": 447,
+    "mes": 100,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Leather-Stamping-Tools-Different-Special/dp/B0BTP7K1MW"
+   },
+   {
+    "titulo": "TLKKUE Leather Working Tools Leather Craft Tools for Carving Stamping",
+    "precio": 43.99,
+    "resenas": 1000,
+    "mes": 400,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Leather-Carving-Working-Storage-Punching/dp/B09NRFW5GK"
+   },
+   {
+    "titulo": "Wonvoc Leather Stamping Tools, 75 Pcs Leather Carving Tools",
+    "precio": 20.99,
+    "resenas": 53,
+    "mes": 100,
+    "prime": false,
+    "sponsored": false,
+    "url": "https://www.amazon.com/WONVOC-Stamping-Patterns-Geometric-Leathercraft/dp/B0CG39LMNV"
+   },
+   {
+    "titulo": "Custom Leather Stamping Tools with Handle, Personalized Brass Stamp for Leathercraft, Metal Letter & Logo Embossing Kit, Leather Carving Hammer Press ",
+    "precio": 16.99,
+    "resenas": 6,
+    "mes": 0,
+    "prime": false,
+    "sponsored": false,
+    "url": ""
+   },
+   {
+    "titulo": "ZMAAGG Leather Stamps, 71 PCS Leather Stamping Tools, Leathers Stamping Kit",
+    "precio": 19.98,
+    "resenas": 447,
+    "mes": 200,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Leather-Stamping-Tools-Letters-Patterns/dp/B0BTP9KP7F"
+   }
+  ]
+ },
+ {
+  "k": "fly_fishing_flies",
+  "tipo": "Surtido de moscas de pesca",
+  "q": "fly fishing flies assortment",
+  "must": [
+   "flies"
+  ],
+  "n_resultados": 48,
+  "n_relevantes": 46,
+  "barato": {
+   "titulo": "Fly Fishing Poppers, Topwater Fishing Lures Bass Crappie Bluegill Sunfish Panfish Trout Salmon Perch Steelhead Flies for Fly Fishing Bass Panfish Blue",
+   "precio": 7.99,
+   "resenas": 453,
+   "mes": 0,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/FishingPepo-Assortment-Steelhead-Streamers-Bluegill/dp/B0C1NHBGK1"
+  },
+  "pasa": false,
+  "mas_vendido": {
+   "titulo": "BASSDASH 64pcs Fly Fishing Flies Kit with Fly Box for Trout Bass Fishing",
+   "precio": 23.98,
+   "resenas": 3300,
+   "mes": 900,
+   "prime": true,
+   "sponsored": false,
+   "url": "https://www.amazon.com/BASSDASH-64pcs-Fishing-Flies-Trout/dp/B07CMY48MH"
+  },
+  "marcas_top": [
+   [
+    "FLY",
+    3
+   ],
+   [
+    "WIFREO",
+    3
+   ],
+   [
+    "BASSDASH",
+    2
+   ],
+   [
+    "GOTURE",
+    2
+   ]
+  ],
+  "top5": [
+   {
+    "titulo": "Fly Fishing Flies Assortment Kit Dry Wet Nyphms Tenkara Popper Streamer Woolly Bugger for Trout Bass Salmon Steelhead with Fly Box",
+    "precio": 32.99,
+    "resenas": 1000,
+    "mes": 700,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Fishing-Assortment-100pcs-Streamer-Steelhead/dp/B08HGMSC5B"
+   },
+   {
+    "titulo": "BASSDASH 64pcs Fly Fishing Flies Kit with Fly Box for Trout Bass Fishing",
+    "precio": 23.98,
+    "resenas": 3300,
+    "mes": 900,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/BASSDASH-64pcs-Fishing-Flies-Trout/dp/B07CMY48MH"
+   },
+   {
+    "titulo": "Hand-Tied Fly Fishing Flies Kit, Dry Wet Flies Nymphs Streamers Assortment for Trout & Bass with Waterproof Fly Box",
+    "precio": 13.96,
+    "resenas": 514,
+    "mes": 200,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Ansnbo-36PCS-Fishing-Assortment-Streamers/dp/B0BGLNJ7LQ"
+   },
+   {
+    "titulo": "Wifreo Fly Fishing Flies Assortment with Waterproof Fly Box, 28/40/64/92/120pcs Dry/Wet/Nymph/Streamer Flies, Trout/Bass/Panfish/Salmon Fishing Flies",
+    "precio": 30.99,
+    "resenas": 420,
+    "mes": 0,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/wifreo-Fly-Fishing-Flies-Kit/dp/B08R712BL2"
+   },
+   {
+    "titulo": "Ventures Fly Co. | 40 Premium Hand Tied Fly Fishing Flies Assortment | Fly Box Included | Dry, Wet, Nymphs, Streamers, Wooly Buggers, Terrestrials | T",
+    "precio": 74.99,
+    "resenas": 542,
+    "mes": 100,
+    "prime": true,
+    "sponsored": false,
+    "url": "https://www.amazon.com/Ventures-Assortment-Included-Streamers-Terrestrials/dp/B089XL41DP"
    }
   ]
  }
