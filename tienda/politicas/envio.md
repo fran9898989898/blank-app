@@ -12,7 +12,7 @@
 Los pedidos se envían desde almacenes de nuestros proveedores, normalmente fuera de EE. UU. Por eso el plazo es
 mayor que el de una tienda con stock local. Si un pedido incluye varios artículos, pueden llegar en paquetes separados.
 
-**Coste:** [envío gratis en todos los pedidos / $X,XX por pedido — decidir y dejar UNA opción].
+**Coste:** envío gratis en todos los pedidos a EE. UU.
 
 **Seguimiento:** recibirás un número de seguimiento por email cuando el pedido salga. El seguimiento puede tardar
 2–5 días en mostrar movimiento.
