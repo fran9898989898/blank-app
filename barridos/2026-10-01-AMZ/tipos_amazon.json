@@ -356,5 +356,125 @@
   "must": [
    "cheese"
   ]
+ },
+ {
+  "k": "bonsai_tool_kit",
+  "tipo": "Kit de herramientas de bonsái",
+  "q": "bonsai tool kit",
+  "must": [
+   "bonsai"
+  ]
+ },
+ {
+  "k": "kalimba",
+  "tipo": "Kalimba (piano de pulgar)",
+  "q": "kalimba 17 keys",
+  "must": [
+   "kalimba"
+  ]
+ },
+ {
+  "k": "kendama",
+  "tipo": "Kendama",
+  "q": "kendama",
+  "must": [
+   "kendama"
+  ]
+ },
+ {
+  "k": "wax_seal_kit",
+  "tipo": "Kit de sello de lacre",
+  "q": "wax seal stamp kit",
+  "must": [
+   "wax seal"
+  ]
+ },
+ {
+  "k": "wooden_3d_puzzle",
+  "tipo": "Puzle mecánico 3D de madera",
+  "q": "3d wooden puzzle mechanical model kit",
+  "must": [
+   "wooden"
+  ]
+ },
+ {
+  "k": "shoe_shine_kit",
+  "tipo": "Kit de limpiabotas",
+  "q": "shoe shine kit",
+  "must": [
+   "shoe"
+  ]
+ },
+ {
+  "k": "guitar_tool_kit",
+  "tipo": "Kit de herramientas de guitarra",
+  "q": "guitar tool kit",
+  "must": [
+   "guitar"
+  ]
+ },
+ {
+  "k": "bookbinding_kit",
+  "tipo": "Kit de encuadernación",
+  "q": "bookbinding kit",
+  "must": [
+   "bookbinding"
+  ]
+ },
+ {
+  "k": "watch_repair_kit",
+  "tipo": "Kit de reparación de relojes",
+  "q": "watch repair kit",
+  "must": [
+   "watch"
+  ]
+ },
+ {
+  "k": "fountain_pen_set",
+  "tipo": "Set de pluma estilográfica",
+  "q": "fountain pen set",
+  "must": [
+   "fountain pen"
+  ]
+ },
+ {
+  "k": "needlepoint_kit",
+  "tipo": "Kit de needlepoint",
+  "q": "needlepoint kit",
+  "must": [
+   "needlepoint"
+  ]
+ },
+ {
+  "k": "ocarina",
+  "tipo": "Ocarina",
+  "q": "ocarina 12 hole",
+  "must": [
+   "ocarina"
+  ]
+ },
+ {
+  "k": "puzzle_box",
+  "tipo": "Caja secreta de madera",
+  "q": "wooden puzzle box secret",
+  "must": [
+   "puzzle box"
+  ]
+ },
+ {
+  "k": "leather_stamping_set",
+  "tipo": "Set de estampar cuero",
+  "q": "leather stamping tools set",
+  "must": [
+   "leather"
+  ]
+ },
+ {
+  "k": "fly_fishing_flies",
+  "tipo": "Surtido de moscas de pesca",
+  "q": "fly fishing flies assortment",
+  "must": [
+   "flies"
+  ]
  }
 ]
