@@ -1,1 +1,36 @@
-{"inicio": "2026-10-01T02:10:30Z", "base_usd": 14.491936258358654, "runs": []}
+{
+ "inicio": "2026-10-01T02:10:30Z",
+ "base_usd": 14.491936258358654,
+ "runs": [
+  {
+   "t": "2026-10-01T02:12:05Z",
+   "actor": "apify~rag-web-browser",
+   "key": "fb27890da03a32539818fe50b2df3439",
+   "items": 1
+  },
+  {
+   "t": "2026-10-01T02:14:40Z",
+   "actor": "apify~rag-web-browser",
+   "key": "cb5e13d9c3eb9fb3dc715b0ad30527d0",
+   "items": 1
+  },
+  {
+   "t": "2026-10-01T02:14:58Z",
+   "actor": "apify~rag-web-browser",
+   "key": "614c99c56fd9071fb1ea8c25b1b04bf3",
+   "items": 1
+  },
+  {
+   "t": "2026-10-01T02:15:29Z",
+   "actor": "apify~rag-web-browser",
+   "key": "5e3afd6cfad75e639bdff25e39623ae3",
+   "items": 1
+  },
+  {
+   "t": "2026-10-01T02:16:34Z",
+   "actor": "apify~rag-web-browser",
+   "key": "63bd5863083d4ae54aff5961d0c6828c",
+   "items": 1
+  }
+ ]
+}

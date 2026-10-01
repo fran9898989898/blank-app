@@ -1,0 +1,1062 @@
+{
+ "kit limpiador de conducto de secadora acople a aspiradora": {
+  "tipo": "Kit limpiador de conducto de secadora (acople a aspiradora)",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Gate / enjambre de dropshippers",
+  "v": "KILL por gate: pasa escala pero el genérico ya lo anuncian ≥6 operadores. Gate KILL: 17 operadores en la Biblioteca (4 c"
+ },
+ "kit de remachadora de tuercas rivet nut adaptador para taladro": {
+  "tipo": "Kit de remachadora de tuercas (rivet nut) + adaptador para taladro",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Gate / enjambre de dropshippers",
+  "v": "KILL por gate: pasa escala pero el genérico ya lo anuncian ≥6 operadores. Gate KILL: 6 operadores del genérico."
+ },
+ "copa de vino navideña con figura 3d": {
+  "tipo": "Copa de vino navideña con figura 3D",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Gate / enjambre de dropshippers",
+  "v": "KILL por gate: pasa escala pero el genérico ya lo anuncian ≥6 operadores. Gate KILL: 6 operadores (4 con ≥30 d) y subien"
+ },
+ "mopa flexible de microfibra para ventiladores rendijas": {
+  "tipo": "Mopa flexible de microfibra para ventiladores/rendijas",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Gate / enjambre de dropshippers",
+  "v": "KILL por gate: pasa escala pero el genérico ya lo anuncian ≥6 operadores. Gate KILL (12 operadores)."
+ },
+ "percha multifunción para pantalones": {
+  "tipo": "Percha multifunción para pantalones",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Escala / nº de anunciantes",
+  "v": "Un superviviente: shopmoderny tiene 27 de 30 anuncios de la Biblioteca; copenrain 1 ad. Ojo: el copy es falsa escasez (\\"
+ },
+ "bandeja de madera para brazo de sofá": {
+  "tipo": "Bandeja de madera para brazo de sofá",
+  "fuente": "radar",
+  "st": "fuera",
+  "crit": "Precio de venta / margen",
+  "v": "2 operadores en la Biblioteca (shopmoderny 21 anuncios; wooodify 8 anuncios, 30 d). Ticket $70."
+ },
+ "limpiacristales rotatorio para coche": {
+  "tipo": "Limpiacristales rotatorio para coche",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Escala / nº de anunciantes",
+  "v": "2 operadores (coozyland 263 d; autoyunn 152 d, 4 ads, mismas fotos). La Biblioteca no devuelve anuncios con la frase exa"
+ },
+ "tacos metálicos para pared wall anchors": {
+  "tipo": "Tacos metálicos para pared (wall anchors)",
+  "fuente": "radar",
+  "st": "fuera",
+  "crit": "Gate / enjambre de dropshippers",
+  "v": "Mercado: el líder solo tiene el 44 % de los anuncios en US (filtro ≥50 %). Biblioteca: 16 operadores mezclados con empre"
+ },
+ "estante sobre el grifo del fregadero": {
+  "tipo": "Estante sobre el grifo del fregadero",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "13 operadores en la Biblioteca (Shein, Amazon, tiendas-catálogo) → gate KILL y commodity."
+ },
+ "cajas apilables de almacenaje": {
+  "tipo": "Cajas apilables de almacenaje",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Marca de referencia",
+  "v": "12 operadores, 9 con ≥30 d, incluidos OXO y medios (Us Weekly): commodity con marcas."
+ },
+ "botella con cubitos de hielo chillsip": {
+  "tipo": "Botella con cubitos de hielo (ChillSip)",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Escala / nº de anunciantes",
+  "v": "Un solo operador en STT; la Biblioteca no devuelve anuncios con la frase."
+ },
+ "vinilo": {
+  "tipo": "Vinilo \\",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Gate / enjambre de dropshippers",
+  "v": "Enjambre de 2 tiendas-catálogo (mindsparkl + bisnftwrem) con 31–38 d y la misma foto; 33 variaciones = testeo, no escala"
+ },
+ "krazy klean antical para cisterna vía lateral": {
+  "tipo": "Krazy Klean (antical para cisterna) — vía lateral",
+  "fuente": "radar",
+  "st": "fuera",
+  "crit": "Regla de producto (claim, electrónica, tallas, POD, regulado)",
+  "v": "Marca DTC única (569 ads, 362 d, US 97 %): señal de vía lateral (§3). Fuera: todo el producto es un claim técnico (\\\"des"
+ },
+ "antifaz para dormir contorneado con peso": {
+  "tipo": "Antifaz para dormir contorneado / con peso",
+  "fuente": "radar",
+  "st": "duda",
+  "crit": "Ancla Amazon",
+  "v": "Pasa a dudoso: tu PVP de $25–30 estaría a 3–5 veces el genérico de Amazon. Solo tiene sentido con un ángulo que Amazon n"
+ },
+ "cesta acolchada multiusos coche bebé regalo": {
+  "tipo": "Cesta acolchada multiusos (coche, bebé, regalo)",
+  "fuente": "radar",
+  "st": "duda",
+  "crit": "Ancla Amazon",
+  "v": "Sigue dudoso. Gate limpio (nadie más en Meta), pero el ancla de Amazon/Walmart a $15–21 es la mitad del precio que cuadr"
+ },
+ "repelente de roedores en bolsitas de menta": {
+  "tipo": "Repelente de roedores en bolsitas de menta",
+  "fuente": "radar",
+  "st": "duda",
+  "crit": "Gate / enjambre de dropshippers",
+  "v": "Baja de interés. El gate pasa de PRIORIDAD a POSIBLE rozando KILL: entra una tienda nueva por semana copiando a sofyre. "
+ },
+ "correa de perro manos libres 4 en 1": {
+  "tipo": "Correa de perro manos libres 4 en 1",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "KILL: ancla de Amazon muy fuerte."
+ },
+ "protector de señuelos de pesca": {
+  "tipo": "Protector de señuelos de pesca",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Precio de venta / margen",
+  "v": "KILL: ticket muy por debajo de $15."
+ },
+ "funda toalla impermeable para asiento de coche": {
+  "tipo": "Funda-toalla impermeable para asiento de coche",
+  "fuente": "radar",
+  "st": "duda",
+  "crit": "Sin verificar (datos incompletos)",
+  "v": "En espera: anuncia sobre todo en Australia; falta ver US."
+ },
+ "accesorios de coche de autovia relleno de hueco de asiento protector de umbral pegatinas de manetas": {
+  "tipo": "Accesorios de coche de autovia (relleno de hueco de asiento, protector de umbral, pegatinas de manetas)",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Marca de referencia",
+  "v": "Hay lag real (casi nadie en US), pero es commodity barato con marca de referencia."
+ },
+ "alfombrilla de baño ultra absorbente": {
+  "tipo": "Alfombrilla de baño ultra-absorbente",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "No hay lag: en US ya la anuncian 6 operadores, varios con Amazon detrás."
+ },
+ "bloqueo de volante antirrobo": {
+  "tipo": "Bloqueo de volante antirrobo",
+  "fuente": "radar",
+  "st": "fuera",
+  "crit": "Regla de producto (claim, electrónica, tallas, POD, regulado)",
+  "v": "Fuera por marca de referencia: The Club en US desde hace décadas. Además, pesado."
+ },
+ "rosa eterna en cúpula sin led": {
+  "tipo": "Rosa eterna en cúpula (sin LED)",
+  "fuente": "radar",
+  "st": "duda",
+  "crit": "Escala / nº de anunciantes",
+  "v": "Escala sí, pero el tipo está mezclado. Revisa los anuncios a mano antes de gastar más en él."
+ },
+ "cinturón de trinquete": {
+  "tipo": "Cinturón de trinquete",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "Saturado y con marca de referencia (SlideBelts, Mission Belt en Amazon)."
+ },
+ "adorno de navidad para regalar billetes": {
+  "tipo": "Adorno de Navidad para regalar billetes",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Escala / nº de anunciantes",
+  "v": "No pasa escala: en la práctica un operador con dos tiendas; el resto entró hace <30 d."
+ },
+ "protector de sudor para gorra": {
+  "tipo": "Protector de sudor para gorra",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Marca de referencia",
+  "v": "Una sola marca con retail detrás: no hay hueco para un genérico."
+ },
+ "personalizados de print on demand": {
+  "tipo": "Personalizados de print-on-demand",
+  "fuente": "radar",
+  "st": "fuera",
+  "crit": "Otro",
+  "v": "Fuera: no hay genérico en AliExpress, es otro modelo de negocio."
+ },
+ "posavasos led con logo de coche y depiladora facial": {
+  "tipo": "Posavasos LED con logo de coche y depiladora facial",
+  "fuente": "radar",
+  "st": "fuera",
+  "crit": "Regla de producto (claim, electrónica, tallas, POD, regulado)",
+  "v": "Fuera: electrónica."
+ },
+ "llave de extensión offset": {
+  "tipo": "Llave de extensión offset",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "KILL: los rivales venden a $69–109 la versión de cadena ($78–93 en Ali) y en Amazon hay copias «Wildbear» desde $11. Ni "
+ },
+ "almohada cervical thera pillow": {
+  "tipo": "Almohada cervical (Thera Pillow)",
+  "fuente": "radar",
+  "st": "fuera",
+  "crit": "Regla de producto (claim, electrónica, tallas, POD, regulado)",
+  "v": "Fuera por regla: se vende con claim de dolor de cuello."
+ },
+ "barrera de coche para perro dog dock": {
+  "tipo": "Barrera de coche para perro (Dog Dock)",
+  "fuente": "radar",
+  "st": "fuera",
+  "crit": "Regla de producto (claim, electrónica, tallas, POD, regulado)",
+  "v": "Fuera: claim de seguridad y producto voluminoso."
+ },
+ "faja de seguridad para embarazo": {
+  "tipo": "Faja de seguridad para embarazo",
+  "fuente": "radar",
+  "st": "fuera",
+  "crit": "Regla de producto (claim, electrónica, tallas, POD, regulado)",
+  "v": "Fuera: claim de seguridad."
+ },
+ "rodilleras y ropa de compresión": {
+  "tipo": "Rodilleras y ropa de compresión",
+  "fuente": "radar",
+  "st": "fuera",
+  "crit": "Regla de producto (claim, electrónica, tallas, POD, regulado)",
+  "v": "Fuera: tallas y claims."
+ },
+ "limpiadores de oídos y dientes para mascota": {
+  "tipo": "Limpiadores de oídos y dientes para mascota",
+  "fuente": "radar",
+  "st": "fuera",
+  "crit": "Regla de producto (claim, electrónica, tallas, POD, regulado)",
+  "v": "Fuera: líquido con claim de salud."
+ },
+ "bastón plegable con asiento": {
+  "tipo": "Bastón plegable con asiento",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Escala / nº de anunciantes",
+  "v": "No pasa escala: la Biblioteca muestra 30/30 anuncios de itoolmax."
+ },
+ "visera polarizada de coche": {
+  "tipo": "Visera polarizada de coche",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Gate / enjambre de dropshippers",
+  "v": "Enjambre formándose ahora: acabará en KILL."
+ },
+ "ramo de flores de cristal": {
+  "tipo": "Ramo de flores de cristal",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Regla de producto (claim, electrónica, tallas, POD, regulado)",
+  "v": "No pasa escala (2 operadores) y es frágil."
+ },
+ "strap rotuliano stryde": {
+  "tipo": "Strap rotuliano (Stryde)",
+  "fuente": "radar",
+  "st": "fuera",
+  "crit": "Regla de producto (claim, electrónica, tallas, POD, regulado)",
+  "v": "Fuera: claim de dolor de rodilla."
+ },
+ "fuente de agua para perro": {
+  "tipo": "Fuente de agua para perro",
+  "fuente": "radar",
+  "st": "fuera",
+  "crit": "Regla de producto (claim, electrónica, tallas, POD, regulado)",
+  "v": "Fuera: bomba eléctrica."
+ },
+ "afilador de cuchillos rodante": {
+  "tipo": "Afilador de cuchillos rodante",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "KILL en mini-check: ticket por encima del rango y ancla Tumbler + Amazon Prime."
+ },
+ "cartera minimalista rfid": {
+  "tipo": "Cartera minimalista RFID",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "KILL en mini-check: 6 tiendas-catálogo en el genérico y Amazon lleno de genéricos."
+ },
+ "bolso antirrobo de viaje": {
+  "tipo": "Bolso antirrobo de viaje",
+  "fuente": "radar",
+  "st": "duda",
+  "crit": "Gate / enjambre de dropshippers",
+  "v": "US del líder 48 % (<50 %). Gate de STT no verificado en la Biblioteca."
+ },
+ "soporte magnético de móvil para coche": {
+  "tipo": "Soporte magnético de móvil para coche",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Marca de referencia",
+  "v": "Serie plana y marcas grandes (Statik 1.848 ads, MOBArmor)."
+ },
+ "neceser de viaje compacto": {
+  "tipo": "Neceser de viaje compacto",
+  "fuente": "radar",
+  "st": "duda",
+  "crit": "Escala / nº de anunciantes",
+  "v": "Escala dudosa: solo escala Emmafy; el resto son neceseres distintos."
+ },
+ "escalfador de huevos microondas": {
+  "tipo": "Escalfador de huevos microondas",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Gate / enjambre de dropshippers",
+  "v": "Enjambre: 5 tiendas con las mismas fotos de proveedor."
+ },
+ "kit conectores termorretráctiles con estaño": {
+  "tipo": "Kit conectores termorretráctiles con estaño",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "Enjambre de tiendas-catálogo; commodity en Amazon."
+ },
+ "juego de brocas de diamante": {
+  "tipo": "Juego de brocas de diamante",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Gate / enjambre de dropshippers",
+  "v": "Enjambre; marca de referencia Bosch/DeWalt."
+ },
+ "hoja curva de sierra de sable para podar": {
+  "tipo": "Hoja curva de sierra de sable para podar",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Escala / nº de anunciantes",
+  "v": "Escala floja: nadie con ≥15 ads; Diablo/Milwaukee de referencia."
+ },
+ "cadena de lluvia con pájaros rain catcher": {
+  "tipo": "Cadena de lluvia con pájaros (rain catcher)",
+  "fuente": "ECO",
+  "st": "kill",
+  "crit": "Precio de venta / margen",
+  "v": "precios reales 1-oct"
+ },
+ "tensores de sábana sheet holder straps": {
+  "tipo": "Tensores de sábana (sheet holder straps)",
+  "fuente": "radar",
+  "st": "duda",
+  "crit": "Antigüedad del tipo",
+  "v": "Dudoso: entra al visor R como AMARILLO. antigüedad 123 d; ticket medio $19."
+ },
+ "organizador de gorras de pared": {
+  "tipo": "Organizador de gorras de pared",
+  "fuente": "radar",
+  "st": "duda",
+  "crit": "Precio de venta / margen",
+  "v": "Dudoso: entra al visor R como AMARILLO. ticket $16–20 (<$20)."
+ },
+ "protectores de quemadores de gas reutilizables": {
+  "tipo": "Protectores de quemadores de gas reutilizables",
+  "fuente": "radar",
+  "st": "duda",
+  "crit": "Precio de venta / margen",
+  "v": "Dudoso: entra al visor R como AMARILLO. solo 2 anunciantes ≥21 d; precio de 1 rival."
+ },
+ "abridor de huevos": {
+  "tipo": "Abridor de huevos",
+  "fuente": "radar",
+  "st": "duda",
+  "crit": "Antigüedad del tipo",
+  "v": "Dudoso: entra al visor R como AMARILLO. antigüedad 144 d; ticket medio $16; margen <$5."
+ },
+ "boquilla de manguera a presión giratoria": {
+  "tipo": "Boquilla de manguera a presión giratoria",
+  "fuente": "radar",
+  "st": "duda",
+  "crit": "Precio de venta / margen",
+  "v": "Dudoso: entra al visor R como AMARILLO. precio de rivales no verificado (tiendas no leídas)."
+ },
+ "parche autoadhesivo de cuero": {
+  "tipo": "Parche autoadhesivo de cuero",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Gate / enjambre de dropshippers",
+  "v": "KILL en R (GRIS): tipo con 894 d (evergreen) y 9 tiendas nuevas en <21 d: enjambre entrando."
+ },
+ "extensor de asiento trasero para perro base rígida": {
+  "tipo": "Extensor de asiento trasero para perro (base rígida)",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Precio de venta / margen",
+  "v": "KILL en R (GRIS): ticket $100–120 y genérico $41 (>$12)."
+ },
+ "guante exfoliante de ducha": {
+  "tipo": "Guante exfoliante de ducha",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Regla de producto (claim, electrónica, tallas, POD, regulado)",
+  "v": "KILL en R (GRIS): tipo con 228 d; rivales con claims de piel (KP)."
+ },
+ "botella que hace hielo ice cube bottle": {
+  "tipo": "Botella que hace hielo (ice cube bottle)",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Escala / nº de anunciantes",
+  "v": "KILL en R (GRIS): 1 solo anunciante y su anuncio dice que cierra la colección (escasez)."
+ },
+ "tabla de flexiones plegable push up board": {
+  "tipo": "Tabla de flexiones plegable (push-up board)",
+  "fuente": "ECO",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "precios reales 1-oct"
+ },
+ "banda elástica de pedal 4 6 tubos": {
+  "tipo": "Banda elástica de pedal (4–6 tubos)",
+  "fuente": "ECO",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "precios reales 1-oct"
+ },
+ "aro de pilates": {
+  "tipo": "Aro de pilates",
+  "fuente": "ECO",
+  "st": "kill",
+  "crit": "Precio de venta / margen",
+  "v": "precios reales 1-oct"
+ },
+ "fortalecedor de agarre hand gripper": {
+  "tipo": "Fortalecedor de agarre (hand gripper)",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "KILL en R fitness (GRIS): 0 anunciantes con ≥21 d (solo tiendas nuevas y Amazon); precio de rivales no verificado."
+ },
+ "barra de pilates con bandas": {
+  "tipo": "Barra de pilates con bandas",
+  "fuente": "ECO",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "precios reales 1-oct"
+ },
+ "rueda abdominal ab roller": {
+  "tipo": "Rueda abdominal (ab roller)",
+  "fuente": "ECO",
+  "st": "kill",
+  "crit": "Escala / nº de anunciantes",
+  "v": "precios reales 1-oct"
+ },
+ "barra de dominadas portátil de puerta": {
+  "tipo": "Barra de dominadas portátil / de puerta",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Precio de venta / margen",
+  "v": "KILL en R fitness (GRIS): 2 anunciantes, 509 d; precio de barra de puerta no verificado (el único leído, $399, es una es"
+ },
+ "comba con peso": {
+  "tipo": "Comba con peso",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Marca de referencia",
+  "v": "KILL en R fitness (GRIS): mercado de marcas (Crossrope, Elite Jumps) con 145–348 d."
+ },
+ "cintas de suspensión tipo trx": {
+  "tipo": "Cintas de suspensión (tipo TRX)",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Marca de referencia",
+  "v": "KILL en R fitness (GRIS): marca de referencia TRX; precio de rivales no verificado."
+ },
+ "hula hoop con peso smart hoop": {
+  "tipo": "Hula hoop con peso (smart hoop)",
+  "fuente": "radar",
+  "st": "fuera",
+  "crit": "Regla de producto (claim, electrónica, tallas, POD, regulado)",
+  "v": "KILL en R fitness (GRIS): 1 solo anunciante y todo el ángulo es pérdida de peso (claim prohibido en el filtro)."
+ },
+ "rulo sin calor heatless curling rod": {
+  "tipo": "Rulo sin calor (heatless curling rod)",
+  "fuente": "ECO",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "precios reales 1-oct"
+ },
+ "rotulador para juntas de azulejo grout pen": {
+  "tipo": "Rotulador para juntas de azulejo (grout pen)",
+  "fuente": "radar",
+  "st": "duda",
+  "crit": "Gate / enjambre de dropshippers",
+  "v": "Dudoso: AMARILLO en R 30-sep. ticket medio $16; enjambre de tiendas-catálogo; commodity de ferretería."
+ },
+ "adhesivo para reparar parachoques": {
+  "tipo": "Adhesivo para reparar parachoques",
+  "fuente": "radar",
+  "st": "duda",
+  "crit": "Precio de venta / margen",
+  "v": "Dudoso: AMARILLO en R 30-sep. ticket medio $16; paintapart vende otro producto (kit de pintura); mismo texto de proveedo"
+ },
+ "lámpara solar con proyección mandala": {
+  "tipo": "Lámpara solar con proyección mandala",
+  "fuente": "radar",
+  "st": "duda",
+  "crit": "Gate / enjambre de dropshippers",
+  "v": "Dudoso: AMARILLO en R 30-sep. 127 d; ticket $17–19; redes de tiendas-catálogo."
+ },
+ "tapones de válvula led fluorescentes": {
+  "tipo": "Tapones de válvula LED / fluorescentes",
+  "fuente": "radar",
+  "st": "duda",
+  "crit": "Precio de venta / margen",
+  "v": "Dudoso: AMARILLO en R 30-sep. 132 d; ticket $13–19; commodity de $2."
+ },
+ "quitarrayones para coche": {
+  "tipo": "Quitarrayones para coche",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Antigüedad del tipo",
+  "v": "KILL en R 30-sep (GRIS): tipo con 200 d (>180) y 6 anunciantes: maduro."
+ },
+ "toalla turbante para el pelo": {
+  "tipo": "Toalla turbante para el pelo",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Marca de referencia",
+  "v": "KILL en R 30-sep (GRIS): solo marcas y SHEIN; precio del tipo no verificado."
+ },
+ "rodillo de hielo facial": {
+  "tipo": "Rodillo de hielo facial",
+  "fuente": "radar",
+  "st": "fuera",
+  "crit": "Regla de producto (claim, electrónica, tallas, POD, regulado)",
+  "v": "KILL en R 30-sep (GRIS): marcas; el ángulo del tipo es \\\"deshinchar\\\" (claim de piel)."
+ },
+ "apliques de pared inalámbricos": {
+  "tipo": "Apliques de pared inalámbricos",
+  "fuente": "ECO",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "precios reales 1-oct"
+ },
+ "kits de diamond painting": {
+  "tipo": "Kits de diamond painting",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Marca de referencia",
+  "v": "KILL en R 30-sep (GRIS): marcas con 143–1.939 d; cientos de diseños (no son 1–3 variantes)."
+ },
+ "olla de freír de acero con escurridor tipo japonesa": {
+  "tipo": "Olla de freír de acero con escurridor (tipo japonesa)",
+  "fuente": "radar",
+  "st": "vivo",
+  "crit": "Precio de venta / margen",
+  "v": "descartada con precio real Ali + Amazon"
+ },
+ "tabla de cortar de acero inoxidable": {
+  "tipo": "Tabla de cortar de acero inoxidable",
+  "fuente": "ECO",
+  "st": "kill",
+  "crit": "Precio de venta / margen",
+  "v": "precios reales 1-oct"
+ },
+ "disuasor ultrasónico de ladridos": {
+  "tipo": "Disuasor ultrasónico de ladridos",
+  "fuente": "ECO",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "precios reales 1-oct"
+ },
+ "proyector navideño hd escenas en la pared": {
+  "tipo": "Proyector navideño HD (escenas en la pared)",
+  "fuente": "ECO",
+  "st": "kill",
+  "crit": "Precio de venta / margen",
+  "v": "precios reales 1-oct"
+ },
+ "mini plancha de vapor portátil": {
+  "tipo": "Mini plancha de vapor portátil",
+  "fuente": "ECO",
+  "st": "kill",
+  "crit": "Precio de venta / margen",
+  "v": "precios reales 1-oct"
+ },
+ "cepillo deslanador para perro y gato": {
+  "tipo": "Cepillo deslanador para perro y gato",
+  "fuente": "radar",
+  "st": "kill",
+  "crit": "Marca de referencia",
+  "v": "KILL en R 1-oct (GRIS): tipo con 532 d (evergreen) y marca de referencia FURminator en retail; margen $10."
+ },
+ "kit de pan de masa madre banneton": {
+  "tipo": "Kit de pan de masa madre (banneton)",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "12.99",
+  "amz": 12.99
+ },
+ "ahumador de cócteles sin soplete": {
+  "tipo": "Ahumador de cócteles (sin soplete)",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "8.99",
+  "amz": 8.99
+ },
+ "piedras de whisky set regalo": {
+  "tipo": "Piedras de whisky set regalo",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "10.99",
+  "amz": 10.99
+ },
+ "bloque de siembra soil blocker": {
+  "tipo": "Bloque de siembra (soil blocker)",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "17.99",
+  "amz": 17.99
+ },
+ "distribuidor espresso wdt": {
+  "tipo": "Distribuidor espresso WDT",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "7.99",
+  "amz": 7.99
+ },
+ "tamper espresso calibrado": {
+  "tipo": "Tamper espresso calibrado",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "12.0",
+  "amz": 12.0
+ },
+ "filtro de pastilla espresso puck screen": {
+  "tipo": "Filtro de pastilla espresso (puck screen)",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "4.99",
+  "amz": 4.99
+ },
+ "kit de bordado para principiantes": {
+  "tipo": "Kit de bordado para principiantes",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "5.99",
+  "amz": 5.99
+ },
+ "kit de punch needle": {
+  "tipo": "Kit de punch needle",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "7.99",
+  "amz": 7.99
+ },
+ "kit de fieltro con aguja": {
+  "tipo": "Kit de fieltro con aguja",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "6.99",
+  "amz": 6.99
+ },
+ "kit de ganchillo para principiantes": {
+  "tipo": "Kit de ganchillo para principiantes",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "6.99",
+  "amz": 6.99
+ },
+ "kit de marroquinería": {
+  "tipo": "Kit de marroquinería",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "6.99",
+  "amz": 6.99
+ },
+ "cuchilla para greñar pan lame": {
+  "tipo": "Cuchilla para greñar pan (lame)",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "5.67",
+  "amz": 5.67
+ },
+ "tendedero de pasta": {
+  "tipo": "Tendedero de pasta",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "8.99",
+  "amz": 8.99
+ },
+ "limpiador de patas para perro": {
+  "tipo": "Limpiador de patas para perro",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "6.01",
+  "amz": 6.01
+ },
+ "alfombrilla de lamer para perro": {
+  "tipo": "Alfombrilla de lamer para perro",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "3.99",
+  "amz": 3.99
+ },
+ "expansor de portavasos de coche": {
+  "tipo": "Expansor de portavasos de coche",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "9.49",
+  "amz": 9.49
+ },
+ "bandeja de volante": {
+  "tipo": "Bandeja de volante",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "8.99",
+  "amz": 8.99
+ },
+ "joyero de viaje": {
+  "tipo": "Joyero de viaje",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "3.99",
+  "amz": 3.99
+ },
+ "barra magnética para cuchillos": {
+  "tipo": "Barra magnética para cuchillos",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "7.99",
+  "amz": 7.99
+ },
+ "conservador de hierbas": {
+  "tipo": "Conservador de hierbas",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "7.95",
+  "amz": 7.95
+ },
+ "mantequera con tapa": {
+  "tipo": "Mantequera con tapa",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "6.99",
+  "amz": 6.99
+ },
+ "soporte de café pour over": {
+  "tipo": "Soporte de café pour-over",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "9.99",
+  "amz": 9.99
+ },
+ "varilla enfriadora de vino": {
+  "tipo": "Varilla enfriadora de vino",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "9.49",
+  "amz": 9.49
+ },
+ "comedero de pájaros de ventana": {
+  "tipo": "Comedero de pájaros de ventana",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "6.59",
+  "amz": 6.59
+ },
+ "bebedero de colibríes": {
+  "tipo": "Bebedero de colibríes",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "8.39",
+  "amz": 8.39
+ },
+ "estación de propagación de plantas": {
+  "tipo": "Estación de propagación de plantas",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "8.99",
+  "amz": 8.99
+ },
+ "kit de terrario": {
+  "tipo": "Kit de terrario",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "6.59",
+  "amz": 6.59
+ },
+ "set de pinzas de pelo claw clips": {
+  "tipo": "Set de pinzas de pelo (claw clips)",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "3.99",
+  "amz": 3.99
+ },
+ "coleteros de seda": {
+  "tipo": "Coleteros de seda",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "4.99",
+  "amz": 4.99
+ },
+ "kit de montaje de moscas": {
+  "tipo": "Kit de montaje de moscas",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "AliExpress (genérico >$10)",
+  "v": "39.92",
+  "amz": 39.92
+ },
+ "arreglapiques de golf": {
+  "tipo": "Arreglapiques de golf",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "4.99",
+  "amz": 4.99
+ },
+ "entrenador de swing de golf": {
+  "tipo": "Entrenador de swing de golf",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "8.49",
+  "amz": 8.49
+ },
+ "telar de tejer knitting loom": {
+  "tipo": "Telar de tejer (knitting loom)",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "7.46",
+  "amz": 7.46
+ },
+ "set de caligrafía": {
+  "tipo": "Set de caligrafía",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "4.99",
+  "amz": 4.99
+ },
+ "kit de tallado en madera": {
+  "tipo": "Kit de tallado en madera",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "14.95",
+  "amz": 14.95
+ },
+ "kit de macramé": {
+  "tipo": "Kit de macramé",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "5.98",
+  "amz": 5.98
+ },
+ "kit para hacer sushi": {
+  "tipo": "Kit para hacer sushi",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "4.59",
+  "amz": 4.59
+ },
+ "set de matcha batidor cuenco": {
+  "tipo": "Set de matcha (batidor + cuenco)",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "6.49",
+  "amz": 6.49
+ },
+ "organizador de especias de cajón": {
+  "tipo": "Organizador de especias de cajón",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "8.99",
+  "amz": 8.99
+ },
+ "cinturón de coche para perro": {
+  "tipo": "Cinturón de coche para perro",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "4.99",
+  "amz": 4.99
+ },
+ "hamaca de ventana para gato": {
+  "tipo": "Hamaca de ventana para gato",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "14.44",
+  "amz": 14.44
+ },
+ "prensa de ajos rocker": {
+  "tipo": "Prensa de ajos rocker",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "3.49",
+  "amz": 3.49
+ },
+ "cortador de queso de alambre": {
+  "tipo": "Cortador de queso de alambre",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "4.86",
+  "amz": 4.86
+ },
+ "kit de herramientas de bonsái": {
+  "tipo": "Kit de herramientas de bonsái",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "4.49",
+  "amz": 4.49
+ },
+ "kalimba piano de pulgar": {
+  "tipo": "Kalimba (piano de pulgar)",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "18.99",
+  "amz": 18.99
+ },
+ "kendama": {
+  "tipo": "Kendama",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "15.99",
+  "amz": 15.99
+ },
+ "kit de sello de lacre": {
+  "tipo": "Kit de sello de lacre",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "6.99",
+  "amz": 6.99
+ },
+ "puzle mecánico 3d de madera": {
+  "tipo": "Puzle mecánico 3D de madera",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "17.09",
+  "amz": 17.09
+ },
+ "kit de limpiabotas": {
+  "tipo": "Kit de limpiabotas",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "4.83",
+  "amz": 4.83
+ },
+ "kit de herramientas de guitarra": {
+  "tipo": "Kit de herramientas de guitarra",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "6.99",
+  "amz": 6.99
+ },
+ "kit de encuadernación": {
+  "tipo": "Kit de encuadernación",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "8.97",
+  "amz": 8.97
+ },
+ "kit de reparación de relojes": {
+  "tipo": "Kit de reparación de relojes",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "5.99",
+  "amz": 5.99
+ },
+ "set de pluma estilográfica": {
+  "tipo": "Set de pluma estilográfica",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "9.98",
+  "amz": 9.98
+ },
+ "kit de needlepoint": {
+  "tipo": "Kit de needlepoint",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "9.99",
+  "amz": 9.99
+ },
+ "ocarina": {
+  "tipo": "Ocarina",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "7.4",
+  "amz": 7.4
+ },
+ "caja secreta de madera": {
+  "tipo": "Caja secreta de madera",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "7.98",
+  "amz": 7.98
+ },
+ "set de estampar cuero": {
+  "tipo": "Set de estampar cuero",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "8.99",
+  "amz": 8.99
+ },
+ "surtido de moscas de pesca": {
+  "tipo": "Surtido de moscas de pesca",
+  "fuente": "AMZ",
+  "st": "kill",
+  "crit": "Ancla Amazon",
+  "v": "7.99",
+  "amz": 7.99
+ }
+}
