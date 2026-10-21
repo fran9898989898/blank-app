@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Visor barrido B 21-oct</title>
+<style>
+:root{--bg:#f6f5f2;--card:#fff;--ink:#1d1d1b;--mute:#6b6a66;--line:#e3e1dc;--ok:#1f7a4d;--okbg:#e4f3ea;--warn:#8a5a00;--warnbg:#fbf0d9;--bad:#a8322b;--badbg:#f9e3e1;--acc:#2f5bd3}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#151514;--card:#1f1f1d;--ink:#ecebe7;--mute:#a09e98;--line:#34332f;--ok:#6fd19c;--okbg:#17301f;--warn:#e7b85a;--warnbg:#33290f;--bad:#f08a82;--badbg:#3a1a18;--acc:#8aa8ff}}
+:root[data-theme="dark"]{--bg:#151514;--card:#1f1f1d;--ink:#ecebe7;--mute:#a09e98;--line:#34332f;--ok:#6fd19c;--okbg:#17301f;--warn:#e7b85a;--warnbg:#33290f;--bad:#f08a82;--badbg:#3a1a18;--acc:#8aa8ff}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:20px 16px 60px}
+h1{font-size:22px;margin:0 0 4px}
+.sub{color:var(--mute);margin:0 0 14px}
+.warnbox{background:var(--warnbg);color:var(--warn);border-radius:8px;padding:10px 12px;margin:0 0 14px;font-size:14px}
+.bar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin:0 0 16px}
+.bar label{font-size:13px;color:var(--mute)}
+select{background:var(--card);color:var(--ink);border:1px solid var(--line);border-radius:6px;padding:6px 8px;font:inherit}
+.tabs{display:flex;gap:6px;margin:0 0 14px;flex-wrap:wrap}
+.tab{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:6px 12px;border-radius:999px;cursor:pointer;font:inherit}
+.tab[aria-selected="true"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:0 0 14px}
+.head{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:flex-start}
+.head h2{font-size:18px;margin:0}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font-size:12px;padding:3px 8px;border-radius:999px;background:var(--bg);border:1px solid var(--line);white-space:nowrap}
+.ok{background:var(--okbg);color:var(--ok);border-color:transparent}
+.warn{background:var(--warnbg);color:var(--warn);border-color:transparent}
+.bad{background:var(--badbg);color:var(--bad);border-color:transparent}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:8px 16px;margin:12px 0}
+.k{font-size:12px;color:var(--mute);text-transform:uppercase;letter-spacing:.03em}
+.v{font-size:14px}
+.spark{display:flex;align-items:flex-end;gap:2px;height:36px;margin-top:4px}
+.spark i{flex:1;background:var(--acc);opacity:.75;border-radius:2px 2px 0 0;min-height:2px}
+.sec{border-top:1px solid var(--line);margin-top:12px;padding-top:10px}
+.sec h3{font-size:13px;margin:0 0 6px;color:var(--mute);text-transform:uppercase;letter-spacing:.03em}
+ul{margin:0;padding-left:18px}
+li{margin:2px 0}
+.ads{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:10px}
+.ad{border:1px solid var(--line);border-radius:8px;padding:10px;font-size:13px;display:flex;flex-direction:column;gap:6px}
+.ad .meta{color:var(--mute);font-size:12px}
+.ad p{margin:0;white-space:pre-line;max-height:8.5em;overflow:auto}
+.btns{display:flex;gap:6px;flex-wrap:wrap;margin-top:auto}
+a.btn{font-size:12px;text-decoration:none;color:var(--acc);border:1px solid var(--line);border-radius:6px;padding:4px 8px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th,td{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:12px;color:var(--mute);text-transform:uppercase}
+.tblwrap{overflow-x:auto}
+footer{color:var(--mute);font-size:13px;margin-top:20px}
+.hidden{display:none}
+.ad video,.ad img{width:100%;max-height:360px;border-radius:6px;background:#000;object-fit:contain}
+.resumen{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:14px 16px;margin:0 0 14px}
+.resumen li{margin:4px 0}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+<h1>Barrido B · Momentum Q4 · 21 oct 2026</h1>
+<p class="sub">Fuente: SearchTheTrend (US, ≥30 días, ≥10 anuncios, visto desde el 17-oct, ordenado por crecimiento de anuncios en 30 días) + Biblioteca de Meta vía Apify (30 anuncios por consulta, frase exacta) + precios Shopify vía Apify + AliExpress US + Amazon US. Agrupado por TIPO. <b>Sin recomendación: elijo yo mirando los anuncios.</b></p>
+<div class="warnbox"><b>Resultado: 1 dudoso (planificador de fin de vida, gate POSIBLE no firme), 3 KILL por gate, 2 vivos que no pasan.</b> Casi todo lo que crece este mes lo copian las mismas tiendas-catálogo (mindsparkl, perpetualing, pinkdiyprint, bisnftwrem, mygrandhearth): enjambre, no demanda.<br>
+<b>No verificado:</b> genérico exacto del planificador en AliExpress · landed real · Amazon de los KILL.<br>
+<b>Gasto Apify real</b> (API de Apify, ejecuciones de este barrido): ≈ $0,80 de $3 de tope.</div>
+
+<div class="tabs" role="tablist">
+  <button class="tab" role="tab" aria-selected="true" data-tab="pasan">Pasan escala (4)</button>
+  <button class="tab" role="tab" aria-selected="false" data-tab="radar">Vivos que no pasan, con creativo (2)</button>
+  <button class="tab" role="tab" aria-selected="false" data-tab="nopasan">Descartes rápidos (9)</button>
+  <button class="tab" role="tab" aria-selected="false" data-tab="sig">Siguiente paso</button>
+</div>
+
+<section id="pasan">
+<div class="bar">
+  <label>Orden <select id="fOrd"><option value="anun">Nº anunciantes</option><option value="crec">Crecimiento líder</option><option value="dias">Días del líder</option></select></label>
+</div>
+<div id="cards"></div>
+</section>
+
+<section id="radar" class="hidden"><div id="radarcards"></div></section>
+
+<section id="nopasan" class="hidden">
+<div class="tblwrap"><table><thead><tr><th>Tipo</th><th>Anunciantes</th><th>Motivo</th></tr></thead><tbody id="nprows"></tbody></table></div>
+</section>
+
+<section id="sig" class="hidden">
+<div class="resumen">
+<h3>Lectura por la skill</h3>
+<ul>
+<li><b>Barrido B con 1 dudoso.</b> El planificador pasa escala (cozyhoome con 413 días) y el gate da POSIBLE (5 tiendas, no firme), pero Amazon lo vende a $10–12 con cientos de reseñas: tu PVP de $19,99 es ~2× Amazon.</li>
+<li>Si lo miras: abre el vídeo de 413 días de cozyhoome y los de lamorial (páginas-persona). Si te convence, pide al agente el mismo libro y el landed antes de nada.</li>
+<li><b>Q4:</b> Black Friday en ~5 semanas. Un producto nuevo necesita muestra, landing y creativos: si no lo lanzas antes del 7-nov, llegas tarde al pico.</li>
+<li>Siguiente del orden: G (reseñas 1–2★) sobre una categoría del radar, o cerrar los dudosos que ya tienes.</li>
+<li>Añade a EXCLUIDOS: rotulador de juntas, kit de parabrisas, guantes de gato, bóveda de semillas, adorno de alas de ángel.</li>
+</ul>
+</div>
+</section>
+
+<footer>Datos crudos en esta carpeta: meta_ops_*.csv (Biblioteca), precios.csv (Shopify), ali.csv (AliExpress). Los creativos se cargan del CDN de SearchTheTrend; si uno no carga, ábrelo en la Biblioteca.</footer>
+</div>
+
+<script>
+const PASAN = [{"tipo": "Planificador de fin de vida («I'm dead, now what»)", "en": "end of life planner", "sub": "Papelería / regalo", "anun": 4, "escala": ["ok", "Escala: pasa (líder con 413 d)"], "gate": "POSIBLE", "gateN": 5, "mercado": ["ok", "US 80–91 %"], "lider": {"dom": "cozyhoome.com", "dias": 413, "ads": 8, "g30": -16.7, "serie": []}, "rivales": "Biblioteca 21-oct (30 anuncios, frase exacta): 6 operadores, 4 con ≥30 d: lamorial.com (24 anuncios, 58 d, 4 páginas-persona «Anna Reid», «Helen Cartwright»; no está en STT), cozyhoome.com (413 d), mytrendyes.com (75 d), buildyourwill.com (servicio, no producto). STT: mindsparkl.com (129 ads, 37 d, +2.950 % 30d), perpetualing.com (25 ads, 31 d) y 4 tiendas-catálogo más con 1–6 ads y la misma foto.", "pvp": "VERIFICADO (Shopify vía Apify): cozyhoome $12,95 · mindsparkl y perpetualing $19,99 (1) · $37,99 (2) · $54,99 (3).", "ali": "No firme: la búsqueda de AliExpress devuelve libretas genéricas ($2–6), no el planificador exacto. Pide al agente el mismo libro que venden las tiendas.", "alilink": "", "marca": "AMAZON (leído 21-oct): «I'm Dead Now What» genérico $11,08 (563 reseñas, 600+/mes), otros $9,99–11,99 con 154–641 reseñas; «Peace of Mind Planner» $11,33 (9,7K reseñas). A $19,99 estás a ~2× Amazon: precaución.", "q4": "Débil como regalo navideño; vende a mayores de 60 («I'm 68 and love this»).", "hueco": ["Cozyhoome lleva 413 días con el mismo vídeo («Avoid family chaos»): ángulo probado.", "Lamorial escala con páginas-persona en primera persona (advertorial), como Mellow con el antifaz.", "Nadie vende el pack «uno para mí, otro para mis padres» con ángulo de regalo a hijos adultos."], "riesgos": ["Gate POSIBLE no firme: 5 tiendas con la misma foto; mindsparkl entró hace 37 días con 129 anuncios (enjambre en formación).", "Ancla Amazon $10–12 con cientos de reseñas.", "Genérico de Ali no verificado; papel = envío pesado para el precio."], "ads": [{"src": "Cozy Hoome (líder por antigüedad)", "id": "780659771794914", "d": "2025-09-03", "dias": 413, "fmt": "vídeo", "var": 2, "txt": "Avoid family chaos. Our planner ensures your wishes are known and respected. ⚰️", "cr": "https://searchthetrend.b-cdn.net/humorous-end-of-life-planner/780659771794914/creative.mp4"}, {"src": "Cozy Hoome", "id": "1537861234238315", "d": "2025-09-08", "dias": 408, "fmt": "vídeo", "var": 1, "txt": "Avoid family chaos. Our planner ensures your wishes are known and respected. ⚰️", "cr": "https://searchthetrend.b-cdn.net/humorous-end-of-life-planner/1537861234238315/creative.mp4"}, {"src": "De-Mindsparkl (líder por volumen)", "id": "1060513803560273", "d": "2026-09-13", "dias": 37, "fmt": "vídeo", "var": 1, "txt": "💖✨I'm 68 and love this The End of Life Planner.❤️ It makes future planning easier and even fun.", "cr": "https://searchthetrend.b-cdn.net/i-m-dead-end-of-life-planner/1060513803560273-fd2ebfa72d5049daa0b6738a9c2145fc/creative.mp4"}]}, {"tipo": "Rotulador de juntas antimoho para azulejo", "en": "grout pen", "sub": "Hogar / baño", "anun": 10, "escala": ["warn", "Escala: pasa, pero enjambre (todos 37–54 d)"], "gate": "KILL", "gateN": 15, "mercado": ["ok", "US 98–100 %"], "lider": {"dom": "mindsparkl.com", "dias": 50, "ads": 51, "g30": 2600, "serie": []}, "rivales": "Biblioteca 21-oct: 15 operadores, 10 con ≥30 d (novthra, mindsparkl, norbbshop, dailyardmall 141 d, mytrendyes, kariney, perpetualing, pineapplea 111 d, bisnftwrem, dailyardpro) + Amazon. STT: bisnftwrem 54 ads, mindsparkl 51, perpetualing 36, todas con la misma foto.", "pvp": "VERIFICADO: mindsparkl y bisnftwrem $22,99 (tachado $44,99), 11 colores.", "ali": "Rotulador de juntas $1,09–2,26 (10.000+ vendidos). Landed ≈5–10 % de $22,99 antes de envío.", "alilink": "https://www.aliexpress.us/item/3256806811108291.html", "marca": "Commodity de ferretería (Home Depot/Amazon): no verificado el precio.", "q4": "No.", "hueco": ["Ninguno: mismo vídeo y misma foto en todas las tiendas."], "riesgos": ["Gate KILL: 15 operadores.", "Commodity: se ve por pocos dólares en ferretería."], "ads": [{"src": "Bisnftwrem/D", "id": "1759390685548681", "d": "2026-09-03", "dias": 47, "fmt": "vídeo", "var": 1, "txt": "💧 Tired of looking at dark, stained grout lines that make your bathroom feel dirty no matter how much you scrub?", "cr": "https://searchthetrend.b-cdn.net/anti-mould-and-waterproof-joint-pen-for-ceramic-tiles/1759390685548681-e99097ec394b454ca3d38dd8aa3d0f57/creative.mp4"}]}, {"tipo": "Kit de reparación de grietas del parabrisas", "en": "windshield repair kit", "sub": "Auto", "anun": 4, "escala": ["warn", "Escala: pasa por STT; Biblioteca solo 2 con ≥30 d"], "gate": "KILL", "gateN": 12, "mercado": ["ok", "US mayoritario"], "lider": {"dom": "beforesprouted.com", "dias": 34, "ads": 16, "g30": -26.7, "serie": []}, "rivales": "STT ≥30 d: colody (70 d), thegiftnorth (51 d), pinkdiyprint (50 d, 14 ads), beforesprouted (34 d, 16 ads), misma foto. Biblioteca 21-oct: 12 operadores (colody, definitein, botheloquent, perpetualing, joygrova, jaags…) + marcas Ultra Bond (121 d) y AutoZone.", "pvp": "VERIFICADO: beforesprouted y pinkdiyprint $21,99 (1) · $29,99–39,99 (3) · $39,99–49,99 (5).", "ali": "Kit de resina $0,33–4,49 (5.000+ vendidos; $0,33 es precio de nuevo usuario).", "alilink": "https://www.aliexpress.us/item/3256807958493950.html", "marca": "Sí: Rain-X, Permatex y Ultra Bond en AutoZone/Walmart (precio no verificado).", "q4": "No.", "hueco": ["UGC «I used to think a tiny chip wasn't a big deal» es el único ángulo; nadie enseña el antes/después en primer plano."], "riesgos": ["Gate KILL: 12 operadores.", "Marca de referencia en cualquier tienda de recambios."], "ads": [{"src": "Beforesprouted.com", "id": "1330079182344020", "d": "2026-09-16", "dias": 34, "fmt": "vídeo UGC", "var": 1, "txt": "I used to think a tiny chip in my windshield wasn't a big deal… until I saw it start spreading.", "cr": "https://searchthetrend.b-cdn.net/fast-acting-windshield-crack-chip-repair-kit/1330079182344020-da6aa8ed5b094c119f6fdc90f9cdf2da/creative.mp4"}]}, {"tipo": "Guantes sin dedos de punto con gato", "en": "cat fingerless gloves", "sub": "Accesorios / regalo Q4", "anun": 3, "escala": ["warn", "Escala: dudosa (líder 43 d)"], "gate": "KILL", "gateN": 19, "mercado": ["ok", "US 95 %"], "lider": {"dom": "bisnftwrem.com", "dias": 43, "ads": 44, "g30": 4200, "serie": []}, "rivales": "Biblioteca 21-oct («fingerless gloves»): 19 operadores, 10 con ≥30 d, mezcla de tiendas de punto artesanal, marcas (Willis Judd, Five and Diamond), Amazon y tiendas-catálogo.", "pvp": "VERIFICADO: bisnftwrem $19,99, 8×8 combinaciones de color.", "ali": "Guantes de gato $2,79–3,59 (3.000–5.000+ vendidos).", "alilink": "https://www.aliexpress.us/item/3256807120381934.html", "marca": "No hay una referencia única: commodity de ropa de invierno.", "q4": "Sí: regalo «para amantes de los gatos».", "hueco": ["Pack «madre e hija» o «para tus 3 amigas gateras» que nadie hace."], "riesgos": ["Gate KILL: 19 operadores.", "Colores = muchos SKUs; textil barato en cualquier tienda."], "ads": [{"src": "Bisnftwrem9-", "id": "1396139528608488", "d": "2026-09-08", "dias": 43, "fmt": "vídeo", "var": 1, "txt": "Warmth and style perfectly combined! 🐱✨ … 🎁 The perfect gift for cat lovers 👉", "cr": "https://searchthetrend.b-cdn.net/women-s-knitted-fingerless-gloves-with-cute-cat-cozy-stylish-practical-winter-ha/1396139528608488-448b5511ed9e44308aae2e2cb4751629/creative.mp4"}]}];
+const RADAR = [{"tipo": "Bóveda de semillas de supervivencia", "dom": "tryrivanta.com", "dias": 72, "nads": 932, "pvp": "No leído", "motivo": "Escala real (Biblioteca: 5 operadores con ≥30 d: rivanta, nuvera, tryfrdy, gardenspulse) pero fuera por regla: no hay genérico de AliExpress (importar semillas a EE. UU. está regulado por USDA/APHIS) y los anuncios venden miedo a la guerra.", "ads": [{"id": "4536642759911959", "d": "2026-08-26", "dias": 56, "fmt": "imagen", "var": 1, "txt": "I asked my neighbor Clifford if this war with Iran worries him, and the retired Navy man answered by pointing at my chest freezer.", "cr": "https://searchthetrend.b-cdn.net/rivanta-survival-seed-vault/4536642759911959/creative.jpg"}]}, {"tipo": "Adorno navideño de alas de ángel con pájaros", "dom": "pinkdiyprint.com", "dias": 35, "nads": 1346, "pvp": "$16,99 · set de 8 $75,92", "motivo": "Un solo operador (1.346 anuncios en 35 días, testeo masivo). La Biblioteca solo devuelve 6 anuncios con la frase. No valida escala; vigilar si entra un segundo.", "ads": [{"id": "2132756977452456", "d": "2026-09-16", "dias": 35, "fmt": "imagen", "var": 1, "txt": "❤️ Two little birds. A pair of angel wings. A beautiful way to say, \"You're close to my heart.\"", "cr": "https://searchthetrend.b-cdn.net/2026-angel-wing-heart-christmas-ornaments/2132756977452456-ec14212dcba643d6bce79ac437fe55b2/creative.jpg"}]}];
+const NOPASAN = [["Cesta de freír plegable de acero", "1 (mygrandhearth, 92 ads, 36 d)", "Un solo operador."], ["Soplete de cocina BlazeTrigger", "1 (ventrafinds, 33 d)", "Un solo operador; gas: envío complicado."], ["Funda de sofá-cama para perro", "1 (teamk9, 110 d, marca)", "Un solo operador; tallas."], ["Set sensorial squishy / PolySquish", "2 distintos", "No es el mismo tipo; sin escala."], ["Kit de parches para neumáticos, tapones LED, cinta de doble cara", "—", "EXCLUIDOS o commodity (ya evaluados)."], ["Llave offset (wildgrizzly 162 ads), coating cerámico (ethos, 13supplies, bisnftwrem), soporte magnético (armotech)", "—", "EXCLUIDOS: evaluados en septiembre."], ["Personalizados (pinkdiyprint, prints10, macorner, trendingcustom, andyokay)", "—", "Fuera: print-on-demand."], ["Suplementos para perro, mascarillas EMS/LED, mangas EMS, sillas, patinetes, calefactores", "—", "Fuera: ingerible, claims o electrónica."], ["Gorro de punto, guantes, gorro de dormir", "—", "Commodity textil / tallas."]];
+const LIB = id => `https://www.facebook.com/ads/library/?id=${id}`;
+const AMZ = q => `https://www.amazon.com/s?k=${encodeURIComponent(q)}`;
+function esc(t){return String(t).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]))}
+function spark(s){if(!s||!s.length)return '<div class="v">Sin serie en STT</div>';const m=Math.max(...s);return `<div class="spark" title="${s.join(' · ')}">${s.map(x=>`<i style="height:${Math.max(4,x/m*100)}%"></i>`).join('')}</div>`}
+function media(a){return /\.mp4/.test(a.cr)?`<video controls preload="metadata" playsinline src="${a.cr}"></video>`:`<img loading="lazy" src="${a.cr}" alt="creativo">`}
+function adbox(a,src){return `<div class="ad">${media(a)}<div class="meta"><b>${esc(src||a.src||'')}</b><br>Inicio ${a.d} · ${a.dias} d · ${a.fmt} · ${a.var} variación${a.var>1?'es':''}</div><p>${esc(a.txt)}</p><div class="btns"><a class="btn" target="_blank" rel="noopener" href="${LIB(a.id)}">Biblioteca de Meta</a><a class="btn" target="_blank" rel="noopener" href="${a.cr}">Abrir creativo</a></div></div>`}
+function card(t){
+ const g=t.gate==='PRIORIDAD'?'ok':t.gate==='POSIBLE'?'warn':'bad';
+ return `<article class="card">
+ <div class="head"><h2>${esc(t.tipo)}</h2>
+  <div class="chips"><span class="chip ${t.escala[0]}">${esc(t.escala[1])}</span><span class="chip ${g}">Gate ${t.gate} · ${t.gateN} operadores</span><span class="chip ${t.mercado[0]}">${esc(t.mercado[1])}</span><span class="chip">${esc(t.sub)}</span></div></div>
+ <div class="grid">
+  <div><div class="k">Anunciantes ≥30 d</div><div class="v"><b>${t.anun}</b></div></div>
+  <div><div class="k">Líder</div><div class="v">${t.lider.dom}<br>${t.lider.dias} d · ${t.lider.ads} ads · ${t.lider.g30>0?'+':''}${t.lider.g30}% 30d</div></div>
+  <div><div class="k">Serie semanal ads activos (líder)</div>${spark(t.lider.serie)}</div>
+  <div><div class="k">PVP rivales</div><div class="v">${esc(t.pvp)}</div></div>
+  <div><div class="k">Genérico Ali / landed</div><div class="v">${esc(t.ali)}<br>${t.alilink?`<a class="btn" target="_blank" rel="noopener" href="${t.alilink}">Ficha Ali</a> `:''}<a class="btn" target="_blank" rel="noopener" href="${AMZ(t.en)}">Ancla Amazon (a mano)</a></div></div>
+  <div><div class="k">Marca de referencia</div><div class="v">${esc(t.marca)}</div></div>
+  <div><div class="k">Regalo Q4</div><div class="v">${esc(t.q4)}</div></div>
+ </div>
+ <div class="sec"><h3>Anunciantes del tipo</h3><div class="v">${esc(t.rivales)}</div></div>
+ <div class="sec"><h3>Hueco de ejecución observado</h3><ul>${t.hueco.map(h=>`<li>${esc(h)}</li>`).join('')}</ul></div>
+ <div class="sec"><h3>Riesgos</h3><ul>${t.riesgos.map(h=>`<li>${esc(h)}</li>`).join('')}</ul></div>
+ <div class="sec"><h3>Anuncios más antiguos (activos)</h3><div class="ads">${t.ads.map(a=>adbox(a)).join('')}</div></div>
+ </article>`}
+function rcard(r){return `<article class="card"><div class="head"><h2>${esc(r.tipo)}</h2><div class="chips"><span class="chip bad">No pasa</span><span class="chip">${r.dom} · ${r.dias} d · ${r.nads} ads</span><span class="chip">PVP ${esc(r.pvp)}</span></div></div>
+ <div class="sec"><h3>Motivo</h3><div class="v">${esc(r.motivo)}</div></div>
+ <div class="sec"><h3>Creativos activos</h3><div class="ads">${r.ads.map(a=>adbox(a,r.dom)).join('')}</div></div></article>`}
+function render(){
+ const o=document.getElementById('fOrd').value;
+ const key={anun:t=>t.anun,crec:t=>t.lider.g30,dias:t=>t.lider.dias}[o];
+ document.getElementById('cards').innerHTML=[...PASAN].sort((a,b)=>key(b)-key(a)).map(card).join('');
+}
+document.getElementById('fOrd').addEventListener('change',render);
+render();
+document.getElementById('radarcards').innerHTML=RADAR.map(rcard).join('');
+document.getElementById('nprows').innerHTML=NOPASAN.map(r=>`<tr>${r.map(c=>`<td>${esc(c)}</td>`).join('')}</tr>`).join('');
+document.querySelectorAll('.tab').forEach(b=>b.addEventListener('click',()=>{
+ document.querySelectorAll('.tab').forEach(x=>x.setAttribute('aria-selected',x===b));
+ ['pasan','radar','nopasan','sig'].forEach(id=>document.getElementById(id).classList.toggle('hidden',b.dataset.tab!==id));
+}));
+</script>
+</body>
+</html>
