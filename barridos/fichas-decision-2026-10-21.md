@@ -19,6 +19,8 @@ Fórmulas de `references/test-y-kill.md`: margen = PVP − landed − (3 % + $0,
 | Genérico | Airfriend floral con asa ≈$9,01 (no reconfirmado), 700+ vendidos, sin almacén US | AliExpress, 29-sep |
 | Ancla | Amazon $18,99–24,98 (pack de 2 a $20,99); Walmart mediana ≈$19,5 | 29-sep |
 
+**Actualización 31-oct:** Biblioteca de Meta: 30/30 anuncios siguen siendo de emmafy (gate limpio). emmafy sigue a $39,97 sin packs. AliExpress: el proveedor más vendido (Airfriend, 1.000+) está ahora a **$11,95** y hay otro a $6,79 (437 vendidos). Amazon: $14,99–21,98 y packs de 2 a $20,99–26,99, casi todos con menos de 160 reseñas. Con $11,95 de landed, el margen a $34,99 baja a ≈$19,9 (CPA objetivo ≈$14).
+
 **Números (propuesta, landed sin envío):**
 
 | Pack | PVP | Landed | Margen ≈ CPA breakeven | CPA objetivo (0,7×) |
