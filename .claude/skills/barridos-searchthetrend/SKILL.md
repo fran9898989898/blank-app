@@ -34,6 +34,7 @@ Un barrido por sesión. Se pasa al siguiente solo si el anterior deja **menos de
 | 5 | **B — Momentum** | Q4 o cualquier ventana estacional a 6–10 semanas | → 6 |
 | 6 | **G — Reseñas 1★ del líder** | Tienes una categoría que te gusta pero ningún tipo pasa | → revisar filtro |
 | — | **C — Familia de producto** | Solo cuando ya tienes una venta real; explota el mismo comprador | → volver al que vende |
+| ★ | **H — Demanda primero** | Cuando STT no está disponible, o tras 3 barridos seguidos sin vivos. Empieza por ventas reales (Amazon) y no por anuncios | → volver al orden |
 
 **Regla de parada**: tres barridos seguidos con 0 → el problema no es el método. Antes del cuarto, revisa en este orden: (a) ¿estás descartando en el visor por gusto y no por los 7 puntos de lectura (§5)? (b) ¿ticket $15–40 demasiado estrecho? Prueba $15–60 una vez. (c) ¿gate ≤2 demasiado duro? POSIBLE (3–5) también se testea. (d) ¿estás en un vertical que STT no indexa? → E. Un producto que vende vale más que tres que igual venden: si tienes uno vivo, vuelve a él.
 
@@ -51,6 +52,8 @@ Antes se buscaba "≤20 ads y un anunciante con ≥5". Los dos últimos producto
 | **Gate de dropshippers del genérico** | ≤2 → PRIORIDAD · 3–5 → POSIBLE · ≥6 → KILL (contado en la Biblioteca de Meta) | Filtra |
 | **Hueco de ejecución** | rivales sin packs, demo floja, landings sucias, ángulo obvio sin usar | **Se anota, no filtra.** Es lo que tú miras para elegir |
 | Amazon como techo | no filtra; se mira a mano en finalistas: genérico Prime a un tercio de tu PVP = cuidado | Manual |
+| **Prima Meta** (31-oct) | Un ancla de Amazon barata NO mata si hay en Meta al menos un vendedor cobrando ≥1,5× el precio de Amazon con anuncios encendidos ≥90 días (prueba de que el comprador de Meta paga la historia). Sin ese vendedor, Amazon a ≤⅓ de tu PVP = KILL | Filtra en finalistas |
+| **AOV** (31-oct) | Pedido medio objetivo ≥$35–40 con packs (CPM de 2026): un PVP de $15–25 solo sirve si el pack de 2–3 lleva el pedido medio a ese rango | Se anota |
 
 Dinero: **tope Apify por barrido $3**, gasto real leído del panel. STT pre-filtra gratis; Apify solo cuando STT deja dudosos.
 
@@ -111,6 +114,17 @@ ENTREGA: visor.html con tarjeta por JOB: frecuencia, 5 citas literales de reseñ
 ```
 
 Y un **mini-check** de $0,30 para un tipo suelto (en `references/prompts.md`).
+
+### Barrido H — Demanda primero (añadido 31-oct)
+
+Por qué: los barridos A–G parten de anuncios, y el número de anuncios no prueba ventas (las tiendas-catálogo testean cientos de productos a la vez). H parte de ventas declaradas.
+
+1. **Demanda (Amazon US, `tools/amazon_search.py`, ≈$0,0025 por búsqueda)**: 20–30 tipos de producto. Por tipo: suma de «bought in past month», precio mediano y nº de fichas con ≥500 compras/mes y <1.000 reseñas (mercado abierto: entran vendedores nuevos y venden).
+2. **Prima Meta (`tools/meta_library.py` + `tools/meta_dump.py`)**: en los 5–6 tipos con más demanda, ¿quién lo anuncia en Meta, a qué precio (`tools/shopify_prices.py`) y cuántos días? Pasa si hay ≥1 vendedor con ≥90 días a ≥1,5× la mediana de Amazon. Señales de escala del anuncio: días encendido y «N anuncios usan este creativo» (`v` en el volcado).
+3. **Margen**: genérico en AliExpress y margen = PVP − landed − 3 % − $0,30 − 5 %. Voluminosos (espuma, muebles): sin almacén en EE. UU. no cuentan.
+4. **Gate** como siempre (§2) y ficha al radar.
+
+Caso real (31-oct): 24 tipos → estuche de joyas anti-enredos (emmafy a 2–5× Amazon durante 79 días, margen ≈80 % sin envío) y escalones de espuma para perros (vendedor a 1,6× Amazon durante 155 días; el envío voluminoso es el riesgo).
 
 ## 5. Cómo leer el visor (`references/leer-visor.md` tiene casos reales)
 
