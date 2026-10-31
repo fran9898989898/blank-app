@@ -93,12 +93,13 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("consultas", nargs="+")
     ap.add_argument("--pages", type=int, default=1)
+    ap.add_argument("--ventas", action="store_true", help="ordena por pedidos (los más vendidos primero)")
     a = ap.parse_args()
     w = None
     for q in a.consultas:
         slug = re.sub(r"\s+", "-", q.strip().lower())
         for pg in range(1, a.pages + 1):
-            url = f"https://www.aliexpress.us/w/wholesale-{slug}.html?page={pg}&shipCountry=US"
+            url = f"https://www.aliexpress.us/w/wholesale-{slug}.html?page={pg}&shipCountry=US" + ("&SortType=total_tranpro_desc" if a.ventas else "")
             h = get(url)
             if "punish" in h and "itemList" not in h:
                 print(f"# BLOQUEO ANTIBOT en {url}", file=sys.stderr)
